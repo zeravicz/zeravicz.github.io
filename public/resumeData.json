@@ -2,17 +2,17 @@
   "main": {
     "name": "Anthony Hien Vu",
     "occupation": "Full-Stack Web Developer",
-    "description": "I am constantly looking to expand what I know and what I can build. I have experience developing desktop, web and android apps but my current focus is developing web apps",
-    "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "description": "Please scroll down to learn about me, my work experiences and my skills. You can also see and play with applications I've built and find out how to contact me if you would like to say hello or do some work together.",
+    "image": "profilepic.png",
+    "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for almost a year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in python/django and ruby on rails, desktop applications in python and android apps in java. I am always learning and I enjoy watching and playing most sports, getting outdoors for hikes and running, building apps recreationally, and watching movies and TV shows.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "avu120@gmail.com",
+    "phone": "0452668725",
     "address": {
-      "street": "(Your Street)",
       "city": "Melbourne",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "suburb": "Oakleigh",
+      "state": "VIC",
+      "zip": "3166"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
@@ -33,24 +33,21 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of Sydney",
+        "degree": "Bachelor of Engineering Honours (Mechanical Engineering)",
+        "graduated": "2013 - 2016",
+        "description": ""
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Telstra",
+        "title": "Full-Stack Web Developer",
+        "years": "July 2018 - Present",
+        "description": [
+          "I am currently performing full-stack development of a Telstra enterprise web application with hundreds of internal users (utilizing the MERN stack of MongoDB, Express, React with Redux and Node). My primary purpose in this team has been building new business-critical features.",
+          "test"
+        ]
       },
       {
         "company": "Super Cool Studio",
