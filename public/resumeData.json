@@ -30,7 +30,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "In descending order of my frequency of use.",
     "education": [
       {
         "school": "University of Sydney",
@@ -45,45 +45,82 @@
         "title": "Full-Stack Web Developer",
         "years": "July 2018 - Present",
         "description": [
-          "I am currently performing full-stack development of a Telstra enterprise web application with hundreds of internal users (utilizing the MERN stack of MongoDB, Express, React with Redux and Node). My primary purpose in this team has been building new business-critical features.",
-          "test"
+          "I am currently performing full-stack development of a Telstra enterprise web application with at least 500 internal users utilizing the MERN stack. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources. My team and I are also building new features everyday, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them from within the application to query and validate data from desired databases, and many more. The application is also using a microservices architecture to integrate 6 disparate web apps (and more overtime) into a single one-stop shop which is being deployed on AWS.",
+          "I have containerized many applications using Docker.",
+          "I commonly write unit tests using Jest.js and use ROBOT for functional/integration/regression testing.",
+          "I have set up many CICD pipelines using Atlassian's Bamboo platform.",
+          "I have automated the deployment of network configuration and virtual network devices using ansible playbooks.",
+          "I have automated traffic monitoring of Telstra's mobile networks through the creation and use of Tableau dashboards."
         ]
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "KPMG",
+        "title": "IT Consultant",
+        "years": "February 2017 - May 2018",
+        "description": [
+          "Performed IT risk testing (audit) and consulted with clients to identify and mitigate IT and business risks.",
+          "Facilitated the configuration and implementation of Microsoft Dynamics (AX) 365 ERP for clients to simplify and optimise their business life-cycle.",
+          "Facilitated data migration for clients.",
+          "Advised in the transfer of IT infrastructure during the sale of businesses between companies."
+        ]
       }
     ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "100%"
       },
       {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
+        "name": "Node",
+        "level": "100%"
       },
       {
         "name": "MongoDB",
-        "level": "80%"
+        "level": "100%"
+      },
+      {
+        "name": "Express",
+        "level": "100%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "100%"
+      },
+      {
+        "name": "GIT",
+        "level": "100%"
+      },
+      {
+        "name": "Docker",
+        "level": "90%"
+      },
+      {
+        "name": "Jest",
+        "level": "90%"
+      },
+      {
+        "name": "SQL",
+        "level": "90%"
+      },
+      {
+        "name": "Agile scrum",
+        "level": "100%"
+      },
+      {
+        "name": "Python",
+        "level": "50%"
+      },
+      {
+        "name": "Java",
+        "level": "50%"
+      },
+      {
+        "name": "ROBOT",
+        "level": "90%"
+      },
+      {
+        "name": "Bamboo",
+        "level": "50%"
       }
     ]
   },
