@@ -73,7 +73,7 @@ header .banner-text h3 {
   color: #fff;
   margin: 0 auto;
   width: 70%;
-  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {

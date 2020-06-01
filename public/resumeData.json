@@ -2,10 +2,10 @@
   "main": {
     "name": "Anthony Hien Vu",
     "occupation": "Full-Stack Web Developer",
-    "description": "Please scroll down to learn about me, my work experiences and my skills. You can also see and play with applications I've built and find out how to contact me if you would like to say hello or do some work together.",
+    "description": "Please scroll down to learn about me, my skills, work experiences and education. You can also see and play with applications I've built and find out how to contact me if you would like to say hello or do some work together",
     "image": "profilepic.png",
     "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for almost a year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in python/django and ruby on rails, desktop applications in python and android apps in java. I am always learning and I enjoy watching and playing most sports, getting outdoors for hikes and running, building apps recreationally, and watching movies and TV shows.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage": "Use the contact form below, call, text or directly send me an email if you want to get in contact with me.",
     "email": "avu120@gmail.com",
     "phone": "0452668725",
     "address": {
@@ -127,34 +127,28 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Trivia Quiz",
+        "category": "A trivia quiz game using questions and answers from open trivia db.",
+        "image": "trivia-quiz.jpg",
+        "url": "https://avu120.github.io/trivia-quiz/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Image Manipulator",
+        "category": "A tool that displays an image 4 times on a 2x2 grid and allows you to flip, rotate and apply filters on one or multiple images then compare them.",
+        "image": "image-flipper.jpg",
+        "url": "https://avu120.github.io/image-flipper/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Countdown Timer",
+        "category": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
+        "image": "countdown-timer.jpg",
+        "url": "https://avu120.github.io/countdown-timer/"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Other Applications",
+        "category": "Browse my various non-deployed or non-web-app applications.",
+        "image": "github.jpg",
+        "url": "https://github.com/AVu120?tab=repositories"
       }
     ]
   },
