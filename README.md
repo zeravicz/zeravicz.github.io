@@ -1,8 +1,8 @@
-## Still in progress, github pages and codesandbox link will be available upon completion.
+# Still in progress, github pages and codesandbox link will be available upon completion.
 
 ## Description
 
-This is my personal resume website template. I have placed
+This is my portfolio website. I have placed
 Tim Baker's react resume template (https://github.com/tbakerx/react-resume-template) inside a create-react-app template then built on top of it to create this.
 
 ## New Features I've Added (still in progress):
