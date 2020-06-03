@@ -1,7 +1,9 @@
+## Still in progress, github pages and codesandbox link will be available upon completion.
+
 ## Description
 
-This is my personal resume website template. I have built on top of
-Tim Baker's react resume template (https://github.com/tbakerx/react-resume-template) to create this.
+This is my personal resume website template. I have placed
+Tim Baker's react resume template (https://github.com/tbakerx/react-resume-template) inside a create-react-app template then built on top of it to create this.
 
 ## New Features I've Added (still in progress):
 
@@ -11,36 +13,29 @@ Tim Baker's react resume template (https://github.com/tbakerx/react-resume-templ
 
 ## To take my portfolio website and change it/build on top of it to suit your needs:
 
-### 1. Make sure you have what you need
+### 1. Set up and run the application.
 
-To build this website, you will need to have Node >=6 downloaded and installed on your machine. If you don't already have it, you can get it <a href="https://nodejs.org/en/download/">HERE</a>
+### `git clone https://github.com/AVu120/portfolio-website.git`
 
-### 2. Build a Create-React-App
+### `cd portfolio-website`
 
-Next, you will build the initial application using a handy tool called Create-React-App. This allows you to get up and running with a React app without the headache of setting up build-tool configurations. Go <a href="https://reactjs.org/docs/installation.html">HERE</a> to get started.
-When the app building is finished run `cd yourappname` and run `npm start` to test it out.
-Hit ctrl+c in the terminal when you want to stop the server that the above command starts.
-For this project we will also need to install JQuery and ReactGA, do this by running `npm install jquery --save` and `npm install react-ga --save` in your terminal while inside your project folder. YOU MUST RUN THESE COMMANDS.
+### `npm i`
 
-### 3. Download the template
+### `npm start`
 
-Once you have a React app up and running by following the steps in the above link, download my code by hitting the green "clone or download" button above and hit download zip. All you will have to do now is replace the "public" and "src" folders of your newly built app with mine that you just downloaded. If you run `npm start` now, you should see that your app renders the same as the one at the live demo link above.
+Then open http://localhost:3000 in a browser.
 
-### 4. Replace images and fonts
+<em>The development server started by `npm start` will automatically reload the page whenever a code change is made.</em>
 
-Next, you will want to replace the images, and fonts if you like, with your own. All you have to do is replace the images at public/images/header-background.jpg, public/images/testimonials-bg.jpg and public/favicon.ico with your own. <em>YOU MUST KEEP THE SAME NAMES ON THE IMAGES.</em>
+### 2. Replace styles and images.
 
-### 5. Fill in your personal info
+Replace the styles inside public/css and the images inside public/images with your own. <em>Note: YOU MUST KEEP THE SAME NAMES ON THE IMAGES.</em>
 
-To populate the website with all of your own data, open the public/resumeData.json file and simply replace the data in there with your own. Images for the porfolio section are to be put in the public/images/portfolio folder.
+### 3. Fill in your personal info
 
-### 6. Make any styling changes you would like
+To populate the website with all of your own data, open the public/resumeData.json file and simply replace the data in there with your own.
 
-Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling changes, feel free!
-
-### 7. Enjoy your new Resume Website
-
-When you're all done, run `npm start` again and you'll see your new personal resume website! Have fun!
+### 4. Have fun!
 
 ## Credits
 
