@@ -8,7 +8,6 @@
     "portfolio",
     "personal"
   ],
-  "homepage": "https://AVu120.github.io/portfolio-website",
   "private": true,
   "dependencies": {
     "jquery": "^3.2.1",
