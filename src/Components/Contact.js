@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+// import
 
 const Contact = (props) => {
   if (props.data) {
@@ -12,6 +13,25 @@ const Contact = (props) => {
     var message = props.data.contactmessage;
   }
 
+  const [fromName, setFromName] = useState("");
+  const [fromEmail, setFromEmail] = useState("");
+  const [formSubject, setFormSubject] = useState("");
+  const [formMessage, setFormMessage] = useState("");
+
+  const changeFromName = (event) => setFromName(event.target.value);
+  const changeFromEmail = (event) => setFromEmail(event.target.value);
+  const changeFormSubject = (event) => setFormSubject(event.target.value);
+  const changeFormMessage = (event) => setFormMessage(event.target.value);
+
+  const onSubmit = () => {
+    // emailjs.send("gmail", "template_8RW6Q4vx", {
+    //   message: formMessage,
+    //   from_name: fromName,
+    //   email: fromEmail,
+    //   subject: "Test subjectfff",
+    // });
+    alert("test");
+  };
   const handleChange = () => alert("test");
   return (
     <section id="contact">
@@ -41,7 +61,7 @@ const Contact = (props) => {
                   size="35"
                   id="contactName"
                   name="contactName"
-                  onChange={handleChange}
+                  onChange={changeFromName}
                 />
               </div>
 
@@ -55,7 +75,7 @@ const Contact = (props) => {
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
-                  onChange={handleChange}
+                  onChange={changeFromEmail}
                 />
               </div>
 
@@ -67,7 +87,7 @@ const Contact = (props) => {
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
-                  onChange={handleChange}
+                  onChange={changeFormSubject}
                 />
               </div>
 
@@ -80,11 +100,14 @@ const Contact = (props) => {
                   rows="15"
                   id="contactMessage"
                   name="contactMessage"
+                  onChange={changeFormMessage}
                 ></textarea>
               </div>
 
               <div>
-                <button className="submit">Submit</button>
+                <button className="submit" onClick={() => onSubmit()}>
+                  Submit
+                </button>
                 <span id="image-loader">
                   <img alt="" src="images/loader.gif" />
                 </span>
@@ -92,7 +115,9 @@ const Contact = (props) => {
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning">
+            Error, message not sent. Please try again later.
+          </div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
