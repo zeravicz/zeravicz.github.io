@@ -80,7 +80,7 @@ const Contact = (props) => {
         </div>
 
         <div className="ten columns">
-          <p className="lead">{message}</p>
+          <h2 className="lead">{message}</h2>
         </div>
       </div>
 

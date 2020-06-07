@@ -904,7 +904,9 @@ call-to-action .button {
   margin-bottom: 6px;
 }
 #contact h1 span {
-  display: none;
+  /* display: none; */
+  /* color: #191919; */
+  visibility: hidden;
 }
 #contact h1:before {
   font-family: "FontAwesome";
@@ -915,6 +917,12 @@ call-to-action .button {
   text-align: left;
   float: left;
   color: #ebeeee;
+}
+
+#contact h2.lead {
+  color: #ebeeee;
+  position: relative;
+  top: 10px;
 }
 
 #contact h4 {
