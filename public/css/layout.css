@@ -983,7 +983,7 @@ call-to-action .button {
 }
 #message-warning,
 #message-success {
-  display: none;
+  /* display: none; */
   background: #0f0f0f;
   padding: 24px 24px;
   margin-bottom: 36px;
@@ -994,7 +994,7 @@ call-to-action .button {
   color: #d72828;
 }
 #message-success {
-  color: #11abb0;
+  color: rgb(21, 180, 42);
 }
 
 #message-warning i,

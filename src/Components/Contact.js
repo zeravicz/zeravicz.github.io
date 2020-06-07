@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import
 
 const Contact = (props) => {
   if (props.data) {
@@ -17,22 +16,52 @@ const Contact = (props) => {
   const [fromEmail, setFromEmail] = useState("");
   const [formSubject, setFormSubject] = useState("");
   const [formMessage, setFormMessage] = useState("");
+  const [emailSentStatus, setEmailSentStatus] = useState("notSent");
 
   const changeFromName = (event) => setFromName(event.target.value);
   const changeFromEmail = (event) => setFromEmail(event.target.value);
   const changeFormSubject = (event) => setFormSubject(event.target.value);
   const changeFormMessage = (event) => setFormMessage(event.target.value);
 
-  const onSubmit = () => {
-    // emailjs.send("gmail", "template_8RW6Q4vx", {
-    //   message: formMessage,
-    //   from_name: fromName,
-    //   email: fromEmail,
-    //   subject: "Test subjectfff",
-    // });
-    alert("test");
+  const validateEmail = (email) => {
+    const expression = /(?!.*\.{2})^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
+    return expression.test(String(email).toLowerCase());
   };
-  const handleChange = () => alert("test");
+
+  const onSubmit = () => {
+    if (
+      fromName.length !== 0 &&
+      fromEmail.length !== 0 &&
+      validateEmail(fromEmail) &&
+      formMessage.length !== 0
+    ) {
+      setEmailSentStatus("sending");
+      window.emailjs
+        .send("gmail", "template_8RW6Q4vx", {
+          message: formMessage,
+          from_name: fromName,
+          email: fromEmail,
+          subject: formSubject || "No Subject",
+        })
+        .then((res) => {
+          setEmailSentStatus("sent");
+        })
+        .catch((err) => setEmailSentStatus("error"));
+    } else {
+      alert(
+        `${
+          fromName.length === 0
+            ? "Please fill in the name field."
+            : fromEmail.length === 0
+            ? "Please write your email address."
+            : !validateEmail(fromEmail)
+            ? "Please enter a valid email address."
+            : "Please write a message before clicking submit."
+        }`
+      );
+    }
+  };
+
   return (
     <section id="contact">
       <div className="row section-head">
@@ -49,8 +78,8 @@ const Contact = (props) => {
 
       <div className="row">
         <div className="eight columns">
-          <form action="" method="post" id="contactForm" name="contactForm">
-            <fieldset>
+          {emailSentStatus === "notSent" || emailSentStatus === "sending" ? (
+            <div>
               <div>
                 <label htmlFor="contactName">
                   Name <span className="required">*</span>
@@ -70,7 +99,7 @@ const Contact = (props) => {
                   Email <span className="required">*</span>
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   defaultValue=""
                   size="35"
                   id="contactEmail"
@@ -108,20 +137,28 @@ const Contact = (props) => {
                 <button className="submit" onClick={() => onSubmit()}>
                   Submit
                 </button>
-                <span id="image-loader">
-                  <img alt="" src="images/loader.gif" />
-                </span>
+                {emailSentStatus === "sending" && (
+                  <img
+                    alt=""
+                    src="images/loader.gif"
+                    style={{ position: "relative", top: "18px", left: "10px" }}
+                  />
+                )}
               </div>
-            </fieldset>
-          </form>
-
-          <div id="message-warning">
-            Error, message not sent. Please try again later.
-          </div>
-          <div id="message-success">
-            <i className="fa fa-check"></i>Your message was sent, thank you!
-            <br />
-          </div>
+            </div>
+          ) : emailSentStatus === "sent" ? (
+            <div id="message-success">
+              <i className="fa fa-check"></i>Your message was sent, thank you!
+              <br />
+              <button className="submit" onClick={() => onSubmit()}>
+                Send another message
+              </button>
+            </div>
+          ) : (
+            <div id="message-warning">
+              Error, message not sent. Please try again later.
+            </div>
+          )}
         </div>
 
         <aside className="four columns footer-widgets">

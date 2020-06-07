@@ -5,7 +5,7 @@
     "description": "Please scroll down to learn about me, my skills, work experiences and education. You can also see and play with applications I've built and find out how to contact me if you would like to say hello or do some work together",
     "image": "profilepic.png",
     "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for almost a year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in python/django and ruby on rails, desktop applications in python and android apps in java. I am always learning and I enjoy watching and playing most sports, getting outdoors for hikes and running, building apps recreationally, and watching movies and TV shows.",
-    "contactmessage": "Feel free to get in contact with me.",
+    "contactmessage": "Get in touch.",
     "email": "avu120@gmail.com",
     "phone": "0452668725",
     "address": {
@@ -20,12 +20,14 @@
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/anthony-hien-vu",
-        "className": "fa fa-linkedin"
+        "className": "fa fa-linkedin",
+        "title": "Go to my LinkedIn profile"
       },
       {
         "name": "github",
         "url": "https://github.com/AVu120",
-        "className": "fa fa-github"
+        "className": "fa fa-github",
+        "title": "Go to my Github profile"
       }
     ]
   },
@@ -157,10 +159,6 @@
       {
         "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
         "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
       }
     ]
   }
