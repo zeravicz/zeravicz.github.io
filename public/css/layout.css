@@ -977,6 +977,24 @@ call-to-action .button {
   color: #0d0d0d;
   background: #fff;
 }
+
+#contact button.renderForm {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  background: #0d0d0d;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: -3%;
+}
+#contact button.renderForm:hover {
+  color: #0d0d0d;
+  background: #fff;
+}
+
 #contact span.required {
   color: #11abb0;
   font-size: 13px;
@@ -984,7 +1002,7 @@ call-to-action .button {
 #message-warning,
 #message-success {
   /* display: none; */
-  background: #0f0f0f;
+  /* background: #0f0f0f; */
   padding: 24px 24px;
   margin-bottom: 36px;
   width: 65%;

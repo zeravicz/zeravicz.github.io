@@ -62,6 +62,14 @@ const Contact = (props) => {
     }
   };
 
+  const renderEmptyForm = () => {
+    setFromName("");
+    setFromEmail("");
+    setFormSubject("");
+    setFormMessage("");
+    setEmailSentStatus("notSent");
+  };
+
   return (
     <section id="contact">
       <div className="row section-head">
@@ -150,13 +158,17 @@ const Contact = (props) => {
             <div id="message-success">
               <i className="fa fa-check"></i>Your message was sent, thank you!
               <br />
-              <button className="submit" onClick={() => onSubmit()}>
+              <button
+                className="renderForm"
+                onClick={() => renderEmptyForm()}
+                style={{ marginTop: "10px" }}
+              >
                 Send another message
               </button>
             </div>
           ) : (
             <div id="message-warning">
-              Error, message not sent. Please try again later.
+              Error has occured, message not sent. Please try again later.
             </div>
           )}
         </div>
