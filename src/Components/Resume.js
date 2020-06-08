@@ -18,8 +18,6 @@ class Resume extends Component {
       });
       var workLength = this.props.data.work.length;
       var work = this.props.data.work.map(function (work, i) {
-        console.log({ i });
-        console.log(work.length);
         return (
           <div key={work.company}>
             <h3>{work.company}</h3>

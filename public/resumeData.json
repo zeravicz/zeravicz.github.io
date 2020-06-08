@@ -127,30 +127,60 @@
     ]
   },
   "portfolio": {
-    "projects": [
+    "personalProjects": [
       {
         "title": "Trivia Quiz",
         "category": "A trivia quiz game using questions and answers from open trivia db.",
-        "image": "trivia-quiz.jpg",
+        "image": "personal/trivia-quiz.jpg",
         "url": "https://avu120.github.io/trivia-quiz/"
       },
       {
         "title": "Image Manipulator",
         "category": "A tool that displays an image 4 times on a 2x2 grid and allows you to flip, rotate and apply filters on one or multiple images then compare them.",
-        "image": "image-flipper.jpg",
+        "image": "personal/image-flipper.jpg",
         "url": "https://avu120.github.io/image-flipper/"
       },
       {
         "title": "Countdown Timer",
         "category": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
-        "image": "countdown-timer.jpg",
+        "image": "personal/countdown-timer.jpg",
         "url": "https://avu120.github.io/countdown-timer/"
       },
       {
         "title": "Other Applications",
         "category": "Browse my various non-deployed or non-web-app applications.",
-        "image": "github.jpg",
+        "image": "personal/github.jpg",
         "url": "https://github.com/AVu120?tab=repositories"
+      }
+    ],
+    "professionalProjects": [
+      {
+        "title": "Test Project 1",
+        "category": "Example work I did for Telstra.",
+        "image": "professional/telstra-logo.jpg",
+        "achievements": [
+          {
+            "title": "Sample Achievement 1",
+            "role": "Developer",
+            "when": "July 2020",
+            "image": "professional/telstra-logo.jpg",
+            "description": "Insert STAR for achievement 1 here."
+          },
+          {
+            "title": "Sample Achievement 2",
+            "role": "Web Designer",
+            "when": "June 2020",
+            "image": "professional/telstra-logo.jpg",
+            "description": "Insert STAR for achievement 2 here."
+          },
+          {
+            "title": "Sample Achievement 3",
+            "role": "Solution Architect",
+            "when": "May 2020",
+            "image": "professional/telstra-logo.jpg",
+            "description": "Insert STAR for achievement 3 here."
+          }
+        ]
       }
     ]
   },

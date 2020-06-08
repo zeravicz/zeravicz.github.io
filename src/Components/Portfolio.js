@@ -1,46 +1,98 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
+import ProjectViewer from "./common/ProjectViewer";
 
-class Portfolio extends Component {
-  render() {
-    if (this.props.data) {
-      var projects = this.props.data.projects.map(function (projects) {
-        var projectImage = "images/portfolio/" + projects.image;
-        return (
-          <div key={projects.title} className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href={projects.url} title={projects.title}>
-                <img alt={projects.title} src={projectImage} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{projects.title}</h5>
-                    <p>{projects.category}</p>
-                  </div>
+const Portfolio = (props) => {
+  const [projectViewOpen, setProjectViewOpen] = useState(false);
+
+  const toggleProjectView = () => setProjectViewOpen(!projectViewOpen);
+
+  if (props.data) {
+    var professionalProjects = props.data.professionalProjects.map(function (
+      professionalProject
+    ) {
+      var projectImage = "images/portfolio/" + professionalProject.image;
+      return (
+        <div>
+          <div
+            key={professionalProject.title}
+            className="columns portfolio-item"
+          >
+            <div
+              className="item-wrap"
+              style={{ cursor: "pointer" }}
+              onClick={() => toggleProjectView()}
+            >
+              <img alt={professionalProject.title} src={projectImage} />
+              <div className="overlay">
+                <div className="portfolio-item-meta">
+                  <h5>{professionalProject.title}</h5>
+                  <p>{professionalProject.category}</p>
                 </div>
-                {/* <div className="link-icon"><i className="fa fa-link"></i></div> */}
-              </a>
+              </div>
             </div>
           </div>
-        );
-      });
-    }
+          <ProjectViewer
+            title={professionalProject.title}
+            open={projectViewOpen}
+            toggleModal={toggleProjectView}
+            achievements={professionalProject.achievements}
+          />
+        </div>
+      );
+    });
 
-    return (
-      <section id="portfolio">
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
-
-            <div
-              id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
-            >
-              {projects}
-            </div>
+    var personalProjects = props.data.personalProjects.map(function (
+      personalProject
+    ) {
+      return (
+        <div key={personalProject.title} className="columns portfolio-item">
+          <div className="item-wrap">
+            <a href={personalProject.url}>
+              <img
+                alt={personalProject.title}
+                src={"images/portfolio/" + personalProject.image}
+              />
+              <div className="overlay">
+                <div className="portfolio-item-meta">
+                  <h5>{personalProject.title}</h5>
+                  <p>{personalProject.category}</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
-      </section>
-    );
+      );
+    });
   }
-}
+
+  return (
+    <section id="portfolio">
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h1>Check Out Some of My Professional Projects.</h1>
+
+          <div
+            id="portfolio-wrapper"
+            className="bgrid-quarters s-bgrid-thirds cf"
+          >
+            {professionalProjects}
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h1>Check Out Some of My Personal Projects.</h1>
+
+          <div
+            id="portfolio-wrapper"
+            className="bgrid-quarters s-bgrid-thirds cf"
+          >
+            {personalProjects}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Portfolio;
