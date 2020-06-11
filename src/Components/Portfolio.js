@@ -67,7 +67,7 @@ const Portfolio = (props) => {
 
   return (
     <section id="portfolio">
-      <div className="row">
+      <div className="row" id="professional-portfolio">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Professional Projects.</h1>
 
@@ -79,7 +79,7 @@ const Portfolio = (props) => {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row" id="personal-portfolio">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Personal Projects.</h1>
 

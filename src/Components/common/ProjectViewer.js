@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Modal from "react-modal";
 import noScroll from "no-scroll";
+import css from "./ProjectViewer.module.css";
 
 const ProjectViewer = ({ title, open, toggleModal, style, achievements }) => {
   // const style = {
@@ -18,18 +19,18 @@ const ProjectViewer = ({ title, open, toggleModal, style, achievements }) => {
     achievements &&
     achievements.map((achievement, i) => {
       return (
-        <div key={achievement.title}>
-          <div style={{ display: "flex" }}>
+        <div key={achievement.title} className={"projectViewer"}>
+          <div className="projectViewer__achievement_title">
             <h3>{achievement.title}</h3>
-            <span style={{ marginRight: "5px", marginLeft: "5px" }}></span>
+            <span></span>
             <em className="date">{achievement.when}</em>
           </div>
-          <div style={{ display: "flex" }}>
+          <div className="projectViewer__achievement_title">
             <img
               alt={`Image for ${achievement.title}`}
               src={"images/portfolio/" + achievement.image}
             />
-            <span style={{ marginRight: "5px", marginLeft: "5px" }}></span>
+            <span></span>
             {Array.isArray(achievement.description) ? (
               achievement.description.map((_) => <div>&bull; {_}</div>)
             ) : (

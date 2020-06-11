@@ -363,6 +363,29 @@ ul#nav li.current a {
   line-height: 42px;
   border-radius: 3px 0 0 3px;
 }
+
+/*----------------------------------------------*/
+/* Project Viewer
+/*----------------------------------------------*/
+.projectViewer {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.projectViewer span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.projectViewer img {
+  height: 30vh;
+  width: 30vw;
+}
+
+.projectViewer__achievement_title {
+  display: flex;
+}
+
 /*
 .git {
   	-moz-animation: git 2s ease;
@@ -457,8 +480,13 @@ ul#nav li.current a {
 
 #portfolio {
   background: #ebeeee;
+  /* background: linear-gradient(to top, #ebeeee 50%, #fafcfc 50%); */
   padding-top: 90px;
   padding-bottom: 60px;
+}
+
+#professional-portfolio {
+  /* background: #fafcfc; */
 }
 #portfolio h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
