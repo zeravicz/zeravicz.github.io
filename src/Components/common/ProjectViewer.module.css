@@ -1,5 +1,52 @@
-.projectViewer__achievement {
+.projectViewer {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
+}
+.projectViewer span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.projectViewer img {
+  height: 50vh;
+  width: 50vw;
+  padding: 30px;
+}
+
+.projectViewer p {
+  padding: 30px 30px 30px 20px;
+}
+
+.projectViewer__title {
+  text-align: center;
+}
+
+.projectViewer__achievement {
+  display: flex;
+}
+
+.projectViewer__achievement_title {
+  display: flex;
+}
+
+.projectViewer__closeButton {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .projectViewer__achievement {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .projectViewer__achievement_title {
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+  }
+
+  .projectViewer h3,
+  em {
+    text-align: center;
+  }
 }

@@ -157,28 +157,19 @@
       {
         "title": "Telstra Chart Viewer",
         "category": "Allows user to filter data queried from a database.",
-        "image": "professional/Telstra-graph-viewer-resized.jpg",
+        "image": "professional/Telstra/analytics-tool/chart-viewer-resized.jpg",
         "achievements": [
           {
             "title": "Created datetime and data granularity filters for chart viewer application.",
-            "role": "Developer",
             "when": "July 2020",
-            "image": "professional/Telstra-graph-viewer.jpg",
+            "image": "professional/Telstra/analytics-tool/chart-viewer.jpg",
             "description": "I was tasked with adding input fields to allow the user to filter the displayed data by user-specified datetime range and data granularity (e.g. data measured once every 15 minutes, hour, day and etc.). I did this by using the material-ui react library to create a FROM and TO datetime input and a RESOLUTION dropdown field (shown top-left). I also used redux to store the user's selections in a centralized redux store. Every time the user would select a different datetime, or data granularity option, a rest POST API call with the chart SQL, datetime and data granularity inputs would be made to the backend where the SQL string would be augmented by the inputs and then used to query the database. Hence, after any filter update the graph would instantly display filtered data."
           },
           {
-            "title": "Sample Achievement 2",
-            "role": "Web Designer",
+            "title": "Created in-app table view of chart data with ability to export data to csv, print, filter, etc.",
             "when": "June 2020",
-            "image": "professional/telstra-logo.jpg",
-            "description": "Insert STAR for achievement 2 here."
-          },
-          {
-            "title": "Sample Achievement 3",
-            "role": "Solution Architect",
-            "when": "May 2020",
-            "image": "professional/telstra-logo.jpg",
-            "description": "Insert STAR for achievement 3 here."
+            "image": "professional/Telstra/analytics-tool/table-view-of-data-in-chart.jpg",
+            "description": "I was tasked with allowing the user to quickly view, browse through, filter and print/export-to-csv chart data all within the application itself (avoiding the need to leave the app to do the same things). I achieved this by using the table component from the mui-datatables library, formatting the chart data so that it would go into and display on the table, then customizing the table's in-built parameters to enable filtering, download to csv and printing all via the grey icon buttons in the top-right toolbar."
           }
         ]
       }

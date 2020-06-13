@@ -26,14 +26,11 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
             <span></span>
             <em className="date">{achievement.when}</em>
           </div>
-          <div className="projectViewer__achievement_title">
+          <div className="projectViewer__achievement">
             <img
               alt={`Image for ${achievement.title}`}
               src={"images/portfolio/" + achievement.image}
             />
-            <span></span>
-            <span></span>
-            <span></span>
             {Array.isArray(achievement.description) ? (
               achievement.description.map((_) => <div>&bull; {_}</div>)
             ) : (
@@ -69,13 +66,13 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
           </a>
         </div>
 
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div className="projectViewer__title">
           <h1>{title}</h1>
         </div>
         <section id="resume">
           <div className="nine columns main-col">{achievementList}</div>
         </section>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div className="projectViewer__closeButton">
           <button onClick={() => toggleModal()}>Close</button>
         </div>
       </Modal>
