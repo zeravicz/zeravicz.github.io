@@ -7,13 +7,14 @@ This is my portfolio website.
 I have placed
 Tim Baker's react resume template (https://github.com/tbakerx/react-resume-template) inside a create-react-app template then built on top of it to create this.
 
-## New Features I've Added:
+## New features/changes I've made:
 
 - Activated the previously static download resume button so that when clicked, a pdf resume is downloaded.
 - Activated the previously static contact form at the bottom to send an email
   to the website owner.
 - Separated portfolio into a professional and a personal section.
 - Created a professional project viewer component to display screenshots and descriptions of corresponding achievements in a pop-up window. This was created so that professional work can be articulately displayed in a way that doesn't violate propriety source code ownership.
+- Commented out testimonials section, simply uncomment to display it again.
 
 ## To take my portfolio website and change it/build on top of it to suit your needs:
 
@@ -43,7 +44,11 @@ To populate the website with all of your own data, open the public/resumeData.js
 
 Replace my public/resume.pdf file with yours and and ensure it has the same file name as before.
 
-### 5. Connect your email to the contact form.
+### 5. Upload your portfolio work.
+
+Replace my portfolio images, urls and descriptions with yours. Note: this portfolio has been optimally styled for project preview images with dimensions of 975 x 800 pixels (a free online tool like https://resizeimage.net/ would be useful in resizing your images to this).
+
+### 6. Connect your email to the contact form.
 
 - Create a free emailJS account at https://www.emailjs.com/.
 - Log in.
@@ -80,7 +85,7 @@ window.emailjs
 
 If you're using my email template, you can leave the parameters object and all other code as is. Otherwise you might have to change some code to fit your emailJS template.
 
-### 6. Have fun!
+### 7. Have fun!
 
 ## Credits
 

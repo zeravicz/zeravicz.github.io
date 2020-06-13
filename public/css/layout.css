@@ -296,7 +296,8 @@ ul#nav li.current a {
   padding-top: 9px;
 }
 #resume .main-col {
-  padding-right: 10%;
+  /* padding-right: 10%; */
+  padding-right: 0;
 }
 
 .skill,
@@ -378,8 +379,8 @@ ul#nav li.current a {
 }
 
 .projectViewer img {
-  height: 30vh;
-  width: 30vw;
+  height: 50vh;
+  width: 50vw;
 }
 
 .projectViewer__achievement_title {

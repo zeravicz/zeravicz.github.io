@@ -155,16 +155,16 @@
     ],
     "professionalProjects": [
       {
-        "title": "Test Project 1",
-        "category": "Example work I did for Telstra.",
-        "image": "professional/telstra-logo.jpg",
+        "title": "Telstra Chart Viewer",
+        "category": "Allows user to filter data queried from a database.",
+        "image": "professional/Telstra-graph-viewer-resized.jpg",
         "achievements": [
           {
-            "title": "Sample Achievement 1",
+            "title": "Created datetime and data granularity filters for chart viewer application.",
             "role": "Developer",
             "when": "July 2020",
-            "image": "professional/telstra-logo.jpg",
-            "description": "Insert STAR for achievement 1 here."
+            "image": "professional/Telstra-graph-viewer.jpg",
+            "description": "I was tasked with adding input fields to allow the user to filter the displayed data by user-specified datetime range and data granularity (e.g. data measured once every 15 minutes, hour, day and etc.). I did this by using the material-ui react library to create a FROM and TO datetime input and a RESOLUTION dropdown field (shown top-left). I also used redux to store the user's selections in a centralized redux store. Every time the user would select a different datetime, or data granularity option, a rest POST API call with the chart SQL, datetime and data granularity inputs would be made to the backend where the SQL string would be augmented by the inputs and then used to query the database. Hence, after any filter update the graph would instantly display filtered data."
           },
           {
             "title": "Sample Achievement 2",

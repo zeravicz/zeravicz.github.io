@@ -3,23 +3,24 @@ import Modal from "react-modal";
 import noScroll from "no-scroll";
 import css from "./ProjectViewer.module.css";
 
-const ProjectViewer = ({ title, open, toggleModal, style, achievements }) => {
-  // const style = {
-  //   content: {
-  //     top                   : '50%',
-  //     left                  : '50%',
-  //     right                 : 'auto',
-  //     bottom                : 'auto',
-  //     marginRight           : '-50%',
-  //     transform             : 'translate(-50%, -50%)'
-  //   },
-  // };
+const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
+  const style = {
+    content: {
+      // top                   : '50%',
+      // left                  : '50%',
+      // right                 : 'auto',
+      // bottom                : 'auto',
+      // marginRight           : '-50%',
+      // transform             : 'translate(-50%, -50%)'
+      padding: "50px",
+    },
+  };
 
   const achievementList =
     achievements &&
     achievements.map((achievement, i) => {
       return (
-        <div key={achievement.title} className={"projectViewer"}>
+        <div key={achievement.title} className="projectViewer">
           <div className="projectViewer__achievement_title">
             <h3>{achievement.title}</h3>
             <span></span>
@@ -30,6 +31,8 @@ const ProjectViewer = ({ title, open, toggleModal, style, achievements }) => {
               alt={`Image for ${achievement.title}`}
               src={"images/portfolio/" + achievement.image}
             />
+            <span></span>
+            <span></span>
             <span></span>
             {Array.isArray(achievement.description) ? (
               achievement.description.map((_) => <div>&bull; {_}</div>)
