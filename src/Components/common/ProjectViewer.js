@@ -21,7 +21,7 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
     achievements.map((achievement, i) => {
       return (
         <div key={achievement.title} className="projectViewer">
-          <div className="projectViewer__achievement_title">
+          <div className="projectViewer__achievementTitle">
             <h3>{achievement.title}</h3>
             <span></span>
             <em className="date">{achievement.when}</em>
@@ -51,15 +51,7 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
   });
   return (
     <section id="projectView">
-      <Modal
-        isOpen={open}
-        // onAfterOpen={afterOpenModal}
-        // onRequestClose={closeModal}
-        // onAfterOpen={() => (document.body.style.overflow = "hidden")}
-        // OnRequestClose={() => document.body.removeAttribute("style")}
-        style={style}
-        contentLabel="Example Modal"
-      >
+      <Modal isOpen={open} style={style}>
         <div id="return" style={{ cursor: "pointer" }}>
           <a className="smoothscroll" title="Return to website">
             <i className="icon-left-circle" onClick={() => toggleModal()}></i>

@@ -26,7 +26,7 @@
   display: flex;
 }
 
-.projectViewer__achievement_title {
+.projectViewer__achievementTitle {
   display: flex;
 }
 
@@ -39,7 +39,7 @@
     display: grid;
     grid-template-columns: auto;
   }
-  .projectViewer__achievement_title {
+  .projectViewer__achievementTitle {
     display: grid;
     grid-template-columns: auto;
     align-content: center;
