@@ -12,11 +12,8 @@ const Portfolio = (props) => {
     ) {
       var projectImage = "images/portfolio/" + professionalProject.image;
       return (
-        <div>
-          <div
-            key={professionalProject.title}
-            className="columns portfolio-item"
-          >
+        <div key={professionalProject.title}>
+          <div className="columns portfolio-item">
             <div
               className="item-wrap"
               style={{ cursor: "pointer" }}

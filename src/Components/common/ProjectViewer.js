@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Modal from "react-modal";
 import noScroll from "no-scroll";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 import css from "./ProjectViewer.module.css";
 
 const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
@@ -16,31 +18,34 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
     },
   };
 
-  const achievementList =
-    achievements &&
-    achievements.map((achievement, i) => {
-      return (
-        <div key={achievement.title} className="projectViewer">
-          <div className="projectViewer__achievementTitle">
-            <h3>{achievement.title}</h3>
-            <span></span>
-            <em className="date">{achievement.when}</em>
+  const SectionAchievementList = ({ sectionAchievements }) => {
+    return (
+      sectionAchievements &&
+      sectionAchievements.map((sectionAchievement, i) => {
+        return (
+          <div key={sectionAchievement.title} className="projectViewer">
+            <div className="projectViewer__sectionAchievementTitle">
+              <h3>{sectionAchievement.title}</h3>
+              <span></span>
+              <em className="date">{sectionAchievement.when}</em>
+            </div>
+            <div className="projectViewer__sectionAchievement">
+              <img
+                alt={`Image for ${sectionAchievement.title}`}
+                src={"images/portfolio/" + sectionAchievement.image}
+              />
+              {Array.isArray(sectionAchievement.description) ? (
+                sectionAchievement.description.map((_) => <div>&bull; {_}</div>)
+              ) : (
+                <p>{sectionAchievement.description}</p>
+              )}
+              {i !== sectionAchievement.Length - 1 && <br />}
+            </div>
           </div>
-          <div className="projectViewer__achievement">
-            <img
-              alt={`Image for ${achievement.title}`}
-              src={"images/portfolio/" + achievement.image}
-            />
-            {Array.isArray(achievement.description) ? (
-              achievement.description.map((_) => <div>&bull; {_}</div>)
-            ) : (
-              <p>{achievement.description}</p>
-            )}
-            {i !== achievement.Length - 1 && <br />}
-          </div>
-        </div>
-      );
-    });
+        );
+      })
+    );
+  };
 
   useEffect(() => {
     if (open) {
@@ -62,7 +67,22 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
           <h1>{title}</h1>
         </div>
         <section id="resume">
-          <div className="nine columns main-col">{achievementList}</div>
+          <div className="nine columns main-col">
+            <Tabs>
+              <TabList>
+                {achievements.map((_) => (
+                  <Tab key={_.sectionTitle}>{_.sectionTitle}</Tab>
+                ))}
+              </TabList>
+              {achievements.map((_) => (
+                <TabPanel key={_.sectionTitle + " achievements"}>
+                  <SectionAchievementList
+                    sectionAchievements={_.sectionAchievements}
+                  />
+                </TabPanel>
+              ))}
+            </Tabs>
+          </div>
         </section>
         <div className="projectViewer__closeButton">
           <button onClick={() => toggleModal()}>Close</button>

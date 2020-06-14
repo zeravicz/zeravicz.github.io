@@ -26,7 +26,11 @@ class Resume extends Component {
               <span></span> <em className="date">{work.years}</em>
             </p>
             {Array.isArray(work.description) ? (
-              work.description.map((_) => <div>&bull; {_}</div>)
+              work.description.map((_, i) => (
+                <div key={`${work.company} job description ${i}`}>
+                  &bull; {_}
+                </div>
+              ))
             ) : (
               <p>{work.description}</p>
             )}

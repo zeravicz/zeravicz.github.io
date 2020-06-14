@@ -22,11 +22,11 @@
   text-align: center;
 }
 
-.projectViewer__achievement {
+.projectViewer__sectionAchievement {
   display: flex;
 }
 
-.projectViewer__achievementTitle {
+.projectViewer__sectionAchievementTitle {
   display: flex;
 }
 
@@ -35,11 +35,11 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .projectViewer__achievement {
+  .projectViewer__sectionAchievement {
     display: grid;
     grid-template-columns: auto;
   }
-  .projectViewer__achievementTitle {
+  .projectViewer__sectionAchievementTitle {
     display: grid;
     grid-template-columns: auto;
     align-content: center;
