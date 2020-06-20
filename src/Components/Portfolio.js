@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LaunchIcon from "@material-ui/icons/Launch";
 import ProjectViewer from "./common/ProjectViewer";
 
 const Portfolio = (props) => {
@@ -66,7 +67,7 @@ const Portfolio = (props) => {
     <section id="portfolio">
       <div className="row" id="professional-portfolio">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Professional Projects.</h1>
+          <h1>Check Out Some of My Professional Projects</h1>
 
           <div
             id="portfolio-wrapper"
@@ -78,7 +79,7 @@ const Portfolio = (props) => {
       </div>
       <div className="row" id="personal-portfolio">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Personal Projects.</h1>
+          <h1>Check Out Some of My Personal Projects</h1>
 
           <div
             id="portfolio-wrapper"

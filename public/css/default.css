@@ -429,7 +429,9 @@ a,
 a:visited {
   text-decoration: none;
   outline: 0;
-  color: #11abb0;
+  /* color: #11abb0; */
+  /* color: #313131; */
+  color: #525252
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -438,7 +440,8 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: #313131;
+  /* color: #313131; */
+  color: #11abb0;
 }
 p a,
 p a:visited {

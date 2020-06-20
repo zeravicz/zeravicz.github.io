@@ -54,8 +54,11 @@ header .banner {
   vertical-align: middle;
   margin: 0 auto;
   width: 85%;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2em;
 }
 
 header .banner-text {
@@ -154,7 +157,7 @@ header .scrolldown a:hover {
   top: 0;
 }
 .opaque {
-  background-color: #333;
+  background-color: #141414;
 }
 
 /* hide toggle button */
@@ -165,7 +168,7 @@ header .scrolldown a:hover {
 ul#nav {
   min-height: 48px;
   width: auto;
-
+  background-color: rgba(0, 0, 0, 0.6);
   /* center align the menu */
   text-align: center;
 }
@@ -251,8 +254,8 @@ ul#nav li.current a {
   background: #444;
 }
 #about .download .button:hover {
-  background: #fff;
-  color: #2b2b2b;
+  background: #11abb0;
+  color: #fff;
 }
 #about .download .button i {
   margin-right: 15px;
@@ -552,6 +555,12 @@ ul#nav li.current a {
 .portfolio-item .portfolio-item-meta p {
   font: 12px/18px "opensans-light", sans-serif;
   color: #c6c7c7;
+  margin-bottom: 0;
+}
+
+.portfolio-item .portfolio-item-meta i {
+  /* font: 14px/21px "opensans-bold", sans-serif; */
+  color: #fff;
   margin-bottom: 0;
 }
 
@@ -989,8 +998,8 @@ call-to-action .button {
   margin-left: 26%;
 }
 #contact button.submit:hover {
-  color: #0d0d0d;
-  background: #fff;
+  color: #fff;
+  background: #11abb0;
 }
 
 #contact button.renderForm {

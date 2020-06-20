@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Modal from "react-modal";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import css from "./ProjectViewer.css";
+import "./ProjectViewer.css";
 
 const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
   const style = {

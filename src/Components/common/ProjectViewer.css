@@ -34,6 +34,15 @@
   text-align: center;
 }
 
+.projectViewer__closeButton button {
+  color: #fff;
+  background: #525252;
+}
+.projectViewer__closeButton button:hover {
+  color: #fff;
+  background: #11abb0;
+}
+
 @media only screen and (max-width: 1000px) {
   .projectViewer__sectionAchievement {
     display: grid;
@@ -51,6 +60,7 @@
   }
 }
 
+/* Prevent background scrolling when projectViewer modal/pop-up component is visibile. */
 .ReactModal__Body--open {
   overflow-y: hidden;
 }

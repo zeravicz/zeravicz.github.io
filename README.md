@@ -1,4 +1,4 @@
-# Still in progress, github pages and codesandbox link will be available upon completion.
+# My Portfolio Website
 
 ## Description
 
@@ -13,8 +13,8 @@ Tim Baker's react resume template (https://github.com/tbakerx/react-resume-templ
 - Activated the previously static contact form at the bottom to send an email
   to the website owner.
 - Separated portfolio into a professional and a personal section.
-- Created a professional project viewer component to display screenshots and descriptions of corresponding achievements in a pop-up window. This was created so that professional work can be articulately displayed in a way that doesn't violate propriety source code ownership.
-- Commented out testimonials section, simply uncomment to display it again.
+- Created a professional project viewer component to display screenshots and descriptions of corresponding achievements in a pop-up window. This was created so that professional work can be articulately displayed in a way that doesn't violate propriety source code ownership. Note: all related css is in src\Components\common\ProjectViewer.css instead of within the global monolithic css files.
+- Replaced Tim Baker's images and details with mine.
 
 ## To take my portfolio website and change it/build on top of it to suit your needs:
 
@@ -34,7 +34,7 @@ Then open http://localhost:3000 in a browser.
 
 ### 2. Replace styles and images.
 
-Replace the styles inside public/css and the images inside public/images with your own. <em>Note: YOU MUST KEEP THE SAME NAMES ON THE IMAGES.</em>
+Replace the styles inside public/css and the images inside public/images with your own. Note: YOU MUST KEEP THE SAME NAMES ON THE IMAGES. Also, you should ideally choose a 1920 x 1080 pixels image to replace header-background.jpg.
 
 ### 3. Fill in your personal information.
 
@@ -46,7 +46,7 @@ Replace my public/resume.pdf file with yours and and ensure it has the same file
 
 ### 5. Upload your portfolio work.
 
-Replace my portfolio images, urls and descriptions with yours. Note: this portfolio has been optimally styled for project preview images with dimensions of 975 x 800 pixels (a free online tool like https://resizeimage.net/ would be useful in resizing your images to this).
+Replace my portfolio images, urls and descriptions with yours. Note: this portfolio has been optimally styled for project preview images with dimensions of 975 x 800 pixels (a free online tool like https://resizeimage.net/ would be useful in resizing your images to this). For images of professional projects, I have used the image blurring/pixelizing tool https://www.facepixelizer.com/ to obfuscate my company/client's intellectual-property and personal identifiable data (PID).
 
 ### 6. Connect your email to the contact form.
 
