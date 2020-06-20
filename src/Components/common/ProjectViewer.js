@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
 import Modal from "react-modal";
-import noScroll from "no-scroll";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import css from "./ProjectViewer.module.css";
+import css from "./ProjectViewer.css";
 
 const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
   const style = {
@@ -41,13 +40,6 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
     );
   };
 
-  useEffect(() => {
-    if (open) {
-      noScroll.on();
-    }
-
-    return () => noScroll.off();
-  });
   return (
     <section id="projectView">
       <Modal isOpen={open} style={style}>
