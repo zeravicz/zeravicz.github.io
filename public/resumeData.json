@@ -164,26 +164,62 @@
             "sectionAchievements": [
               {
                 "title": "Created datetime and data granularity filters for chart viewer application.",
-                "when": "July 2020",
+                "when": "Nov 2019",
                 "image": "professional/Telstra/analytics-tool/chart-viewer.jpg",
-                "description": "I was tasked with adding input fields to allow the user to filter the displayed data by user-specified datetime range and data granularity (e.g. data measured once every 15 minutes, hour, day and etc.). I did this by using the material-ui react library to create a FROM and TO datetime input and a RESOLUTION dropdown field (shown top-left). I also used redux to store the user's selections in a centralized redux store. Every time the user would select a different datetime, or data granularity option, a rest POST API call with the chart SQL, datetime and data granularity inputs would be made to the backend where the SQL string would be augmented by the inputs and then used to query the database. Hence, after any filter update the graph would instantly display filtered data."
+                "description": "I was tasked with adding input fields to allow the user to filter the displayed data by user-specified datetime range and data granularity (e.g. data measured once every 15 minutes, hour, day and etc.). I did this by using the react-datetime library to create a FROM and TO datetime input and material-ui library to create a RESOLUTION dropdown field (shown top-left). I also used redux to store the user's selections in a centralized redux store. Every time the user would select a different datetime, or data granularity option, a rest POST API call with the chart SQL, datetime and data granularity inputs would be made to the backend where the SQL string would be augmented by the inputs and then used to query the database. Hence, after any filter update the graph would instantly display filtered data."
               },
               {
                 "title": "Created in-app table view of chart data with ability to export data to csv, print, filter, etc.",
-                "when": "June 2020",
+                "when": "December 2019",
                 "image": "professional/Telstra/analytics-tool/table-view-of-data-in-chart.jpg",
                 "description": "I was tasked with allowing the user to quickly view, browse through, filter and print/export-to-csv chart data all within the application itself (avoiding the need to leave the app to do the same things). I achieved this by using the table component from the mui-datatables library, formatting the chart data so that it would go into and display on the table, then customizing the table's in-built parameters to enable filtering, download to csv and printing all via the grey icon buttons in the top-right toolbar."
               }
             ]
           },
           {
-            "sectionTitle": "Smart Report",
+            "sectionTitle": "Fixed Smart Report",
             "sectionAchievements": [
               {
-                "title": "Test",
-                "when": "Test",
-                "image": "professional/Telstra/analytics-tool/chart-viewer.jpg",
-                "description": "Test."
+                "title": "Creation of Smart Report GUI",
+                "when": "February 2020",
+                "image": "professional/Telstra/analytics-tool/empty-smart-report-gui.jpg",
+                "description": "I had to create a GUI in React to query, sort, display and edit data from an oracle database. I also had to visually show row edit history (by who, when, and what the old and new data was) in the past 30 days. All these features collectively constituted a 'Smart Report GUI'. I used a combination of react-datetime and material-ui input fields to create the filter inputs at the top which the user could use to filter the queried data. I also used react to store the user-selected filter options, REST api to trigger the back-end use of an oracle sql query against the database, then redux for client-side storage of the retrieved data."
+              },
+              {
+                "title": "Displaying Data in Smart Report",
+                "when": "February 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-after-query.jpg",
+                "description": "The retrieved data was then formatted into a table from the mui-datatables library, rows were automatically sorted by a particular column's values in descending order then displayed on the table."
+              },
+              {
+                "title": "Show Edit History of Smart Report",
+                "when": "March 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-edit-history.jpg",
+                "description": "A row would display in light-blue if it has already been edited anytime in the past. A 30 day history of who edited a row, when, and what changes they made can be seen in the column 'Edit History'. The 'Edit History' column of circle icons displays the editor's initials, and hovering the mouse cursor over the circle will reveal a tooltip with information of who edited, when and what they changed."
+              },
+              {
+                "title": "How User Selects Row For Edit.",
+                "when": "March 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-select-row-to-edit.jpg",
+                "description": "A user could edit a row's data by clicking on a row, which creates a red border around a blue row, or colours an unedited/white row red, to indication selection, then click on the top-right pink edit button to query a 2nd table of data directly related to the selected row."
+              },
+              {
+                "title": "How User Selects Row For Edit.",
+                "when": "March 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-2nd-table.jpg",
+                "description": "In the 2nd table, the user could then select one or more rows and click the top-right pink edit button again to open a form."
+              },
+              {
+                "title": "How User Edits a Row.",
+                "when": "March 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-edit-form.jpg",
+                "description": "In this form the user can change various column values in the previously selected rows in the 2nd table (which would add an edit entry against the selected row in the first table). When the user clicks the save button, a REST POST api call with this form data is sent to the backend to augment a write SQL query that is then run against the oracle database to write the form data into the edited row(s)."
+              },
+              {
+                "title": "How User Deletes an Edit.",
+                "when": "April 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-delete-edit-action.jpg",
+                "description": "The same process above can be used with the delete button to undo/delete edits."
               }
             ]
           }
