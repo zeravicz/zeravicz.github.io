@@ -22,7 +22,7 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
             </div>
             <div className="projectViewer__sectionAchievement">
               <img
-                alt={`Image for ${sectionAchievement.title}`}
+                alt={`${sectionAchievement.title}`}
                 src={"images/portfolio/" + sectionAchievement.image}
               />
               {Array.isArray(sectionAchievement.description) ? (

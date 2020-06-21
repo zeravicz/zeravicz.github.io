@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import LaunchIcon from "@material-ui/icons/Launch";
 import ProjectViewer from "./common/ProjectViewer";
 
 const Portfolio = (props) => {
