@@ -1,0 +1,257 @@
+{
+  "main": {
+    "name": "Anthony Hien Vu",
+    "occupation": "Full-Stack Web Developer",
+    "description": "currently employed by Telstra where I work as a full stack web developer across a range of internal tools and services",
+    "image": "profilepic.png",
+    "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for almost a year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in python/django and ruby on rails, desktop applications in python and android apps in java. I am an avid ice skater and reader. I enjoy watching and playing most sports (especially cricket), getting outdoors for hikes and running, building apps recreationally, and watching documentaries, movies and TV shows.  I am always looking to learn new things (tech and non-tech related) at work and in my personal life.",
+    "contactmessage": "Get in touch.",
+    "email": "avu120@gmail.com",
+    "phone": "0452668725",
+    "address": {
+      "city": "Melbourne",
+      "suburb": "Oakleigh",
+      "state": "VIC",
+      "zip": "3166"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "resume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/anthony-hien-vu",
+        "className": "fa fa-linkedin",
+        "title": "Go to my LinkedIn profile"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/AVu120",
+        "className": "fa fa-github",
+        "title": "Go to my Github profile"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "In descending order of my frequency of use.",
+    "education": [
+      {
+        "school": "University of Sydney",
+        "degree": "Bachelor of Engineering Honours (Mechanical Engineering)",
+        "graduated": "2013 - 2016",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Telstra",
+        "title": "Full-Stack Web Developer",
+        "years": "July 2018 - Present",
+        "description": [
+          "I am currently performing full-stack development of a Telstra enterprise web application with at least 500 internal users utilizing the MERN stack. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources. My team and I are also building new features everyday, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them from within the application to query and validate data from desired databases, and many more. The application is also using a microservices architecture to integrate 6 disparate web apps (and more overtime) into a single one-stop shop which is being deployed on AWS.",
+          "I have containerized many applications using Docker.",
+          "I commonly write unit tests using Jest.js and use ROBOT for functional/integration/regression testing.",
+          "I have set up many CICD pipelines using Atlassian's Bamboo platform.",
+          "I have automated the deployment of network configuration and virtual network devices using ansible playbooks.",
+          "I have automated traffic monitoring of Telstra's mobile networks through the creation and use of Tableau dashboards."
+        ]
+      },
+      {
+        "company": "KPMG",
+        "title": "IT Consultant",
+        "years": "February 2017 - May 2018",
+        "description": [
+          "Performed IT risk testing (audit) and consulted with clients to identify and mitigate IT and business risks.",
+          "Facilitated the configuration and implementation of Microsoft Dynamics (AX) 365 ERP for clients to simplify and optimise their business life-cycle.",
+          "Facilitated data migration for clients.",
+          "Advised in the transfer of IT infrastructure during the sale of businesses between companies."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "100%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Node",
+        "level": "100%"
+      },
+      {
+        "name": "Express",
+        "level": "100%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "100%"
+      },
+      {
+        "name": "GIT",
+        "level": "100%"
+      },
+      {
+        "name": "Docker",
+        "level": "90%"
+      },
+      {
+        "name": "Jest",
+        "level": "90%"
+      },
+      {
+        "name": "SQL",
+        "level": "90%"
+      },
+      {
+        "name": "Agile scrum",
+        "level": "100%"
+      },
+      {
+        "name": "Python",
+        "level": "50%"
+      },
+      {
+        "name": "Java",
+        "level": "50%"
+      },
+      {
+        "name": "ROBOT",
+        "level": "90%"
+      },
+      {
+        "name": "Ansible",
+        "level": "50%"
+      },
+      {
+        "name": "Bamboo",
+        "level": "50%"
+      },
+      {
+        "name": "Knowledge of AWS Services",
+        "level": "30%"
+      }
+    ]
+  },
+  "portfolio": {
+    "personalProjects": [
+      {
+        "title": "Trivia Quiz",
+        "category": "A trivia quiz game using questions and answers from open trivia db.",
+        "image": "personal/trivia-quiz.jpg",
+        "url": "https://github.com/AVu120/trivia-quiz"
+      },
+      {
+        "title": "Image Manipulator",
+        "category": "A tool that displays an image 4 times on a 2x2 grid and allows you to flip, rotate and apply filters on one or multiple images then compare them.",
+        "image": "personal/image-flipper.jpg",
+        "url": "https://github.com/AVu120/image-flipper"
+      },
+      {
+        "title": "Countdown Timer",
+        "category": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
+        "image": "personal/countdown-timer.jpg",
+        "url": "https://github.com/AVu120/countdown-timer"
+      },
+      {
+        "title": "Portfolio Website",
+        "category": "My Portfolio Website which I created by building on top of an open-source react resume template.",
+        "image": "personal/portfolio-website.jpg",
+        "url": "https://github.com/AVu120/portfolio-website"
+      },
+      {
+        "title": "Other Applications",
+        "category": "Browse my various non-deployed or non-web-app applications.",
+        "image": "personal/github.jpg",
+        "url": "https://github.com/AVu120?tab=repositories"
+      }
+    ],
+    "professionalProjects": [
+      {
+        "title": "Telstra Internal Analytics Tool",
+        "category": "Tool to view, sort, filter and edit data in databases.",
+        "image": "professional/Telstra/analytics-tool/chart-viewer-resized.jpg",
+        "achievements": [
+          {
+            "sectionTitle": "Chart Viewer",
+            "sectionAchievements": [
+              {
+                "title": "Created datetime and data granularity filters for chart viewer application.",
+                "when": "Nov 2019",
+                "image": "professional/Telstra/analytics-tool/chart-viewer.jpg",
+                "description": "I was tasked with adding input fields to allow the user to filter the displayed data by user-specified datetime range and data granularity (e.g. data measured once every 15 minutes, hour, day and etc.). I did this by using the react-datetime library to create a FROM and TO datetime input and material-ui library to create a RESOLUTION dropdown field (shown top-left). I also used redux to store the user's selections in a centralized redux store. Every time the user would select a different datetime, or data granularity option, a rest POST API call with the chart SQL, datetime and data granularity inputs would be made to the backend where the SQL string would be augmented by the inputs and then used to query the database. Hence, after any filter update the graph would instantly display filtered data."
+              },
+              {
+                "title": "Created in-app table view of chart data with ability to export data to csv, print, filter, etc.",
+                "when": "December 2019",
+                "image": "professional/Telstra/analytics-tool/table-view-of-data-in-chart.jpg",
+                "description": "I was tasked with allowing the user to quickly view, browse through, filter and print/export-to-csv chart data all within the application itself (avoiding the need to leave the app to do the same things). I achieved this by using the table component from the mui-datatables library, formatting the chart data so that it would go into and display on the table, then customizing the table's in-built parameters to enable filtering, download to csv and printing all via the grey icon buttons in the top-right toolbar."
+              }
+            ]
+          },
+          {
+            "sectionTitle": "Fixed Smart Report",
+            "sectionAchievements": [
+              {
+                "title": "Creation of Smart Report GUI",
+                "when": "February 2020",
+                "image": "professional/Telstra/analytics-tool/empty-smart-report-gui.jpg",
+                "description": "I had to create a GUI in React to query, sort, display and edit data from an oracle database. I also had to visually show row edit history (by who, when, and what the old and new data was) in the past 30 days. All these features collectively constituted a 'Smart Report GUI'. I used a combination of react-datetime and material-ui input fields to create the filter inputs at the top which the user could use to filter the queried data. I also used react to store the user-selected filter options, REST api to trigger the back-end use of an oracle sql query against the database, then redux for client-side storage of the retrieved data."
+              },
+              {
+                "title": "Displaying Data in Smart Report",
+                "when": "February 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-after-query.jpg",
+                "description": "The retrieved data was then formatted into a table from the mui-datatables library, rows were automatically sorted by a particular column's values in descending order then displayed on the table."
+              },
+              {
+                "title": "Show Edit History of Smart Report",
+                "when": "March 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-edit-history.jpg",
+                "description": "A row would display in light-blue if it has already been edited anytime in the past. A 30 day history of who edited a row, when, and what changes they made can be seen in the column 'Edit History'. The 'Edit History' column of circle icons displays the editor's initials, and hovering the mouse cursor over the circle will reveal a tooltip with information of who edited, when and what they changed."
+              },
+              {
+                "title": "How User Selects Row For Edit.",
+                "when": "March 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-select-row-to-edit.jpg",
+                "description": "A user could edit a row's data by clicking on a row, which creates a red border around a blue row, or colours an unedited/white row red, to indication selection, then click on the top-right pink edit button to query a 2nd table of data directly related to the selected row."
+              },
+              {
+                "title": "How User Selects Row For Edit.",
+                "when": "March 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-2nd-table.jpg",
+                "description": "In the 2nd table, the user could then select one or more rows and click the top-right pink edit button again to open a form."
+              },
+              {
+                "title": "How User Edits a Row.",
+                "when": "March 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-edit-form.jpg",
+                "description": "In this form the user can change various column values in the previously selected rows in the 2nd table (which would add an edit entry against the selected row in the first table). When the user clicks the save button, a REST POST api call with this form data is sent to the backend to augment a write SQL query that is then run against the oracle database to write the form data into the edited row(s)."
+              },
+              {
+                "title": "How User Deletes an Edit.",
+                "when": "April 2020",
+                "image": "professional/Telstra/analytics-tool/smart-report-delete-edit-action.jpg",
+                "description": "The same process above can be used with the delete button to undo/delete edits."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Anthony is a highly competent software developer having delivered some of the key features in our project. He is consistently proactive in refactoring code and improving user experience according to industry best practices. He is also always improving his and his team's knowledge and abilities, especially those of new team members, through teaching from first-principles and documenting project information and standardized work practices.",
+        "source": "Priya Saravanavelu - Automation Test Engineer at Telstra"
+      },
+
+      {
+        "text": "Anthony has been my go-to person in the project. Anthony ensured that I easily settled into the team and helped me navigate all the need-to-know's quickly. He has always made himself available to answer any queries that I had. I've seen him take on some mammoth tasks and deliver them quite well and to the satisfaction of the product owner.",
+        "source": "Kiran Surendran - Web Developer at Telstra"
+      }
+    ]
+  }
+}
