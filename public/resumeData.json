@@ -4,7 +4,7 @@
     "occupation": "Full-Stack Web Developer",
     "description": "currently employed by Telstra where I work as a full stack web developer across a range of internal tools and services",
     "image": "profilepic.png",
-    "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for almost a year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in python/django and ruby on rails, desktop applications in python and android apps in java. I am an avid reader and ice skater and I am always looking to learn new things (tech and non-tech related). I enjoy watching and playing most sports (especially cricket), getting outdoors for hikes and running, building apps recreationally, and watching documentaries, movies and TV shows.",
+    "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for almost a year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in python/django and ruby on rails, desktop applications in python and android apps in java. I am an avid ice skater and reader. I enjoy watching and playing most sports (especially cricket), getting outdoors for hikes and running, building apps recreationally, and watching documentaries, movies and TV shows.  I am always looking to learn new things (tech and non-tech related) at work and in my personal life.",
     "contactmessage": "Get in touch.",
     "email": "avu120@gmail.com",
     "phone": "0452668725",
@@ -244,7 +244,12 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Anthony has been my go-to person in the project. Anthony ensured that I easily settled into the team and helped me navigate all the need-to-know's quickly. He has always made himself available to answer any queries that I had. I've seen him take on some mammoth tasks and deliver them quite well and to the satisfaction of the product owner. ",
+        "text": "Anthony is a highly competent software developer having delivered some of the key features in our project. He is consistently proactive in refactoring code and improving user experience according to industry best practices. He is also always improving his and his team's knowledge and abilities, especially those of new team members, through teaching from first-principles and documenting project information and standardized work practices.",
+        "source": "Priya Saravanavelu - Automation Test Engineer at Telstra"
+      },
+
+      {
+        "text": "Anthony has been my go-to person in the project. Anthony ensured that I easily settled into the team and helped me navigate all the need-to-know's quickly. He has always made himself available to answer any queries that I had. I've seen him take on some mammoth tasks and deliver them quite well and to the satisfaction of the product owner.",
         "source": "Kiran Surendran - Web Developer at Telstra"
       }
     ]

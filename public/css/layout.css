@@ -626,8 +626,59 @@ ul#nav li.current a {
   margin-left: 24px;
 }
 
-/* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
+/* e. ProjectViewer Component Section
+/* ------------------------------------------------------------------ */
+
+.projectViewer {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.projectViewer span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.projectViewer img {
+  height: 50vh;
+  width: 50vw;
+  padding: 30px;
+}
+
+.projectViewer p {
+  padding: 30px 30px 30px 20px;
+}
+
+.projectViewer__title {
+  text-align: center;
+}
+
+.projectViewer__sectionAchievement {
+  display: flex;
+}
+
+.projectViewer__sectionAchievementTitle {
+  display: flex;
+}
+
+.projectViewer__closeButton {
+  text-align: center;
+}
+
+.projectViewer__closeButton button {
+  color: #fff;
+  background: #525252;
+}
+.projectViewer__closeButton button:hover {
+  color: #fff;
+  background: #11abb0;
+}
+
+/* Prevent background scrolling when projectViewer modal/pop-up component is visibile. */
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}
 
 /* content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
@@ -1083,11 +1134,11 @@ footer {
 
 footer a,
 footer a:visited {
-  color: #525252;
+  color: #fff;
 }
 footer a:hover,
 footer a:focus {
-  color: #fff;
+  color: #11abb0;
 }
 
 /* copyright */

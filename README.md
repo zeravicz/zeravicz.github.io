@@ -12,9 +12,9 @@ This is my portfolio website. I have placed Tim Baker's react resume template (h
 - Activated the previously static contact form at the bottom to send an email
   to the website owner (using EmailJS service).
 - Separated portfolio into a professional and a personal section.
-- Created a professional project viewer component to display screenshots and descriptions of corresponding achievements in a pop-up window. This was created so that professional work can be articulately displayed in a way that doesn't violate propriety source code ownership. Note: all related css is in src\Components\common\ProjectViewer.css instead of within the global monolithic css files which styles the rest of the app.
+- Created a professional project viewer component to display screenshots and descriptions of corresponding achievements in a pop-up window. This was created so that professional work can be articulately displayed in a way that doesn't violate propriety source code ownership. Note: all related css has been added into the global monolithic css files.
+- Added/modified other css styling around the application.
 - Replaced Tim Baker's images and details with mine.
-- Added/modified some css styling around the application.
 
 ## To take my portfolio website and change it/build on top of it to suit your needs:
 

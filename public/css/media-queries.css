@@ -291,6 +291,27 @@
     max-width: 85%;
   }
 
+  /* ------------------------------------------------------------------ */
+  /* ProjectViewer Component Section
+/* ------------------------------------------------------------------ */
+
+  @media only screen and (max-width: 1000px) {
+    .projectViewer__sectionAchievement {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .projectViewer__sectionAchievementTitle {
+      display: grid;
+      grid-template-columns: auto;
+      align-content: center;
+    }
+
+    .projectViewer h3,
+    em {
+      text-align: center;
+    }
+  }
+
   /* Testimonials Section
    ----------------------------------------------------------------------- */
   #testimonials .text-container {
