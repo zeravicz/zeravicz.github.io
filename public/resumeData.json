@@ -155,6 +155,12 @@
         "url": "https://github.com/AVu120/countdown-timer"
       },
       {
+        "title": "Portfolio Website",
+        "category": "My Portfolio Website which I created by building on top of an open-source react resume template.",
+        "image": "personal/portfolio-website.jpg",
+        "url": "https://github.com/AVu120/portfolio-website"
+      },
+      {
         "title": "Other Applications",
         "category": "Browse my various non-deployed or non-web-app applications.",
         "image": "personal/github.jpg",
