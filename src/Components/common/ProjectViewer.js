@@ -24,7 +24,11 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
             <div className="projectViewer__sectionAchievement">
               <img
                 alt={`${sectionAchievement.title}`}
-                src={"images/portfolio/" + sectionAchievement.image}
+                src={
+                  process.env.PUBLIC_URL +
+                  "/images/portfolio/" +
+                  sectionAchievement.image
+                }
               />
               {Array.isArray(sectionAchievement.description) ? (
                 sectionAchievement.description.map((_) => <div>&bull; {_}</div>)

@@ -148,7 +148,7 @@ const Contact = (props) => {
                 {emailSentStatus === "sending" && (
                   <img
                     alt=""
-                    src="images/loader.gif"
+                    src={process.env.PUBLIC_URL + "/images/loader.gif"}
                     style={{ position: "relative", top: "18px", left: "10px" }}
                   />
                 )}

@@ -4,7 +4,8 @@ class About extends Component {
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
-      var profilepic = "images/" + this.props.data.image;
+      var profilepic =
+        process.env.REACT_APP_PUBLIC_URL + "/images/" + this.props.data.image;
       var bio = this.props.data.bio;
       // var street = this.props.data.address.street;
       var suburb = this.props.data.address.suburb;
@@ -47,7 +48,13 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={resumeDownload} className="button" download>
+                  <a
+                    href={
+                      process.env.REACT_APP_PUBLIC_URL + "/" + resumeDownload
+                    }
+                    className="button"
+                    download
+                  >
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                 </p>

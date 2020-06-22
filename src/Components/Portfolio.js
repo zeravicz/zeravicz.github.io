@@ -10,7 +10,6 @@ const Portfolio = (props) => {
     var professionalProjects = props.data.professionalProjects.map(function (
       professionalProject
     ) {
-      var projectImage = "images/portfolio/" + professionalProject.image;
       return (
         <div key={professionalProject.title}>
           <div className="columns portfolio-item">
@@ -19,7 +18,14 @@ const Portfolio = (props) => {
               style={{ cursor: "pointer" }}
               onClick={() => toggleProjectView()}
             >
-              <img alt={professionalProject.title} src={projectImage} />
+              <img
+                alt={professionalProject.title}
+                src={
+                  process.env.REACT_APP_PUBLIC_URL +
+                  "/images/portfolio/" +
+                  professionalProject.image
+                }
+              />
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{professionalProject.title}</h5>
@@ -47,7 +53,11 @@ const Portfolio = (props) => {
             <a href={personalProject.url}>
               <img
                 alt={personalProject.title}
-                src={"images/portfolio/" + personalProject.image}
+                src={
+                  process.env.REACT_APP_PUBLIC_URL +
+                  "/images/portfolio/" +
+                  personalProject.image
+                }
               />
               <div className="overlay">
                 <div className="portfolio-item-meta">
