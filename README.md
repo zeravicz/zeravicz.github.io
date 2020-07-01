@@ -20,9 +20,9 @@ This is my portfolio website. I have placed Tim Baker's react resume template (h
 
 ### 1. Set up and run the application.
 
-### `git clone https://github.com/AVu120/portfolio-website.git`
+### `git clone https://github.com/AVu120/portfolio.git`
 
-### `cd portfolio-website`
+### `cd portfolio`
 
 ### `npm i`
 

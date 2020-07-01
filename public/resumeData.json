@@ -171,7 +171,7 @@
       {
         "title": "Telstra Internal Analytics Tool",
         "category": "Tool to view, sort, filter and edit data in databases.",
-        "image": "professional/Telstra/analytics-tool/chart-viewer-resized.jpg",
+        "image": "professional/Telstra/telstra-logo-preview-image.jpg",
         "achievements": [
           {
             "sectionTitle": "Chart Viewer",
@@ -179,13 +179,13 @@
               {
                 "title": "Created datetime and data granularity filters for chart viewer application.",
                 "when": "Nov 2019",
-                "image": "professional/Telstra/analytics-tool/chart-viewer.jpg",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/chart-viewer.jpg",
                 "description": "I was tasked with adding input fields to allow the user to filter the displayed data by user-specified datetime range and data granularity (e.g. data measured once every 15 minutes, hour, day and etc.). I did this by using the react-datetime library to create a FROM and TO datetime input and material-ui library to create a RESOLUTION dropdown field (shown top-left). I also used redux to store the user's selections in a centralized redux store. Every time the user would select a different datetime, or data granularity option, a rest POST API call with the chart SQL, datetime and data granularity inputs would be made to the backend where the SQL string would be augmented by the inputs and then used to query the database. Hence, after any filter update the graph would instantly display filtered data."
               },
               {
                 "title": "Created in-app table view of chart data with ability to export data to csv, print, filter, etc.",
                 "when": "December 2019",
-                "image": "professional/Telstra/analytics-tool/table-view-of-data-in-chart.jpg",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/table-view-of-data-in-chart.jpg",
                 "description": "I was tasked with allowing the user to quickly view, browse through, filter and print/export-to-csv chart data all within the application itself (avoiding the need to leave the app to do the same things). I achieved this by using the table component from the mui-datatables library, formatting the chart data so that it would go into and display on the table, then customizing the table's in-built parameters to enable filtering, download to csv and printing all via the grey icon buttons in the top-right toolbar."
               }
             ]
@@ -196,44 +196,115 @@
               {
                 "title": "Creation of Smart Report GUI",
                 "when": "February 2020",
-                "image": "professional/Telstra/analytics-tool/empty-smart-report-gui.jpg",
+                "image": "professional/Telstra/analytics-tool/fixed-smart-report/empty-smart-report-gui.jpg",
                 "description": "I had to create a GUI in React to query, sort, display and edit data from an oracle database. I also had to visually show row edit history (by who, when, and what the old and new data was) in the past 30 days. All these features collectively constituted a 'Smart Report GUI'. I used a combination of react-datetime and material-ui input fields to create the filter inputs at the top which the user could use to filter the queried data. I also used react to store the user-selected filter options, REST api to trigger the back-end use of an oracle sql query against the database, then redux for client-side storage of the retrieved data."
               },
               {
                 "title": "Displaying Data in Smart Report",
                 "when": "February 2020",
-                "image": "professional/Telstra/analytics-tool/smart-report-after-query.jpg",
+                "image": "professional/Telstra/analytics-tool/fixed-smart-report/smart-report-after-query.jpg",
                 "description": "The retrieved data was then formatted into a table from the mui-datatables library, rows were automatically sorted by a particular column's values in descending order then displayed on the table."
               },
               {
                 "title": "Show Edit History of Smart Report",
                 "when": "March 2020",
-                "image": "professional/Telstra/analytics-tool/smart-report-edit-history.jpg",
+                "image": "professional/Telstra/analytics-tool/fixed-smart-report/smart-report-edit-history.jpg",
                 "description": "A row would display in light-blue if it has already been edited anytime in the past. A 30 day history of who edited a row, when, and what changes they made can be seen in the column 'Edit History'. The 'Edit History' column of circle icons displays the editor's initials, and hovering the mouse cursor over the circle will reveal a tooltip with information of who edited, when and what they changed."
               },
               {
                 "title": "How User Selects Row For Edit.",
                 "when": "March 2020",
-                "image": "professional/Telstra/analytics-tool/smart-report-select-row-to-edit.jpg",
+                "image": "professional/Telstra/analytics-tool/fixed-smart-report/smart-report-select-row-to-edit.jpg",
                 "description": "A user could edit a row's data by clicking on a row, which creates a red border around a blue row, or colours an unedited/white row red, to indication selection, then click on the top-right pink edit button to query a 2nd table of data directly related to the selected row."
               },
               {
                 "title": "How User Selects Row For Edit.",
                 "when": "March 2020",
-                "image": "professional/Telstra/analytics-tool/smart-report-2nd-table.jpg",
+                "image": "professional/Telstra/analytics-tool/fixed-smart-report/smart-report-2nd-table.jpg",
                 "description": "In the 2nd table, the user could then select one or more rows and click the top-right pink edit button again to open a form."
               },
               {
                 "title": "How User Edits a Row.",
                 "when": "March 2020",
-                "image": "professional/Telstra/analytics-tool/smart-report-edit-form.jpg",
+                "image": "professional/Telstra/analytics-tool/fixed-smart-report/smart-report-edit-form.jpg",
                 "description": "In this form the user can change various column values in the previously selected rows in the 2nd table (which would add an edit entry against the selected row in the first table). When the user clicks the save button, a REST POST api call with this form data is sent to the backend to augment a write SQL query that is then run against the oracle database to write the form data into the edited row(s)."
               },
               {
                 "title": "How User Deletes an Edit.",
                 "when": "April 2020",
-                "image": "professional/Telstra/analytics-tool/smart-report-delete-edit-action.jpg",
+                "image": "professional/Telstra/analytics-tool/fixed-smart-report/smart-report-delete-edit-action.jpg",
                 "description": "The same process above can be used with the delete button to undo/delete edits."
+              }
+            ]
+          },
+          {
+            "sectionTitle": "User-Customizable Smart Report",
+            "sectionAchievements": [
+              {
+                "title": "Creation/Update Form",
+                "when": "May 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/creation-form.jpg",
+                "description": "I worked with another developer to create the framework for allowing a user to create/update their own smart report by mostly specifying their desired SQL string and database to query in a form. The front-end of the form was primarily made by the other developer however I wrote the mongoose (MongoDB) database model and the entirety of the backend, input validation and form save validation."
+              },
+              {
+                "title": "SQL-Populated Dropdown Filter Creation",
+                "when": "May 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-sql-populated-dropdown-filter.jpg",
+                "description": "The user also had the option of creating their own dropdown filters using the same form. They would do this by expanding and overwriting an existing default filter or by creating a new filter by clicking on the 'Add new item' row. The user could create two types of dropdown filters. The first type is a dropdown filter with options populated by a user-defined SQL string and database/datasource (Population Method* = SQL). In both types of dropdown filter, the Placeholder* field is for the name of the column in the main report SQL's WHERE clause into which the selected filter option would be inserted to filter the smart report, the default value is the filter option that is selected by default upon opening the smart report, the top-left blue lightning button runs a test on the inputs to determine if a valid filter dropdown options are generated and the required checkbox specifies whether to wait for the user to select a value or default value before querying the smart report."
+              },
+              {
+                "title": "List-Populated Dropdown Filter Creation",
+                "when": "May 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-list-populated-dropdown-filter.jpg",
+                "description": "The second type is a dropdown filter with options populated with a user-defined list of options."
+              },
+              {
+                "title": "Loading Smart Report",
+                "when": "May 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/inital-load-of-smart-report.jpg",
+                "description": "With no options configured (options will be explained below), the smart report would look like this upon initial load. As the first filter was a 'required' filter, the smart report has not been queried yet. I created the entire frontend and backend for this smart-report GUI."
+              },
+              {
+                "title": "Querying Data",
+                "when": "May 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/query-data.jpg",
+                "description": "Upon selection of a State filter option, the smart report is then queried. There is also the option of creating no filters, meaning the main report sql will automatically run by itself to query the smart-report when opening the report."
+              },
+              {
+                "title": "Creating Alert",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-alert.jpg",
+                "description": "There is also the option of customizing the smart report with user-defined alerts and progress-bars. Back in the smart report editor form. An alert icon can be rendered next to a cell value in a user-defined column if the cell value (number or string) passes a user-defined condition. A test value field can be filled to render what would display in a cell in the actual smart report directly above the field (i.e. real-time condition validation). I created the entire full-stack functionality for this."
+              },
+              {
+                "title": "Creating Multiple Alerts",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-alert.jpg",
+                "description": "The user can specify multiple alert conditions."
+              },
+              {
+                "title": "Alerts Displayed in Smart Report",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/smart-report-alerts.jpg",
+                "description": "Opening up the smart-report will then show the alerts in action."
+              },
+              {
+                "title": "Creating Progress Bar",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/smart-report-alerts.jpg",
+                "description": "Similarly, back in the smart report editor form. A progress bar can be rendered behind a cell value in a user-defined column if the cell value (number) falls within a user-defined range. It offers the same real-time render display feature. I created the entire full-stack functionality for this as well."
+              },
+              {
+                "title": "Displaying Progress Bar",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/smart-report-progress-bars.jpg",
+                "description": "Opening up the smart-report will then show the progress-bars in action."
+              },
+              {
+                "title": "Creating Row and Column Heat Maps",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/feature-under-development.jpg",
+                "description": "Back in the smart report editor form, a user can highlight an entire row or cell if the cell's value passes a user-defined condition created for that cell's column."
               }
             ]
           }
