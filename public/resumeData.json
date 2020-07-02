@@ -277,12 +277,6 @@
                 "description": "There is also the option of customizing the smart report with user-defined alerts and progress-bars. Back in the smart report editor form. An alert icon can be rendered next to a cell value in a user-defined column if the cell value (number or string) passes a user-defined condition. A test value field can be filled to render what would display in a cell in the actual smart report directly above the field (i.e. real-time condition validation). I created the entire full-stack functionality for this."
               },
               {
-                "title": "Creating Multiple Alerts",
-                "when": "June 2020",
-                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-alert.jpg",
-                "description": "The user can specify multiple alert conditions."
-              },
-              {
                 "title": "Alerts Displayed in Smart Report",
                 "when": "June 2020",
                 "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/smart-report-alerts.jpg",
@@ -291,7 +285,7 @@
               {
                 "title": "Creating Progress Bar",
                 "when": "June 2020",
-                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/smart-report-alerts.jpg",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-progress-bar2.jpg",
                 "description": "Similarly, back in the smart report editor form. A progress bar can be rendered behind a cell value in a user-defined column if the cell value (number) falls within a user-defined range. It offers the same real-time render display feature. I created the entire full-stack functionality for this as well."
               },
               {
