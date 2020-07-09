@@ -38,7 +38,7 @@ class About extends Component {
                   <br />
                   <span>
                     {/* {street}<br /> */}
-                    {suburb} {state}, {zip}
+                    {suburb} {state} {zip}
                   </span>
                   <br />
                   <span>{phone}</span>
