@@ -195,6 +195,23 @@
             ]
           },
           {
+            "sectionTitle": "Test Report",
+            "sectionAchievements": [
+              {
+                "title": "Created datetime and data granularity filters for chart viewer application.",
+                "when": "Nov 2019",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/chart-viewer.jpg",
+                "description": "I was tasked with adding input fields to allow the user to filter the displayed data by user-specified datetime range and data granularity (e.g. data measured once every 15 minutes, hour, day and etc.). I did this by using the react-datetime library to create a FROM and TO datetime input and material-ui library to create a RESOLUTION dropdown field (shown top-left). I also used redux to store the user's selections in a centralized redux store. Every time the user would select a different datetime, or data granularity option, a rest POST API call with the chart SQL, datetime and data granularity inputs would be made to the backend where the SQL string would be augmented by the inputs and then used to query the database. Hence, after any filter update the graph would instantly display filtered data."
+              },
+              {
+                "title": "Created in-app table view of chart data with ability to export data to csv, print, filter, etc.",
+                "when": "December 2019",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/table-view-of-data-in-chart.jpg",
+                "description": "I was tasked with allowing the user to quickly view, browse through, filter and print/export-to-csv chart data all within the application itself (avoiding the need to leave the app to do the same things). I achieved this by using the table component from the mui-datatables library, formatting the chart data so that it would go into and display on the table, then customizing the table's in-built parameters to enable filtering, download to csv and printing all via the grey icon buttons in the top-right toolbar."
+              }
+            ]
+          },
+          {
             "sectionTitle": "Fixed Smart Report",
             "sectionAchievements": [
               {
@@ -277,7 +294,7 @@
               {
                 "title": "Creating Alert",
                 "when": "June 2020",
-                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-alert.jpg",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-alert-form.jpg",
                 "description": "There is also the option of customizing the smart report with user-defined alerts and progress-bars. Back in the smart report editor form. An alert icon can be rendered next to a cell value in a user-defined column if the cell value (number or string) passes a user-defined condition. A test value field can be filled to render what would display in a cell in the actual smart report directly above the field (i.e. real-time condition validation). I created the entire full-stack functionality for this."
               },
               {
