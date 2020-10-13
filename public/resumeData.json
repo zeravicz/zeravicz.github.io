@@ -195,19 +195,31 @@
             ]
           },
           {
-            "sectionTitle": "Test Report",
+            "sectionTitle": "Chart Target & Trend lines",
             "sectionAchievements": [
               {
-                "title": "Created datetime and data granularity filters for chart viewer application.",
-                "when": "Nov 2019",
-                "image": "professional/Telstra/analytics-tool/chart-viewer/chart-viewer.jpg",
-                "description": "I was tasked with adding input fields to allow the user to filter the displayed data by user-specified datetime range and data granularity (e.g. data measured once every 15 minutes, hour, day and etc.). I did this by using the react-datetime library to create a FROM and TO datetime input and material-ui library to create a RESOLUTION dropdown field (shown top-left). I also used redux to store the user's selections in a centralized redux store. Every time the user would select a different datetime, or data granularity option, a rest POST API call with the chart SQL, datetime and data granularity inputs would be made to the backend where the SQL string would be augmented by the inputs and then used to query the database. Hence, after any filter update the graph would instantly display filtered data."
+                "title": "Created form for user to render target line on chart.",
+                "when": "July 2020",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/create-chart-target-line-form.jpg",
+                "description": "Users would like to plot lines on charts which they can measure chart-values against. Therefore, I created a form which allowed users to customize the label, y-value, color and pattern of up to 3 target lines they wanted to plot on a single chart."
               },
               {
-                "title": "Created in-app table view of chart data with ability to export data to csv, print, filter, etc.",
-                "when": "December 2019",
-                "image": "professional/Telstra/analytics-tool/chart-viewer/table-view-of-data-in-chart.jpg",
-                "description": "I was tasked with allowing the user to quickly view, browse through, filter and print/export-to-csv chart data all within the application itself (avoiding the need to leave the app to do the same things). I achieved this by using the table component from the mui-datatables library, formatting the chart data so that it would go into and display on the table, then customizing the table's in-built parameters to enable filtering, download to csv and printing all via the grey icon buttons in the top-right toolbar."
+                "title": "Displaying target line on chart.",
+                "when": "July 2020",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/chart-target-line.jpg",
+                "description": "The result is that users could plot up to 3 target lines they could measure chart values against. I designed and coded the entire full-stack solution for this and it's used this day by our beta-users."
+              },
+              {
+                "title": "Created form for user to render trend line on chart.",
+                "when": "July 2020",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/create-chart-trend-line-form.jpg",
+                "description": "Users would like to trend lines on charts which they can measure chart-values against as well as use to predict future values based on past values. Therefore, I created a form which allowed users to customize the label, y-value, color and pattern of up to 3 target lines they wanted to plot on a single chart."
+              },
+              {
+                "title": "Displaying target line on chart.",
+                "when": "July 2020",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/chart-trend-line.jpg",
+                "description": "The result is that users could plot a single trend line. I designed and coded the entire full-stack solution for this and it's used this day by our beta-users."
               }
             ]
           },
@@ -306,7 +318,7 @@
               {
                 "title": "Creating Progress Bar",
                 "when": "June 2020",
-                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-progress-bar2.jpg",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-progress-bar-form.jpg",
                 "description": "Similarly, back in the smart report editor form. A progress bar can be rendered behind a cell value in a user-defined column if the cell value (number) falls within a user-defined range. It offers the same real-time render display feature. I created the entire full-stack functionality for this as well."
               },
               {
@@ -318,8 +330,14 @@
               {
                 "title": "Creating Row and Column Heat Maps",
                 "when": "June 2020",
-                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/feature-under-development.jpg",
-                "description": "Back in the smart report editor form, a user can highlight an entire row or cell if the cell's value passes a user-defined condition created for that cell's column."
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/create-heat-map-form.png",
+                "description": "There is also the option to define a heat-map across a column(s) where parameters like minimum value and color, and maximum value and color can be set."
+              },
+              {
+                "title": "Displaying Row and Column Heat Maps",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/smart-report-heat-map.jpg",
+                "description": "Opening up the smart-report again will show the heat-maps in action."
               }
             ]
           }
