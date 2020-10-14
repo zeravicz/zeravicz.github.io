@@ -135,6 +135,14 @@
       {
         "name": "Google Firebase services",
         "level": "30%"
+      },
+      {
+        "name": "Swagger/OpenAPI",
+        "level": "70%"
+      },
+      {
+        "name": "WordPress",
+        "level": "100%"
       }
     ]
   },
