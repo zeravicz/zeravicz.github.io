@@ -50,7 +50,8 @@
           "I am currently performing full-stack development of a Telstra enterprise web application with at least 500 internal users utilizing the MERN stack. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources. My team and I are also building new features everyday, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them from within the application to query and validate data from desired databases, and many more. The application is also using a microservices architecture to integrate 6 disparate web apps (and more overtime) into a single one-stop shop which is being deployed on AWS.",
           "I have containerized many applications using Docker.",
           "I commonly write unit tests using Jest.js and use ROBOT for functional/integration/regression testing.",
-          "I have set up many CICD pipelines using Atlassian's Bamboo platform.",
+          "I have set up CICD pipelines using Atlassian's Bamboo platform.",
+          "I have documented APIs using Swagger/OpenAPI Specification.",
           "I have automated the deployment of network configuration and virtual network devices using ansible playbooks.",
           "I have automated traffic monitoring of Telstra's mobile networks through the creation and use of Tableau dashboards."
         ]
