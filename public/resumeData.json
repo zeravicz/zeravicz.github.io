@@ -209,25 +209,25 @@
                 "title": "Created form for user to render target line on chart.",
                 "when": "July 2020",
                 "image": "professional/Telstra/analytics-tool/chart-viewer/create-chart-target-line-form.jpg",
-                "description": "Users would like to plot lines on charts which they can measure chart-values against. Therefore, I created a form which allowed users to customize the label, y-value, color and pattern of up to 3 target lines they wanted to plot on a single chart."
+                "description": "Users would like to plot horizontal target lines on a chart which they can measure chart-values against. Therefore, I created a form which allowed users to customize the label, y-value, color and pattern of up to 3 target lines to plot on a single chart."
               },
               {
-                "title": "Displaying target line on chart.",
+                "title": "Displaying target line(s) on chart.",
                 "when": "July 2020",
                 "image": "professional/Telstra/analytics-tool/chart-viewer/chart-target-line.jpg",
-                "description": "The result is that users could plot up to 3 target lines they could measure chart values against. I designed and coded the entire full-stack solution for this and it's used this day by our beta-users."
+                "description": "The result is that users could plot up to 3 target lines (on a single chart) that they could measure chart values against. I designed and coded the entire full-stack solution for this."
               },
               {
                 "title": "Created form for user to render trend line on chart.",
                 "when": "July 2020",
                 "image": "professional/Telstra/analytics-tool/chart-viewer/create-chart-trend-line-form.jpg",
-                "description": "Users would like to trend lines on charts which they can measure chart-values against as well as use to predict future values based on past values. Therefore, I created a form which allowed users to customize the label, y-value, color and pattern of up to 3 target lines they wanted to plot on a single chart."
+                "description": "Users would like to plot a trend line on a chart which they can measure chart-values against as well as use to predict future values based on past values. Therefore, I created a form which allowed users to customize the label, algorithm, data-series and color of a trend line to plot on a single chart."
               },
               {
-                "title": "Displaying target line on chart.",
+                "title": "Displaying trend line on chart.",
                 "when": "July 2020",
                 "image": "professional/Telstra/analytics-tool/chart-viewer/chart-trend-line.jpg",
-                "description": "The result is that users could plot a single trend line. I designed and coded the entire full-stack solution for this and it's used this day by our beta-users."
+                "description": "The result is that users can plot a trend line on a chart. I designed and coded the entire full-stack solution for this."
               }
             ]
           },
