@@ -200,6 +200,18 @@
                 "when": "December 2019",
                 "image": "professional/Telstra/analytics-tool/chart-viewer/table-view-of-data-in-chart.jpg",
                 "description": "I was tasked with allowing the user to quickly view, browse through, filter and print/export-to-csv chart data all within the application itself (avoiding the need to leave the app to do the same things). I achieved this by using the table component from the mui-datatables library, formatting the chart data so that it would go into and display on the table, then customizing the table's in-built parameters to enable filtering, download to csv and printing all via the grey icon buttons in the top-right toolbar."
+              },
+              {
+                "title": "Created add chart to favourites list feature.",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/save-chart-to-favourites.jpg",
+                "description": "I was tasked with allowing a user to save a chart to a list of favourites that they could quickly access/reference. I used a combination of redux for centralized state management and MongoDB for data storage in order to build this. Now the user can just click on a chart in the left-side hierarchy then click on the top-right empty heart button to favourite a chart."
+              },
+              {
+                "title": "How user removes chart from favourites list.",
+                "when": "June 2020",
+                "image": "professional/Telstra/analytics-tool/chart-viewer/remove-chart-from-favourites.jpg",
+                "description": "Similiarly, the user can select a chart from the left-side hierarchy and click the top-right filled heart button to unfavourite a chart. This will instantly remove the selected chart from the user's favourites list."
               }
             ]
           },
@@ -347,6 +359,16 @@
                 "when": "June 2020",
                 "image": "professional/Telstra/analytics-tool/user-customizable-smart-report/smart-report-heat-map.jpg",
                 "description": "Opening up the smart-report again will show the heat-maps in action."
+              }
+            ]
+          },{
+            "sectionTitle": "Automated Data Monitoring Report",
+            "sectionAchievements": [
+              {
+                "title": "Created entirety of user-customizable data monitoring report.",
+                "when": "Oct 2020",
+                "image": "professional/Telstra/analytics-tool/automated-data-monitoring-report/form-overview.jpg",
+                "description": "I was tasked with allowing a user to schedule alarms against recent data with a data source, checking frequency and total checking time of their choice. I created the UI using react and redux, the backend APIs using express.js on node.js, and I stored all user data in MongoDB."
               }
             ]
           }
