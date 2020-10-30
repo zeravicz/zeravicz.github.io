@@ -49,6 +49,7 @@
         "description": [
           "I am currently performing full-stack development of a Telstra enterprise web application with at least 500 internal users utilizing the MERN stack. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources. My team and I are also building new features everyday, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them from within the application to query and validate data from desired databases, and many more. The application is also using a microservices architecture to integrate 6 disparate web apps (and more overtime) into a single one-stop shop which is being deployed on AWS.",
           "I have containerized many applications using Docker.",
+          "I have configured NGINX reverse-proxies to forward client requests to various servers/micro-services-in-docker-containers.",
           "I commonly write unit tests using Jest.js and use ROBOT for functional/integration/regression testing.",
           "I have set up CICD pipelines using Atlassian's Bamboo platform.",
           "I have documented APIs using Swagger/OpenAPI Specification.",
@@ -96,6 +97,10 @@
       {
         "name": "Docker",
         "level": "90%"
+      },
+      {
+        "name": "NGINX",
+        "level": "70%"
       },
       {
         "name": "Jest",
@@ -365,10 +370,37 @@
             "sectionTitle": "Automated Data Monitoring Report",
             "sectionAchievements": [
               {
-                "title": "Created entirety of user-customizable data monitoring report.",
+                "title": "Created UI of user-customizable data monitoring report.",
                 "when": "Oct 2020",
                 "image": "professional/Telstra/analytics-tool/automated-data-monitoring-report/form-overview.jpg",
-                "description": "I was tasked with allowing a user to schedule alarms against recent data with a data source, checking frequency and total checking time of their choice. I created the UI using react and redux, the backend APIs using express.js on node.js, and I stored all user data in MongoDB."
+                "description": "I was tasked with building a UI that allows a user to schedule alarms against recent data with a data source, checking frequency and total checking time of their choice. I created the UI using react and redux, edited NGINX reverse-proxy configuration to send APIs from the UI to a Java Spring Boot backend developed by my colleague, and I stored all user data in MongoDB."
+              },
+              {
+                "title": "Form for primary details.",
+                "when": "Oct 2020",
+                "image": "professional/Telstra/analytics-tool/automated-data-monitoring-report/main-report.jpg",
+                "description": "The start of the report has a form that users enter primary information into. This includes the name of the data source and the sql that will be periodically queried against that data source. There's also options for enabling alarming, performing a dry run and excluding data monitoring on holidays."
+              }
+              ,
+              {
+                "title": "Form for entering sql filters.",
+                "when": "Oct 2020",
+                "image": "professional/Telstra/analytics-tool/automated-data-monitoring-report/filter-form.jpg",
+                "description": "The report also includes a form that allows users to add name: value pairs (i.e. filters) which are collectively used to create a corresponding SQL WHERE clause. This WHERE clause will be inserted into the above SQL before querying a data source."
+              }
+              ,
+              {
+                "title": "Upload sql filters feature.",
+                "when": "Oct 2020",
+                "image": "professional/Telstra/analytics-tool/automated-data-monitoring-report/upload-filters.jpg",
+                "description": "The user can also upload .txt, .csv, .xls & .xlsx files containing these filters, which will insert them all into the form."
+              }
+              ,
+              {
+                "title": "Pick Data Monitoring Schedule",
+                "when": "Oct 2020",
+                "image": "professional/Telstra/analytics-tool/automated-data-monitoring-report/scheduler-form.png",
+                "description": "Finally the user can use a date-range selector to select the data-monitoring start & end date. They can also use a quartz-cron builder UI to select their preferred data monitoring frequency in the form of a quartz-cron expression string."
               }
             ]
           }
