@@ -45,7 +45,7 @@
       {
         "company": "Telstra",
         "title": "Full-Stack Web Developer",
-        "years": "July 2018 - Present",
+        "years": "Aug 2018 - Present",
         "description": [
           "I am currently performing full-stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN stack with redux. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources.",
           "I am also building new features into this web application every day, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them to query and validate data from desired databases, setting up automated data-monitoring & alarms, and many more. The application is using a microservices architecture to integrate many disparate web into a single one-stop shop which is being deployed on AWS.",
@@ -62,7 +62,7 @@
       {
         "company": "KPMG",
         "title": "IT Consultant",
-        "years": "February 2017 - May 2018",
+        "years": "Feb 2017 - May 2018",
         "description": [
           "Performed IT risk testing (audit) and consulted with clients to identify and mitigate IT and business risks.",
           "Facilitated the configuration and implementation of Microsoft Dynamics (AX) 365 ERP for clients to simplify and optimise their business life-cycle.",
