@@ -4,9 +4,9 @@
     "occupation": "Full-Stack Web Developer",
     "description": "currently employed by Telstra where I work as a full stack web developer across a range of internal tools and services",
     "image": "profilepic.png",
-    "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for approximately 1 year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in python/django and ruby on rails, desktop applications in python and android apps in java. I am an avid ice skater and reader. I enjoy watching and playing most sports (especially cricket), getting outdoors for hikes and running, building apps recreationally, and watching documentaries, movies and TV shows.  I am always looking to learn new things (tech and non-tech related) at work and in my personal life.",
+    "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for just over 1 year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in Python/Django, Ruby on Rails and Java Sprint Boot. I am an avid ice skater, reader and hiker. I enjoy watching and playing most sports (especially cricket), getting outdoors and exploring nature in general, building apps recreationally, and watching documentaries, movies and TV shows. I am always looking to learn new things (tech and non-tech related) at work and in my personal life.",
     "contactmessage": "Get in touch.",
-    "email": "AVu120@gmail.com",
+    "email": "avu120@gmail.com",
     "phone": "+614 5266 8725",
     "address": {
       "city": "Melbourne",
@@ -47,11 +47,13 @@
         "title": "Full-Stack Web Developer",
         "years": "July 2018 - Present",
         "description": [
-          "I am currently performing full-stack development of a Telstra enterprise web application with at least 500 internal users utilizing the MERN stack. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources. My team and I are also building new features everyday, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them from within the application to query and validate data from desired databases, and many more. The application is also using a microservices architecture to integrate 6 disparate web apps (and more overtime) into a single one-stop shop which is being deployed on AWS.",
+          "I am currently performing full-stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN stack with redux. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources.",
+          "I am also building new features into this web application every day, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them to query and validate data from desired databases, setting up automated data-monitoring & alarms, and many more. The application is using a microservices architecture to integrate many disparate web into a single one-stop shop which is being deployed on AWS.",
+          "I use AWS core services such as EC2, ECR and DocumentDB to troubleshoot operational issues and maintain operation of the deployed application.",
           "I have containerized many applications using Docker.",
           "I have configured NGINX reverse-proxies to forward client requests to various servers/micro-services-in-docker-containers.",
-          "I commonly write unit tests using Jest.js and use ROBOT for functional/integration/regression testing.",
-          "I have set up CICD pipelines using Atlassian's Bamboo platform.",
+          "I write tests using Jest.js & Enzyme.js and use ROBOT for functional/integration/regression testing.",
+          "I have set up and maintained CICD pipelines using Atlassian's Bamboo platform.",
           "I have documented APIs using Swagger/OpenAPI Specification.",
           "I have automated the deployment of network configuration and virtual network devices using ansible playbooks.",
           "I have automated traffic monitoring of Telstra's mobile networks through the creation and use of Tableau dashboards."
