@@ -10,10 +10,11 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
     },
   };
 
-  const SectionAchievementList = ({ sectionAchievements }) => {
+  const achievementGroups = [...new Set(achievements.map((_) => _.group))];
+  const SectionAchievementList = ({ tasksDoneInAchievement }) => {
     return (
-      sectionAchievements &&
-      sectionAchievements.map((sectionAchievement, i) => {
+      tasksDoneInAchievement &&
+      tasksDoneInAchievement.map((sectionAchievement, i) => {
         return (
           <div key={sectionAchievement.title} className="projectViewer">
             <div className="projectViewer__sectionAchievementTitle">
@@ -59,17 +60,35 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
           <div className="nine columns main-col">
             <Tabs>
               <TabList>
-                {achievements.map((_) => (
-                  <Tab key={_.sectionTitle}>{_.sectionTitle}</Tab>
+                {achievementGroups.map((_) => (
+                  <Tab key={`All achievements relating to ${_}.`}>{_}</Tab>
                 ))}
               </TabList>
-              {achievements.map((_) => (
-                <TabPanel key={_.sectionTitle + " achievements"}>
-                  <SectionAchievementList
-                    sectionAchievements={_.sectionAchievements}
-                  />
-                </TabPanel>
-              ))}
+              {achievementGroups.map((group) => {
+                const achievementsInGroup = achievements.filter(
+                  (_) => _.group === group
+                );
+                return (
+                  <TabPanel>
+                    <Tabs>
+                      <TabList>
+                        {achievementsInGroup.map((_) => (
+                          <Tab key={`Achievement title: ${_.title} `}>
+                            {_.title}
+                          </Tab>
+                        ))}
+                      </TabList>
+                      {achievementsInGroup.map((_) => (
+                        <TabPanel key={`Achivements in ${_.title}.`}>
+                          <SectionAchievementList
+                            tasksDoneInAchievement={_.tasksDoneInAchievement}
+                          />
+                        </TabPanel>
+                      ))}
+                    </Tabs>
+                  </TabPanel>
+                );
+              })}
             </Tabs>
           </div>
         </section>

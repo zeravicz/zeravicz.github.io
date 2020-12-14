@@ -105,7 +105,27 @@
         "level": "70%"
       },
       {
+        "name": "AWS services",
+        "level": "50%"
+      },
+      {
+        "name": "Swagger/OpenAPI",
+        "level": "70%"
+      },
+      {
+        "name": "Google Firebase services",
+        "level": "70%"
+      },
+      {
+        "name": "WordPress",
+        "level": "100%"
+      },
+      {
         "name": "Jest",
+        "level": "90%"
+      },
+      {
+        "name": "Enzyme",
         "level": "90%"
       },
       {
@@ -135,22 +155,6 @@
       {
         "name": "Bamboo",
         "level": "50%"
-      },
-      {
-        "name": "AWS services",
-        "level": "30%"
-      },
-      {
-        "name": "Google Firebase services",
-        "level": "30%"
-      },
-      {
-        "name": "Swagger/OpenAPI",
-        "level": "70%"
-      },
-      {
-        "name": "WordPress",
-        "level": "100%"
       }
     ]
   },
@@ -194,8 +198,9 @@
         "image": "professional/Telstra/telstra-logo-preview-image.jpg",
         "achievements": [
           {
-            "sectionTitle": "Chart Viewer",
-            "sectionAchievements": [
+            "group": "Charts",
+            "title": "Chart Viewer",
+            "tasksDoneInAchievement": [
               {
                 "title": "Created datetime and data granularity filters for chart viewer application.",
                 "when": "Nov 2019",
@@ -223,8 +228,9 @@
             ]
           },
           {
-            "sectionTitle": "Chart Target & Trend lines",
-            "sectionAchievements": [
+            "group": "Charts",
+            "title": "Chart Target & Trend lines",
+            "tasksDoneInAchievement": [
               {
                 "title": "Created form for user to render target line on chart.",
                 "when": "July 2020",
@@ -252,8 +258,9 @@
             ]
           },
           {
-            "sectionTitle": "Fixed Smart Report",
-            "sectionAchievements": [
+            "group": "Reports",
+            "title": "Fixed Smart Report",
+            "tasksDoneInAchievement": [
               {
                 "title": "Creation of Smart Report GUI",
                 "when": "February 2020",
@@ -299,8 +306,9 @@
             ]
           },
           {
-            "sectionTitle": "User-Customizable Smart Report",
-            "sectionAchievements": [
+            "group": "Reports",
+            "title": "User-Customizable Smart Report",
+            "tasksDoneInAchievement": [
               {
                 "title": "Creation/Update Form",
                 "when": "May 2020",
@@ -369,8 +377,9 @@
               }
             ]
           },{
-            "sectionTitle": "Automated Data Monitoring Report",
-            "sectionAchievements": [
+            "group": "Reports",
+            "title": "Automated Data Monitoring Report",
+            "tasksDoneInAchievement": [
               {
                 "title": "Created UI of user-customizable data monitoring report.",
                 "when": "Oct 2020",
