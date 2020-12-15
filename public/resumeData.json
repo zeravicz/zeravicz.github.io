@@ -414,6 +414,45 @@
                 "description": "Finally the user can use a date-range selector to select the data-monitoring start & end date. They can also use a quartz-cron builder UI to select their preferred data monitoring frequency in the form of a quartz-cron expression string."
               }
             ]
+          },
+          {
+            "group": "Reports",
+            "title": "Reports Landing Page",
+            "tasksDoneInAchievement": [
+              {
+                "title": "Old Reports Landing Page",
+                "when": "November 2020",
+                "image": "professional/Telstra/analytics-tool/reports/reports-landing-page/old-reports-landing-page.jpg",
+                "description": "I was tasked with completely re-creating our reports landing page, shown to the left, from which users could create, edit, view/run and delete reports (represented as cards). The problem with this landing page was the lack of filtering functionality, ability to favourite/unfavourite reports, and the UX was overall very clunky and not condusive to efficient workflows (e.g. user often had to scroll-down far to find their desired report). Also the left-side panel only showed the run-history of one particular automated report and was not relevant to all the other reports. Hence, a lot of screen real-estate was being inefficiently utilized."
+              },
+              {
+                "title": "New Reports Landing Page",
+                "when": "November 2020",
+                "image": "professional/Telstra/analytics-tool/reports/reports-landing-page/reports-landing-page.jpg",
+                "description": "Hence, I created a new reports landing page where each report is now represented as a row in a table. The new design allows for easy filtering, pagination and provides the ability to favourite/unfavourite reports. Note that the action buttons have been moved into the 'Action' column."
+              }
+              ,
+              {
+                "title": "Enable filtering.",
+                "when": "November 2020",
+                "image": "professional/Telstra/analytics-tool/reports/reports-landing-page/advanced-filtering.jpg",
+                "description": "Users could use the above dropdowns (multiple options can be selected from each dropdown) and/or click on the filter button in the top-right toolbar > select filters to apply a combination of filters. This allows them to quickly find their desired report."
+              }
+              ,
+              {
+                "title": "Only show favourites.",
+                "when": "November 2020",
+                "image": "professional/Telstra/analytics-tool/reports/reports-landing-page/filter-based-on-type-of-report.jpg",
+                "description": "Users can also use the first dropdown to only display their favourite reports and/or only the reports they created."
+              }
+              ,
+              {
+                "title": "Show panel of report run history with data only relevant to the report on which you click 'View History'.",
+                "when": "November 2020",
+                "image": "professional/Telstra/analytics-tool/reports/reports-landing-page/see-history-of-past-runs-of-an-automated-report.jpg",
+                "description": "Instead of unnecessarily showing the report run history panel all the time, it now only opens with history relevant to the report you click 'View History' on."
+              }
+            ]
           }
         ]
       }

@@ -11,12 +11,16 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
   };
 
   const achievementGroups = [...new Set(achievements.map((_) => _.group))];
-  const SectionAchievementList = ({ tasksDoneInAchievement }) => {
+  const TasksInAchievementContainer = ({ tasksDoneInAchievement }) => {
     return (
       tasksDoneInAchievement &&
       tasksDoneInAchievement.map((sectionAchievement, i) => {
         return (
-          <div key={sectionAchievement.title} className="projectViewer">
+          <div
+            key={sectionAchievement.title}
+            className="projectViewer"
+            style={{ ...(i === 0 && { marginTop: "40px" }) }}
+          >
             <div className="projectViewer__sectionAchievementTitle">
               <h3>{sectionAchievement.title}</h3>
               <span></span>
@@ -80,7 +84,7 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
                       </TabList>
                       {achievementsInGroup.map((_) => (
                         <TabPanel key={`Achivements in ${_.title}.`}>
-                          <SectionAchievementList
+                          <TasksInAchievementContainer
                             tasksDoneInAchievement={_.tasksDoneInAchievement}
                           />
                         </TabPanel>
