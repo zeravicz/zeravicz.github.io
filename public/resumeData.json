@@ -4,15 +4,15 @@
     "occupation": "Full-Stack Web Developer",
     "description": "currently employed by Telstra where I work as a full stack web developer across a range of internal tools and services",
     "image": "profilepic.png",
-    "bio": "I currently reside in Melbourne and have been working as a full-stack web developer at Telstra for just over 1 year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in Python/Django, Ruby on Rails and Java Sprint Boot. I am an avid ice skater, reader and hiker. I enjoy watching and playing most sports (especially cricket), getting outdoors and exploring nature in general, building apps recreationally, and watching documentaries, movies and TV shows. I am always looking to learn new things (tech and non-tech related) at work and in my personal life.",
+    "bio": "I currently reside in Sydney and have been working as a full-stack web developer at Telstra for just over 1 year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in Python/Django, Ruby on Rails and Java Sprint Boot. I am an avid ice skater, reader and hiker. I enjoy watching and playing most sports (especially cricket), getting outdoors and exploring nature in general, building apps recreationally, and watching documentaries, movies and TV shows. I am always looking to learn new things (tech and non-tech related) at work and in my personal life.",
     "contactmessage": "Get in touch.",
     "email": "avu120@gmail.com",
     "phone": "+614 5266 8725",
     "address": {
-      "city": "Melbourne",
-      "suburb": "Oakleigh",
-      "state": "VIC",
-      "zip": "3166"
+      "city": "Sydney",
+      "suburb": "Bankstown",
+      "state": "NSW",
+      "zip": "2200"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "Anthony Hien Vu's Resume.pdf",
