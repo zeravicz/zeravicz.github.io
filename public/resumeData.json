@@ -161,6 +161,12 @@
   "portfolio": {
     "personalProjects": [
       {
+        "title": "Image Search Engine",
+        "category": "App that lets a user enter keywords/tags and be shown matching images.",
+        "image": "personal/image-search-engine.png",
+        "url": "https://github.com/AVu120/image-search-engine"
+      },
+      {
         "title": "Trivia Quiz",
         "category": "A trivia quiz game using questions and answers from open trivia db.",
         "image": "personal/trivia-quiz.jpg",
