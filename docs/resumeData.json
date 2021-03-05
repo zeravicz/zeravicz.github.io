@@ -4,7 +4,7 @@
     "occupation": "Full-Stack Web Developer",
     "description": "currently employed by Telstra where I work as a full stack web developer across a range of internal tools and services",
     "image": "profilepic.png",
-    "bio": "I currently reside in Sydney and have been working as a full-stack web developer at Telstra for just over 1 year now. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications. I also have experience developing web applications in Python/Django, Ruby on Rails and Java Sprint Boot. I am an avid ice skater, reader and hiker. I enjoy watching and playing most sports (especially cricket), getting outdoors and exploring nature in general, building apps recreationally, and watching documentaries, movies and TV shows. I am always looking to learn new things (tech and non-tech related) at work and in my personal life.",
+    "bio": "I currently reside in Sydney and work as a Full-Stack Web Developer at oOh!media. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications professionally & recreationally. I also have experience developing web applications in Python/Django, Ruby on Rails, Java Sprint Boot, as well as native mobile applications on Android. I am an avid ice skater, reader and hiker. I enjoy watching and playing most sports (especially cricket), getting outdoors and exploring nature in general, building apps recreationally, and watching documentaries, movies and TV shows. I am always looking to learn new things (tech and non-tech related) at work and in my personal life. I am also always looking to make meaningful connections with those around me.",
     "contactmessage": "Get in touch.",
     "email": "avu120@gmail.com",
     "phone": "+614 5266 8725",
@@ -43,13 +43,19 @@
     ],
     "work": [
       {
+        "company": "oOh!media",
+        "title": "Full-Stack Web Developer",
+        "years": "Mar 2021 - Now",
+        "description": ["Recently started in this role."]
+      },
+      {
         "company": "Telstra",
         "title": "Full-Stack Web Developer",
-        "years": "Aug 2018 - Present",
+        "years": "Aug 2018 - Feb 2021",
         "description": [
-          "I am currently performing full-stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN stack with redux. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources.",
-          "I am also building new features into this web application every day, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them to query and validate data from desired databases, setting up automated data-monitoring & alarms, and many more. The application is using a microservices architecture to integrate many disparate web into a single one-stop shop which is being deployed on AWS.",
-          "I use AWS core services such as EC2, ECR and DocumentDB to troubleshoot operational issues and maintain operation of the deployed application.",
+          "I performed full-stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN stack with redux. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources.",
+          "I built new features into this web application every day, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them to query and validate data from desired databases, setting up automated data-monitoring & alarms, and many more. The application is using a microservices architecture to integrate many disparate web into a single one-stop shop which is being deployed on AWS.",
+          "I used AWS core services such as EC2, ECR and DocumentDB to troubleshoot operational issues and maintain operation of the deployed application.",
           "I have containerized many applications using Docker.",
           "I have configured NGINX reverse-proxies to forward client requests to various servers/micro-services-in-docker-containers.",
           "I write tests using Jest.js & Enzyme.js and use ROBOT for functional/integration/regression testing.",
