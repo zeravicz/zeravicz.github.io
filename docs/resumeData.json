@@ -2,7 +2,7 @@
   "main": {
     "name": "Anthony Hien Vu",
     "occupation": "Full-Stack Web Developer",
-    "description": "currently building apps for oOh!media.",
+    "description": "I'm currently working as a Full-Stack Web Developer at oOh!media.",
     "image": "profilepic.png",
     "bio": "I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications professionally & recreationally. I also have experience developing web applications in Python/Django, Ruby on Rails, Java Sprint Boot, as well as native mobile applications on Android. I am an avid ice skater, reader and hiker. I enjoy watching and playing most sports (especially cricket), getting outdoors and exploring nature in general, building apps recreationally, and watching documentaries, movies and TV shows. I am always looking to learn new things (tech and non-tech related) at work and in my personal life. I am also always looking to make meaningful connections with those around me.",
     "contactmessage": "Get in touch.",
@@ -46,7 +46,9 @@
         "company": "oOh!media",
         "title": "Full-Stack Web Developer",
         "years": "Mar 2021 - Now",
-        "description": ["Recently started in this role."]
+        "description": [
+          "Recently started in this role."
+        ]
       },
       {
         "company": "Telstra",
@@ -116,7 +118,7 @@
       },
       {
         "name": "AWS services",
-        "level": "70%"
+        "level": "50%"
       },
       {
         "name": "Swagger/OpenAPI",
@@ -392,8 +394,7 @@
                 "description": "Opening up the smart-report again will show the heat-maps in action."
               }
             ]
-          },
-          {
+          },{
             "group": "Reports",
             "title": "Automated Data Monitoring Report",
             "tasksDoneInAchievement": [
@@ -408,19 +409,22 @@
                 "when": "Oct 2020",
                 "image": "professional/Telstra/analytics-tool/reports/automated-data-monitoring-report/main-report.jpg",
                 "description": "The start of the report has a form that users enter primary information into. This includes the name of the data source and the sql that will be periodically queried against that data source. There's also options for enabling alarming, performing a dry run and excluding data monitoring on holidays."
-              },
+              }
+              ,
               {
                 "title": "Form for entering sql filters.",
                 "when": "Oct 2020",
                 "image": "professional/Telstra/analytics-tool/reports/automated-data-monitoring-report/filter-form.jpg",
                 "description": "The report also includes a form that allows users to add name: value pairs (i.e. filters) which are collectively used to create a corresponding SQL WHERE clause. This WHERE clause will be inserted into the above SQL before querying a data source."
-              },
+              }
+              ,
               {
                 "title": "Upload sql filters feature.",
                 "when": "Oct 2020",
                 "image": "professional/Telstra/analytics-tool/reports/automated-data-monitoring-report/upload-filters.jpg",
                 "description": "The user can also upload .txt, .csv, .xls & .xlsx files containing these filters, which will insert them all into the form."
-              },
+              }
+              ,
               {
                 "title": "Pick Data Monitoring Schedule",
                 "when": "Oct 2020",
@@ -444,19 +448,22 @@
                 "when": "November 2020",
                 "image": "professional/Telstra/analytics-tool/reports/reports-landing-page/reports-landing-page.jpg",
                 "description": "Hence, I created a new reports landing page where each report is now represented as a row in a table. The new design allows for easy filtering, pagination and provides the ability to favourite/unfavourite reports. Note that the action buttons have been moved into the 'Action' column."
-              },
+              }
+              ,
               {
                 "title": "Enable filtering.",
                 "when": "November 2020",
                 "image": "professional/Telstra/analytics-tool/reports/reports-landing-page/advanced-filtering.jpg",
                 "description": "Users could use the above dropdowns (multiple options can be selected from each dropdown) and/or click on the filter button in the top-right toolbar > select filters to apply a combination of filters. This allows them to quickly find their desired report."
-              },
+              }
+              ,
               {
                 "title": "Only show favourites.",
                 "when": "November 2020",
                 "image": "professional/Telstra/analytics-tool/reports/reports-landing-page/filter-based-on-type-of-report.jpg",
                 "description": "Users can also use the first dropdown to only display their favourite reports and/or only the reports they created."
-              },
+              }
+              ,
               {
                 "title": "Show panel of report run history with data only relevant to the report on which you click 'View History'.",
                 "when": "November 2020",
