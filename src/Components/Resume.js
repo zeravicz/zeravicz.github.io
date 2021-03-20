@@ -14,13 +14,19 @@ class Resume extends Component {
               {qualification.qualification} <span></span>
               <em className="date">{`(${qualification.dateReceived})`}</em>
             </p>
-            {qualification.description ? (
-              <p>{qualification.description}</p>
-            ) : (
-              <p>
-                <a href={qualification.link}>{qualification.linkText}</a>
-              </p>
-            )}
+
+            <p>
+              {qualification.descriptions?.map((description) =>
+                description.text.length ? (
+                  description.text
+                ) : (
+                  <>
+                    • <a href={description.link}>{description.linkText}</a>
+                    <br />
+                  </>
+                )
+              )}
+            </p>
           </div>
         );
       });
