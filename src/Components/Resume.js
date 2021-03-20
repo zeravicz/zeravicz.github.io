@@ -4,15 +4,23 @@ class Resume extends Component {
   render() {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
-      var education = this.props.data.education.map(function (education) {
+      var qualifications = this.props.data.qualifications.map(function (
+        qualification
+      ) {
         return (
-          <div key={education.school}>
-            <h3>{education.school}</h3>
+          <div key={qualification.organization}>
+            <h3>{qualification.organization}</h3>
             <p className="info">
-              {education.degree} <span></span>
-              <em className="date">{education.graduated}</em>
+              {qualification.qualification} <span></span>
+              <em className="date">{`(${qualification.dateReceived})`}</em>
             </p>
-            <p>{education.description}</p>
+            {qualification.description ? (
+              <p>{qualification.description}</p>
+            ) : (
+              <p>
+                <a href={qualification.link}>{qualification.linkText}</a>
+              </p>
+            )}
           </div>
         );
       });
@@ -79,13 +87,13 @@ class Resume extends Component {
         <div className="row education">
           <div className="three columns header-col">
             <h1>
-              <span>Education</span>
+              <span>Qualifications</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
             <div className="row item">
-              <div className="twelve columns">{education}</div>
+              <div className="twelve columns">{qualifications}</div>
             </div>
           </div>
         </div>
