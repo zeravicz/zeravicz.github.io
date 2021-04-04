@@ -212,6 +212,12 @@
         "url": "https://github.com/AVu120/image-flipper"
       },
       {
+        "title": "Tree Match",
+        "category": "A service that tells you what kind of tree you should plant in your garden. It guides users through a questionnaire and matches them with a tree species.",
+        "image": "personal/tree-match.png",
+        "url": "https://github.com/AVu120/tree-match"
+      },
+      {
         "title": "Countdown Timer",
         "category": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
         "image": "personal/countdown-timer.jpg",
