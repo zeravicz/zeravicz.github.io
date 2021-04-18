@@ -194,6 +194,12 @@
   "portfolio": {
     "personalProjects": [
       {
+        "title": "Chat Room",
+        "category": "Share your thoughts with friends around the world.",
+        "image": "personal/chat-room.png",
+        "url": "https://github.com/AVu120/chat-room"
+      },
+      {
         "title": "Image Search Engine",
         "category": "App that lets a user enter keywords/tags and be shown matching images.",
         "image": "personal/image-search-engine.png",
