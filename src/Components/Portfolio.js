@@ -29,7 +29,7 @@ const Portfolio = (props) => {
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{professionalProject.title}</h5>
-                  <p>{professionalProject.category}</p>
+                  <p>{professionalProject.description}</p>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ const Portfolio = (props) => {
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{personalProject.title}</h5>
-                  <p>{personalProject.category}</p>
+                  <p>{personalProject.description}</p>
                 </div>
               </div>
             </a>

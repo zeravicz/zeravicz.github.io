@@ -195,55 +195,55 @@
     "personalProjects": [
       {
         "title": "Chat Room",
-        "category": "Share your thoughts with friends around the world.",
+        "description": "Share your thoughts with friends around the world.",
         "image": "personal/chat-room.png",
         "url": "https://github.com/AVu120/chat-room"
       },
       {
         "title": "Image Search Engine",
-        "category": "App that lets a user enter keywords/tags and be shown matching images.",
+        "description": "App that lets a user enter keywords/tags and be shown matching images.",
         "image": "personal/image-search-engine.png",
         "url": "https://github.com/AVu120/image-search-engine"
       },
       {
         "title": "Trivia Quiz",
-        "category": "A trivia quiz game using questions and answers from open trivia db.",
+        "description": "A trivia quiz game using questions and answers from open trivia db.",
         "image": "personal/trivia-quiz.jpg",
         "url": "https://github.com/AVu120/trivia-quiz"
       },
       {
         "title": "Image Manipulator",
-        "category": "A tool that displays an image 4 times on a 2x2 grid and allows you to flip, rotate and apply filters on one or multiple images then compare them.",
+        "description": "A tool that displays an image 4 times on a 2x2 grid and allows you to flip, rotate and apply filters on one or multiple images then compare them.",
         "image": "personal/image-flipper.jpg",
         "url": "https://github.com/AVu120/image-flipper"
       },
       {
         "title": "Tree Match",
-        "category": "A service that tells you what kind of tree you should plant in your garden. It guides users through a questionnaire and matches them with a tree species.",
+        "description": "A service that tells you what kind of tree you should plant in your garden. It guides users through a questionnaire and matches them with a tree species.",
         "image": "personal/tree-match.png",
         "url": "https://github.com/AVu120/tree-match"
       },
       {
         "title": "Countdown Timer",
-        "category": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
+        "description": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
         "image": "personal/countdown-timer.jpg",
         "url": "https://github.com/AVu120/countdown-timer"
       },
       {
         "title": "Portfolio Website",
-        "category": "My Portfolio Website which I created by building on top of an open-source react resume template.",
+        "description": "My Portfolio Website which I created by building on top of an open-source react resume template.",
         "image": "personal/portfolio-website.jpg",
         "url": "https://github.com/AVu120/portfolio-website"
       },
       {
         "title": "Mini Server-Side Rendered Portfolio",
-        "category": "I use Next.js & static-site generation to create a mini version of my portfolio website.",
+        "description": "I use Next.js & static-site generation to create a mini version of my portfolio website.",
         "image": "personal/mini-ssr-portfolio.png",
         "url": "https://github.com/AVu120/mini-ssr-portfolio"
       },
       {
         "title": "Other Applications",
-        "category": "Browse my various non-deployed or non-web-app applications.",
+        "description": "Browse my various non-deployed or non-web-app applications.",
         "image": "personal/github.jpg",
         "url": "https://github.com/AVu120?tab=repositories"
       }
@@ -251,7 +251,7 @@
     "professionalProjects": [
       {
         "title": "Telstra Internal Analytics Tool",
-        "category": "Tool to view, sort, filter and edit data in databases.",
+        "description": "Tool to view, sort, filter and edit data in databases.",
         "image": "professional/Telstra/telstra-logo-preview-image.jpg",
         "achievements": [
           {
