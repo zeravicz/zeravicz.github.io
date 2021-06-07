@@ -107,7 +107,7 @@
       },
       {
         "name": "TypeScript",
-        "level": "50%"
+        "level": "70%"
       },
       {
         "name": "ReactJs",
@@ -161,6 +161,11 @@
         "name": "Enzyme",
         "level": "90%"
       },
+      {
+        "name": "Cypress",
+        "level": "50%"
+      },
+      { "name": "GraphQL", "level": "50%" },
       {
         "name": "SQL",
         "level": "90%"
