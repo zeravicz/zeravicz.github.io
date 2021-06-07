@@ -236,6 +236,12 @@
         "url": "https://github.com/AVu120/portfolio-website"
       },
       {
+        "title": "Mini Server-Side Rendered Portfolio",
+        "category": "I use nextjs & static-site generation to create a mini version of my portfolio website.",
+        "image": "personal/mini-ssr-portfolio.png",
+        "url": "https://github.com/AVu120/mini-ssr-portfolio"
+      },
+      {
         "title": "Other Applications",
         "category": "Browse my various non-deployed or non-web-app applications.",
         "image": "personal/github.jpg",

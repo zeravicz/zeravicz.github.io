@@ -55,13 +55,11 @@
         "organization": "University of Sydney",
         "qualification": "Bachelor of Engineering - 1st Class Honours",
         "dateReceived": "2016",
-        "descriptions": [
-          {
-            "text": "",
-            "link": "https://github.com/AVu120/portfolio/blob/master/public/certifications/Engineering%20Course%20Completion%20Letter.pdf",
-            "linkText": "View my course completion letter here."
-          }
-        ]
+        "descriptions": [ {
+          "text": "",
+          "link": "https://github.com/AVu120/portfolio/blob/master/public/certifications/Engineering%20Course%20Completion%20Letter.pdf",
+          "linkText": "View my course completion letter here."
+        }]
       }
     ],
     "work": [
@@ -69,7 +67,9 @@
         "company": "oOh!media",
         "title": "Full-Stack Web Developer",
         "years": "Mar 2021 - Now",
-        "description": ["Recently started in this role."]
+        "description": [
+          "Recently started in this role."
+        ]
       },
       {
         "company": "Telstra",
@@ -234,6 +234,12 @@
         "category": "My Portfolio Website which I created by building on top of an open-source react resume template.",
         "image": "personal/portfolio-website.jpg",
         "url": "https://github.com/AVu120/portfolio-website"
+      },
+      {
+        "title": "Mini Server-Side Rendered Portfolio",
+        "category": "I use nextjs & static-site generation to create a mini version of my portfolio website.",
+        "image": "personal/mini-ssr-portfolio.png",
+        "url": "https://github.com/AVu120/mini-ssr-portfolio"
       },
       {
         "title": "Other Applications",
