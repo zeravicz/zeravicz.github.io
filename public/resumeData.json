@@ -237,7 +237,7 @@
       },
       {
         "title": "Mini Server-Side Rendered Portfolio",
-        "category": "I use nextjs & static-site generation to create a mini version of my portfolio website.",
+        "category": "I use Next.js & static-site generation to create a mini version of my portfolio website.",
         "image": "personal/mini-ssr-portfolio.png",
         "url": "https://github.com/AVu120/mini-ssr-portfolio"
       },
