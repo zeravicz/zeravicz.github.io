@@ -136,6 +136,10 @@
         "level": "100%"
       },
       {
+        "name": "Figma",
+        "level": "50%"
+      },
+      {
         "name": "AWS",
         "level": "80%"
       },
@@ -171,7 +175,10 @@
         "name": "Cypress",
         "level": "50%"
       },
-      { "name": "GraphQL", "level": "50%" },
+      {
+        "name": "GraphQL",
+        "level": "50%"
+      },
       {
         "name": "SQL",
         "level": "90%"

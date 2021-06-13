@@ -55,11 +55,13 @@
         "organization": "University of Sydney",
         "qualification": "Bachelor of Engineering - 1st Class Honours",
         "dateReceived": "2016",
-        "descriptions": [ {
-          "text": "",
-          "link": "https://github.com/AVu120/portfolio/blob/master/public/certifications/Engineering%20Course%20Completion%20Letter.pdf",
-          "linkText": "View my course completion letter here."
-        }]
+        "descriptions": [
+          {
+            "text": "",
+            "link": "https://github.com/AVu120/portfolio/blob/master/public/certifications/Engineering%20Course%20Completion%20Letter.pdf",
+            "linkText": "View my course completion letter here."
+          }
+        ]
       }
     ],
     "work": [
@@ -69,10 +71,10 @@
         "years": "Mar 2021 - Now",
         "description": [
           "Fixed bugs and built new features into internal React & Redux application.",
-"Built new features into python API servers.",
-"Enhanced features in and maintained Node-Express.js & GraphQL servers.",
-"Personally took ownership of 2 AWS Lambdas.",
-"Built evergreen internal UI design system using Storybook.js. This is hosted on AWS S3 and is used my multiple stakeholders (e.g. designers, developers, product owners/managers, etc.) to standardize UI/UX across different internal web applications."
+          "Built new features into python API servers.",
+          "Enhanced features in and maintained Node-Express.js & GraphQL servers.",
+          "Personally took ownership of 2 AWS Lambdas.",
+          "Built evergreen internal UI design system using Storybook.js. This is hosted on AWS S3 and is used my multiple stakeholders (e.g. designers, developers, product owners/managers, etc.) to standardize UI/UX across different internal web applications."
         ]
       },
       {
@@ -134,6 +136,10 @@
         "level": "100%"
       },
       {
+        "name": "Figma",
+        "level": "50%"
+      },
+      {
         "name": "AWS",
         "level": "80%"
       },
@@ -169,7 +175,10 @@
         "name": "Cypress",
         "level": "50%"
       },
-      { "name": "GraphQL", "level": "50%" },
+      {
+        "name": "GraphQL",
+        "level": "50%"
+      },
       {
         "name": "SQL",
         "level": "90%"
