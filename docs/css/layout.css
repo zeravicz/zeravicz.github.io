@@ -669,9 +669,9 @@ ul#nav li.current a {
 .projectViewer__closeButton button {
   color: #fff;
   background: #525252;
+  padding: 5px 15px;
 }
 .projectViewer__closeButton button:hover {
-  color: #fff;
   background: #11abb0;
 }
 

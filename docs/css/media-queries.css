@@ -102,7 +102,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
   /* mobile navigation
    -------------------------------------------------------------------- */
   #nav-wrap {
@@ -295,7 +295,7 @@
   /* ProjectViewer Component Section
 /* ------------------------------------------------------------------ */
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 900px) {
     .projectViewer__sectionAchievement {
       display: grid;
       grid-template-columns: auto;
