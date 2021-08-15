@@ -249,6 +249,12 @@
         "url": "https://github.com/AVu120/tree-match"
       },
       {
+        "title": "Buy Real Estate",
+        "description": "Navigate through properties and add/remove them to/from a saved properties list.",
+        "image": "personal/buy-real-estate.png",
+        "url": "https://github.com/AVu120/buy-real-estate"
+      },
+      {
         "title": "Countdown Timer",
         "description": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
         "image": "personal/countdown-timer.jpg",
