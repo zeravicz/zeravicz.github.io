@@ -135,6 +135,18 @@
         "level": "90%"
       },
       {
+        "name": "Jest",
+        "level": "90%"
+      },
+      {
+        "name": "React Testing Library",
+        "level": "90%"
+      },
+      {
+        "name": "SQL",
+        "level": "90%"
+      },
+      {
         "name": "Node",
         "level": "100%"
       },
@@ -143,20 +155,24 @@
         "level": "100%"
       },
       {
+        "name": "AWS",
+        "level": "80%"
+      },
+      {
         "name": "MongoDB",
         "level": "100%"
       },
       {
-        "name": "GIT",
-        "level": "100%"
+        "name": "Cypress",
+        "level": "50%"
+      },
+      {
+        "name": "GraphQL",
+        "level": "50%"
       },
       {
         "name": "Figma",
         "level": "50%"
-      },
-      {
-        "name": "AWS",
-        "level": "80%"
       },
       {
         "name": "Docker",
@@ -179,47 +195,11 @@
         "level": "100%"
       },
       {
-        "name": "Jest",
-        "level": "90%"
-      },
-      {
-        "name": "React Testing Library",
-        "level": "90%"
-      },
-      {
-        "name": "Cypress",
-        "level": "50%"
-      },
-      {
-        "name": "GraphQL",
-        "level": "50%"
-      },
-      {
-        "name": "SQL",
-        "level": "90%"
-      },
-      {
-        "name": "Agile scrum",
-        "level": "100%"
-      },
-      {
         "name": "Python",
         "level": "50%"
       },
       {
         "name": "Java",
-        "level": "50%"
-      },
-      {
-        "name": "ROBOT",
-        "level": "90%"
-      },
-      {
-        "name": "Ansible",
-        "level": "50%"
-      },
-      {
-        "name": "Bamboo",
         "level": "50%"
       }
     ]
