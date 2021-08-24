@@ -127,6 +127,14 @@
         "level": "100%"
       },
       {
+        "name": "CSS",
+        "level": "100%"
+      },
+      {
+        "name": "SASS",
+        "level": "90%"
+      },
+      {
         "name": "Node",
         "level": "100%"
       },
@@ -175,7 +183,7 @@
         "level": "90%"
       },
       {
-        "name": "Enzyme",
+        "name": "React Testing Library",
         "level": "90%"
       },
       {
