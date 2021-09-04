@@ -2,6 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/38395166/85216161-b895ac00-b3c4-11ea-8337-1ee78e3436c1.png)
 
+View my portfolio at https://avu120.github.io/portfolio/.
+
 ## Description
 
 This is my portfolio website. I have placed Tim Baker's react resume template (https://github.com/tbakerx/react-resume-template) inside a create-react-app template then built on top of it to create this.
