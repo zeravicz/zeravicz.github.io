@@ -243,6 +243,12 @@
         "url": "https://github.com/AVu120/buy-real-estate"
       },
       {
+        "title": "Unit Converter",
+        "description": "Unit converter that converts common units of measurement.",
+        "image": "personal/unit-converter.png",
+        "url": "https://github.com/AVu120/unit-converter"
+      },
+      {
         "title": "Countdown Timer",
         "description": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
         "image": "personal/countdown-timer.jpg",
