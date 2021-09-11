@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Anthony Hien Vu",
-    "occupation": "Full-Stack Web Developer",
-    "description": "Currently working as a Full-Stack Web Developer at oOh!media.",
+    "occupation": "Full Stack Web Developer",
+    "description": "Currently working as a Full Stack Web Developer at oOh!media.",
     "image": "profilepic.png",
-    "bio": "Full-stack web developer with a strong preference for the frontend. I also have experience in QA and DevOps as well (I have 2 AWS associate certifications). My interests include frontend & backend system architecture, design, DevOps/cloud/serverless, mentoring, leadership, sustainability & AI/machine-learning. Outside of work I enjoy ice skating, playing cricket, hiking, running, reading, and attending meetups (usually tech-related). Where ever I work, I'm always striving to upskill everyone in my team and learn from them too. Mentoring others and working as a cohesive team is very important to me.",
+    "bio": "Full stack web developer with a strong preference for the frontend. I also have experience in QA and DevOps as well (I have 2 AWS associate certifications). My interests include frontend & backend system architecture, design, DevOps/cloud/serverless, mentoring, leadership, sustainability & AI/machine-learning. Outside of work I enjoy ice skating, playing cricket, hiking, running, reading, and attending meetups (usually tech-related). Where ever I work, I'm always striving to upskill everyone in my team and learn from them too. Mentoring others and working as a cohesive team is very important to me.",
     "contactmessage": "Get in touch.",
     "email": "avu120@gmail.com",
     "phone": "+614 5266 8725",
@@ -75,7 +75,7 @@
       {
         "company": "oOh!media",
         "location": "Sydney, NSW",
-        "title": "Full-Stack Web Developer",
+        "title": "Full Stack Web Developer",
         "years": "Mar 2021 - Now",
         "description": [
           "Built new features into internal React & Redux applications.",
@@ -89,10 +89,10 @@
       {
         "company": "Telstra",
         "location": "Sydney, NSW",
-        "title": "Full-Stack Web Developer",
+        "title": "Full Stack Web Developer",
         "years": "Aug 2018 - Feb 2021",
         "description": [
-          "Performed full-stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN (MongoDB, Express, React, Node) stack with redux. The primary feature of this application is a catalogue of charts displaying data from various sources. I built new features into this application every day. Some examples include allowing the users to query databases from within the application, automatically schedule user-written scripts against databases, set up monitoring & alarms, and many more. The application uses a microservices architecture and is deployed on AWS.",
+          "Performed full stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN (MongoDB, Express, React, Node) stack with redux. The primary feature of this application is a catalogue of charts displaying data from various sources. I built new features into this application every day. Some examples include allowing the users to query databases from within the application, automatically schedule user-written scripts against databases, set up monitoring & alarms, and many more. The application uses a microservices architecture and is deployed on AWS.",
           "Go to https://avu120.github.io/portfolio/#portfolio then click on the Telstra logo to see an overview of most of my work at Telstra.",
           "Troubleshooted operational issues in AWS core services such as CloudWatch, EC2, ECR and DocumentDB.",
           "Containerized many applications using Docker.",
@@ -299,7 +299,7 @@
                 "title": "Displaying target line(s) on chart.",
                 "when": "July 2020",
                 "image": "professional/Telstra/analytics-tool/charts/chart-viewer/chart-target-line.jpg",
-                "description": "The result is that users could plot up to 3 target lines (on a single chart) that they could measure chart values against. I designed and coded the entire full-stack solution for this."
+                "description": "The result is that users could plot up to 3 target lines (on a single chart) that they could measure chart values against. I designed and coded the entire full stack solution for this."
               },
               {
                 "title": "Created form for user to render trend line on chart.",
@@ -311,7 +311,7 @@
                 "title": "Displaying trend line on chart.",
                 "when": "July 2020",
                 "image": "professional/Telstra/analytics-tool/charts/chart-viewer/chart-trend-line.jpg",
-                "description": "The result is that users can plot a trend line on a chart. I designed and coded the entire full-stack solution for this."
+                "description": "The result is that users can plot a trend line on a chart. I designed and coded the entire full stack solution for this."
               }
             ]
           },
@@ -401,7 +401,7 @@
                 "title": "Creating Alert",
                 "when": "June 2020",
                 "image": "professional/Telstra/analytics-tool/reports/user-customizable-smart-report/create-alert-form.jpg",
-                "description": "There is also the option of customizing the smart report with user-defined alerts and progress-bars. Back in the smart report editor form. An alert icon can be rendered next to a cell value in a user-defined column if the cell value (number or string) passes a user-defined condition. A test value field can be filled to render what would display in a cell in the actual smart report directly above the field (i.e. real-time condition validation). I created the entire full-stack functionality for this."
+                "description": "There is also the option of customizing the smart report with user-defined alerts and progress-bars. Back in the smart report editor form. An alert icon can be rendered next to a cell value in a user-defined column if the cell value (number or string) passes a user-defined condition. A test value field can be filled to render what would display in a cell in the actual smart report directly above the field (i.e. real-time condition validation). I created the entire full stack functionality for this."
               },
               {
                 "title": "Alerts Displayed in Smart Report",
@@ -413,7 +413,7 @@
                 "title": "Creating Progress Bar",
                 "when": "June 2020",
                 "image": "professional/Telstra/analytics-tool/reports/user-customizable-smart-report/create-progress-bar-form.jpg",
-                "description": "Similarly, back in the smart report editor form. A progress bar can be rendered behind a cell value in a user-defined column if the cell value (number) falls within a user-defined range. It offers the same real-time render display feature. I created the entire full-stack functionality for this as well."
+                "description": "Similarly, back in the smart report editor form. A progress bar can be rendered behind a cell value in a user-defined column if the cell value (number) falls within a user-defined range. It offers the same real-time render display feature. I created the entire full stack functionality for this as well."
               },
               {
                 "title": "Displaying Progress Bar",
