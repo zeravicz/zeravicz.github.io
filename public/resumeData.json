@@ -4,7 +4,7 @@
     "occupation": "Full-Stack Web Developer",
     "description": "Currently working as a Full-Stack Web Developer at oOh!media.",
     "image": "profilepic.png",
-    "bio": "I am AWS Developer Associate Certified. I primarily use the MERN (MongoDB, Express, React, Node) stack when developing web applications professionally & recreationally. I also have experience developing web applications in Python/Django, Ruby on Rails, Java Sprint Boot, as well as native mobile applications on Android. I am an avid ice skater, reader and hiker. I enjoy watching and playing most sports (especially cricket), getting outdoors and exploring nature in general, building apps recreationally, and watching documentaries, movies and TV shows. I am always looking to learn new things (tech and non-tech related) at work and in my personal life. I am also always looking to make meaningful connections with those around me.",
+    "bio": "Full-stack web developer with a strong preference for the frontend. I also have experience in QA and DevOps as well (I have 2 AWS associate certifications). My interests include frontend & backend system architecture, design, DevOps/cloud/serverless, mentoring, leadership, sustainability & AI/machine-learning. Outside of work I enjoy ice skating, playing cricket, hiking, running, reading, and attending meetups (usually tech-related). Where ever I work, I'm always striving to upskill everyone in my team and learn from them too. Mentoring others and working as a cohesive team is very important to me.",
     "contactmessage": "Get in touch.",
     "email": "avu120@gmail.com",
     "phone": "+614 5266 8725",
@@ -74,84 +74,70 @@
     "work": [
       {
         "company": "oOh!media",
+        "location": "Sydney, NSW",
         "title": "Full-Stack Web Developer",
         "years": "Mar 2021 - Now",
         "description": [
-          "Fixed bugs and built new features into internal React & Redux application.",
-          "Built new features into python API servers.",
-          "Enhanced features in and maintained Node-Express.js & GraphQL servers.",
-          "Personally took ownership of 2 AWS Lambdas.",
-          "Built evergreen internal UI design system using Storybook.js. This is hosted on AWS S3 and is used my multiple stakeholders (e.g. designers, developers, product owners/managers, etc.) to standardize UI/UX across different internal web applications."
+          "Built new features into internal React & Redux applications.",
+          "Built evergreen internal UI design system using Storybook.js. It is currently used by multiple stakeholders (e.g. designers, developers, product owners/managers, etc.) to standardize UI/UX across different web applications.",
+          "Built new features in Node - Express.js/GraphQL servers.",
+          "Built new features in python API servers.",
+          "Made configuration changes in AWS services like SQS, Lambda and EC2.",
+          "Made configuration changes to Concourse CICD pipelines."
         ]
       },
       {
         "company": "Telstra",
+        "location": "Sydney, NSW",
         "title": "Full-Stack Web Developer",
         "years": "Aug 2018 - Feb 2021",
         "description": [
-          "I performed full-stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN stack with redux. The primary feature of this application is a user-browsable catalogue of charts displaying data that is regularly queried from their sources.",
-          "I built new features into this web application every day, such as the ability to allow users to query databases from within the application, run user-written scripts and schedule them to query and validate data from desired databases, setting up automated data-monitoring & alarms, and many more. The application is using a microservices architecture to integrate many disparate web into a single one-stop shop which is being deployed on AWS.",
-          "I used AWS core services such as EC2, ECR and DocumentDB to troubleshoot operational issues and maintain operation of the deployed application.",
-          "I have containerized many applications using Docker.",
-          "I have configured NGINX reverse-proxies to forward client requests to various servers/micro-services-in-docker-containers.",
-          "I write tests using Jest.js & Enzyme.js and use ROBOT for functional/integration/regression testing.",
-          "I have set up and maintained CICD pipelines using Atlassian's Bamboo platform.",
-          "I have documented APIs using Swagger/OpenAPI Specification.",
-          "I have automated the deployment of network configuration and virtual network devices using ansible playbooks.",
-          "I have automated traffic monitoring of Telstra's mobile networks through the creation and use of Tableau dashboards."
+          "Performed full-stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN (MongoDB, Express, React, Node) stack with redux. The primary feature of this application is a catalogue of charts displaying data from various sources. I built new features into this application every day. Some examples include allowing the users to query databases from within the application, automatically schedule user-written scripts against databases, set up monitoring & alarms, and many more. The application uses a microservices architecture and is deployed on AWS.",
+          "Go to https://avu120.github.io/portfolio/#portfolio then click on the Telstra logo to see an overview of most of my work at Telstra.",
+          "Troubleshooted operational issues in AWS core services such as CloudWatch, EC2, ECR and DocumentDB.",
+          "Containerized many applications using Docker.",
+          "Configured NGINX reverse-proxies to forward requests to various servers/micro-services-in-docker-containers.",
+          "Wrote unit tests using Jest.js, Enzyme.js and React Testing Library.",
+          "Wrote integration tests using ROBOT test framework.",
+          "Set up CICD pipelines using Atlassian's Bamboo platform.",
+          "Documented many APIs using Swagger/OpenAPI specification.",
+          "Automated deployment of network configuration and virtual network devices using python scripts and ansible playbooks."
         ]
       },
       {
         "company": "KPMG",
+        "location": "Sydney, NSW",
         "title": "IT Consultant",
         "years": "Feb 2017 - May 2018",
         "description": [
-          "Performed IT risk testing (audit) and consulted with clients to identify and mitigate IT and business risks.",
-          "Facilitated the configuration and implementation of Microsoft Dynamics (AX) 365 ERP for clients to simplify and optimise their business life-cycle.",
-          "Facilitated data migration for clients.",
-          "Advised in the transfer of IT infrastructure during the sale of businesses between companies."
+          "Implemented & configured Microsoft Dynamics 365 ERP (Enterprise Resource Planning) software for large multinational clients.",
+          "Performed IT risk testing (audit)."
         ]
       }
     ],
     "skills": [
       {
-        "name": "JavaScript",
-        "level": "100%"
-      },
-      {
-        "name": "TypeScript",
-        "level": "90%"
-      },
-      {
         "name": "ReactJs",
         "level": "100%"
       },
       {
-        "name": "CSS",
+        "name": "Redux",
         "level": "100%"
       },
       {
-        "name": "SASS",
-        "level": "90%"
-      },
-      {
-        "name": "Jest",
-        "level": "90%"
-      },
-      {
-        "name": "React Testing Library",
-        "level": "90%"
-      },
-      {
-        "name": "SQL",
-        "level": "90%"
-      },
-      {
-        "name": "Node",
+        "name": "CSS/Modules/SASS/CSS-in-JS/CSS-in-HTML",
         "level": "100%"
       },
       {
-        "name": "Express",
+        "name": "TypeScript",
+        "level": "100%"
+      },
+      {
+        "name": "React Testing",
+        "level": "100%"
+      },
+      {
+        "name": "Node/Express",
         "level": "100%"
       },
       {
@@ -159,48 +145,32 @@
         "level": "80%"
       },
       {
-        "name": "MongoDB",
+        "name": "Cypress E2E Testing",
+        "level": "60%"
+      },
+      {
+        "name": "Building REST APIs",
         "level": "100%"
       },
       {
-        "name": "Cypress",
-        "level": "50%"
+        "name": "Building GraphQL APIs",
+        "level": "60%"
       },
       {
-        "name": "GraphQL",
-        "level": "50%"
+        "name": "SQL Databases",
+        "level": "80%"
       },
       {
-        "name": "Figma",
-        "level": "50%"
+        "name": "NoSQL Databases",
+        "level": "80%"
       },
       {
-        "name": "Docker",
-        "level": "90%"
+        "name": "Storybook (UI Design Systems)",
+        "level": "80%"
       },
       {
-        "name": "NGINX",
-        "level": "70%"
-      },
-      {
-        "name": "Swagger/OpenAPI",
-        "level": "70%"
-      },
-      {
-        "name": "Google Firebase",
-        "level": "70%"
-      },
-      {
-        "name": "WordPress",
-        "level": "100%"
-      },
-      {
-        "name": "Python",
-        "level": "50%"
-      },
-      {
-        "name": "Java",
-        "level": "50%"
+        "name": "Figma (Design/Wireframe Prototyping)",
+        "level": "60%"
       }
     ]
   },

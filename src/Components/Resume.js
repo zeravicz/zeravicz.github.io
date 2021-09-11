@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class Resume extends Component {
   render() {
     if (this.props.data) {
-      var skillmessage = this.props.data.skillmessage;
       var qualifications = this.props.data.qualifications.map(function (
         qualification
       ) {
@@ -34,15 +33,17 @@ class Resume extends Component {
       var work = this.props.data.work.map(function (work, i) {
         return (
           <div key={work.company}>
-            <h3>{work.company}</h3>
+            <h3>{work.title}</h3>
             <p className="info">
-              {work.title}
+              {`${work.company}, ${work.location}`}
               <span></span> <em className="date">{work.years}</em>
             </p>
             {Array.isArray(work.description) ? (
               work.description.map((_, i) => (
                 <div key={`${work.company} job description ${i}`}>
-                  &bull; {_}
+                  <p style={{ margin: "0 0 10px", lineHeight: "2.5rem" }}>
+                    &bull; {_}
+                  </p>
                 </div>
               ))
             ) : (
@@ -73,8 +74,6 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{skillmessage}</p>
-
             <div className="bars">
               <ul className="skills">{skills}</ul>
             </div>
