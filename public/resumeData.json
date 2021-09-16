@@ -178,9 +178,9 @@
     "personalProjects": [
       {
         "title": "Menu Survey",
-        "description": "(GitHub Repo is currently private) After a restaurant customer finishes their meal, they can use this app to send a meal/restaurant review to restaurant management/staff.",
+        "description": "After a restaurant customer finishes their meal, they can use this app to send a meal/restaurant review to restaurant management/staff.",
         "image": "personal/menu-survey.png",
-        "url": "https://menu-survey.herokuapp.com"
+        "url": "https://github.com/AVu120/menu-survey"
       },
       {
         "title": "Chat Room",
