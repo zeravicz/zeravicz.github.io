@@ -58,12 +58,6 @@
     width: 50%;
   }
 
-  @media (max-width: 900px) {
-    #about .main-col {
-      text-align: center;
-    }
-  }
-
   /* Resume Section
    ------------------------------------------------------------------- */
   #resume h1 {
@@ -206,6 +200,12 @@
   }
   header .banner-text h1 {
     font: 68px/1.1em "opensans-bold", sans-serif;
+  }
+
+  @media (max-width: 500px) {
+    header .banner-text h1 {
+      padding-top: 30px;
+    }
   }
   header .banner-text h3 {
     font: 16px/1.9em "librebaskerville-regular", serif;
