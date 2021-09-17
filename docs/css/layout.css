@@ -645,12 +645,13 @@ ul#nav li.current a {
 .projectViewer img {
   height: 50vh;
   width: 50vw;
-  padding: 0 15px 30px 0;
+  padding: 0 25px 30px 0;
   margin: 0 auto 0;
 }
 
 .projectViewer p {
   line-height: 2rem;
+  padding-right: 10px;
 }
 
 .projectViewer__title {
@@ -659,10 +660,13 @@ ul#nav li.current a {
 
 .projectViewer__sectionAchievement {
   display: flex;
+  margin-top: 5px;
 }
 
 .projectViewer__sectionAchievementTitle {
   display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
 }
 
 .projectViewer__closeButton {

@@ -17,7 +17,6 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
           >
             <div className="projectViewer__sectionAchievementTitle">
               <h3>{sectionAchievement.title}</h3>
-              <span></span>
               <em className="date">{sectionAchievement.when}</em>
             </div>
             <div className="projectViewer__sectionAchievement">
