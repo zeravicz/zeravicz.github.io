@@ -4,12 +4,6 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
-  const style = {
-    content: {
-      padding: "50px",
-    },
-  };
-
   const achievementGroups = [...new Set(achievements.map((_) => _.group))];
   const TasksInAchievementContainer = ({ tasksDoneInAchievement }) => {
     return (
@@ -50,7 +44,7 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
 
   return (
     <section id="projectView">
-      <Modal isOpen={open} style={style}>
+      <Modal isOpen={open}>
         <div id="return" style={{ cursor: "pointer" }}>
           <a className="smoothscroll" title="Return to website">
             <i className="icon-left-circle" onClick={() => toggleModal()}></i>
@@ -61,39 +55,41 @@ const ProjectViewer = ({ title, open, toggleModal, achievements }) => {
           <h1>{title}</h1>
         </div>
         <section id="resume">
-          <div className="nine columns main-col">
-            <Tabs>
-              <TabList>
-                {achievementGroups.map((_) => (
-                  <Tab key={`All achievements relating to ${_}.`}>{_}</Tab>
-                ))}
-              </TabList>
-              {achievementGroups.map((group) => {
-                const achievementsInGroup = achievements.filter(
-                  (_) => _.group === group
-                );
-                return (
-                  <TabPanel>
-                    <Tabs>
-                      <TabList>
+          <div id="projectViewer">
+            <div className="nine columns main-col">
+              <Tabs>
+                <TabList>
+                  {achievementGroups.map((_) => (
+                    <Tab key={`All achievements relating to ${_}.`}>{_}</Tab>
+                  ))}
+                </TabList>
+                {achievementGroups.map((group) => {
+                  const achievementsInGroup = achievements.filter(
+                    (_) => _.group === group
+                  );
+                  return (
+                    <TabPanel>
+                      <Tabs>
+                        <TabList>
+                          {achievementsInGroup.map((_) => (
+                            <Tab key={`Achievement title: ${_.title} `}>
+                              {_.title}
+                            </Tab>
+                          ))}
+                        </TabList>
                         {achievementsInGroup.map((_) => (
-                          <Tab key={`Achievement title: ${_.title} `}>
-                            {_.title}
-                          </Tab>
+                          <TabPanel key={`Achivements in ${_.title}.`}>
+                            <TasksInAchievementContainer
+                              tasksDoneInAchievement={_.tasksDoneInAchievement}
+                            />
+                          </TabPanel>
                         ))}
-                      </TabList>
-                      {achievementsInGroup.map((_) => (
-                        <TabPanel key={`Achivements in ${_.title}.`}>
-                          <TasksInAchievementContainer
-                            tasksDoneInAchievement={_.tasksDoneInAchievement}
-                          />
-                        </TabPanel>
-                      ))}
-                    </Tabs>
-                  </TabPanel>
-                );
-              })}
-            </Tabs>
+                      </Tabs>
+                    </TabPanel>
+                  );
+                })}
+              </Tabs>
+            </div>
           </div>
         </section>
         <div className="projectViewer__closeButton">

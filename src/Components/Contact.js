@@ -142,7 +142,7 @@ const Contact = (props) => {
                 ></textarea>
               </div>
 
-              <div>
+              <div className="buttonContainer">
                 <button className="submit" onClick={() => onSubmit()}>
                   Submit
                 </button>
@@ -175,7 +175,7 @@ const Contact = (props) => {
         </div>
 
         <aside className="four columns footer-widgets">
-          <div className="widget widget_contact">
+          <div className="contactDetails">
             <h4>Contact Details</h4>
             <p className="address" style={{ lineHeight: "2.5rem" }}>
               {name}
