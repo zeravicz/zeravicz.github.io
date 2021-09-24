@@ -177,6 +177,12 @@
   "portfolio": {
     "personalProjects": [
       {
+        "title": "Dashboard Editor",
+        "description": "Create and customize your own dashboard.",
+        "image": "personal/dashboard-editor.png",
+        "url": "https://github.com/AVu120/dashboard-editor"
+      },
+      {
         "title": "Menu Survey",
         "description": "After a restaurant customer finishes their meal, they can use this app to send a meal/restaurant review to restaurant management/staff.",
         "image": "personal/menu-survey.png",
