@@ -86,7 +86,11 @@ const Portfolio = (props) => {
           </div>
         </div>
       </div>
-      <div className="row" id="personal-portfolio">
+      <div
+        className="row"
+        id="personal-portfolio"
+        style={{ marginTop: "15px" }}
+      >
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Personal Projects</h1>
 
