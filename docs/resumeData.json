@@ -36,18 +36,6 @@
     "qualifications": [
       {
         "organization": "Amazon Web Services",
-        "qualification": "AWS Certified Developer - Associate",
-        "dateReceived": "2021",
-        "descriptions": [
-          {
-            "text": "",
-            "link": "https://github.com/AVu120/portfolio/blob/master/public/certifications/AWS%20Certified%20Developer%20-%20Associate%20Certificate.pdf",
-            "linkText": "View my AWS Developer – Associate Certificate here."
-          }
-        ]
-      },
-      {
-        "organization": "Amazon Web Services",
         "qualification": "AWS Certified Solutions Architect - Associate",
         "dateReceived": "2021",
         "descriptions": [
@@ -55,6 +43,18 @@
             "text": "",
             "link": "https://github.com/AVu120/portfolio/blob/master/public/certifications/AWS%20Certified%20Solutions%20Architect%20-%20Associate%20Certificate.pdf",
             "linkText": "View my AWS Solutions Architect – Associate Certificate here."
+          }
+        ]
+      },
+      {
+        "organization": "Amazon Web Services",
+        "qualification": "AWS Certified Developer - Associate",
+        "dateReceived": "2021",
+        "descriptions": [
+          {
+            "text": "",
+            "link": "https://github.com/AVu120/portfolio/blob/master/public/certifications/AWS%20Certified%20Developer%20-%20Associate%20Certificate.pdf",
+            "linkText": "View my AWS Developer – Associate Certificate here."
           }
         ]
       },

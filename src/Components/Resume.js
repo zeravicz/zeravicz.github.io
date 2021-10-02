@@ -8,9 +8,9 @@ class Resume extends Component {
       ) {
         return (
           <div key={qualification.organization}>
-            <h3>{qualification.organization}</h3>
+            <h3>{qualification.qualification}</h3>
             <p className="info">
-              {qualification.qualification} <span></span>
+              {qualification.organization} <span></span>
               <em className="date">{`(${qualification.dateReceived})`}</em>
             </p>
 
