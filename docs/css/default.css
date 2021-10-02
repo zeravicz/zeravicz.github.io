@@ -1023,7 +1023,7 @@ properly.
 
 /* smaller screens
 --------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   /* block grids on small screens */
   .s-bgrid-sixths [class*="column"] {
     width: 16.66667%;
@@ -1049,7 +1049,7 @@ properly.
 
 /* mobile wide/smaller tablets
 --------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   .row {
     width: 460px;
     margin: 0 auto;

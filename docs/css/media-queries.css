@@ -18,9 +18,9 @@
   }
 }
 
-/* screenwidth less than 900px
+/* screenwidth less than 700px
 --------------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   /* header styles
    ------------------------------------------------------------------ */
   header .banner {
@@ -102,7 +102,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   /* mobile navigation
    -------------------------------------------------------------------- */
   #nav-wrap {
@@ -300,13 +300,13 @@
   /* ------------------------------------------------------------------ */
   /* ProjectViewer Component Section
 /* ------------------------------------------------------------------ */
-  @media (min-width: 900px) {
+  @media (min-width: 700px) {
     .projectViewer p {
       padding: 30px 15px 30px 20px;
     }
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 700px) {
     .projectViewer__sectionAchievement {
       display: grid;
       grid-template-columns: auto;
@@ -413,7 +413,7 @@
     margin: 30px 0 24px 0;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 700px) {
     #contact .buttonContainer,
     .lead
     /* , */
