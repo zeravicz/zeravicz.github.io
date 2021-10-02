@@ -2,7 +2,7 @@
   "main": {
     "name": "Anthony Hien Vu",
     "occupation": "Full Stack Web Developer",
-    "description": "Currently working as a Full Stack Web Developer at oOh!media.",
+    "description": "Currently working as a Senior Front End Engineer at Checkbox.",
     "image": "profilepic.png",
     "bio": "Full stack web developer with a strong preference for the frontend. I also have experience in QA and DevOps as well (I have 2 AWS associate certifications). My interests include frontend & backend system architecture, design, DevOps/cloud/serverless, mentoring, leadership, sustainability & AI/machine-learning. Outside of work I enjoy ice skating, playing cricket, hiking, running, reading, and attending meetups (usually tech-related). Where ever I work, I'm always striving to upskill everyone in my team and learn from them too. Mentoring others and working as a cohesive team is very important to me.",
     "contactmessage": "Get in touch.",
@@ -251,7 +251,7 @@
       {
         "title": "Portfolio Website",
         "description": "My Portfolio Website which I created by building on top of an open-source react resume template.",
-        "image": "personal/portfolio-website.jpg",
+        "image": "personal/portfolio-website.png",
         "url": "https://github.com/AVu120/portfolio-website"
       },
       {
