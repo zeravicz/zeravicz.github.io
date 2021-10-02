@@ -11,7 +11,11 @@ class Resume extends Component {
             <h3>{qualification.qualification}</h3>
             <p className="info">
               {qualification.organization} <span></span>
-              <em className="date">{`(${qualification.dateReceived})`}</em>
+              <em className="date">{`${
+                qualification.dateReceived
+                  ? `(${qualification.dateReceived})`
+                  : ""
+              }`}</em>
             </p>
 
             <p>
