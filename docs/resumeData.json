@@ -71,6 +71,18 @@
         ]
       },
       {
+        "organization": "Checkbox",
+        "qualification": "Checkbox App Expert",
+        "dateReceived": "2021",
+        "descriptions": [
+          {
+            "text": "",
+            "link": "https://github.com/AVu120/portfolio/blob/master/public/certifications/Checkbox%20App%20Expert%20Certificate.pdf",
+            "linkText": "View my Checkbox App Expert Certificate here."
+          }
+        ]
+      },
+      {
         "organization": "University of Sydney",
         "qualification": "Bachelor of Engineering - 1st Class Honours",
         "dateReceived": "",
@@ -89,9 +101,7 @@
         "location": "Sydney, NSW",
         "title": "Senior Front End Engineer",
         "years": "Oct 2021 - Now",
-        "description": [
-          "TBD..."
-        ]
+        "description": ["TBD..."]
       },
       {
         "company": "oOh!media",
