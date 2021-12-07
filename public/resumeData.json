@@ -206,6 +206,26 @@
       {
         "name": "Figma (Design/Wireframe Prototyping)",
         "level": "60%"
+      },
+      {
+        "name": "Angular",
+        "level": "60%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "Go",
+        "level": "60%"
+      },
+      {
+        "name": "Java",
+        "level": "60%"
+      },
+      {
+        "name": "C++",
+        "level": "60%"
       }
     ]
   },
