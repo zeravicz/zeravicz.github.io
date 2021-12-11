@@ -239,7 +239,7 @@
       },
       {
         "title": "Menu Survey",
-        "description": "After a restaurant customer finishes their meal, they can use this app to send a meal/restaurant review to restaurant management/staff.",
+        "description": "After a restaurant customer finishes their meal, they can use this app to send a review to the restaurant.",
         "image": "personal/menu-survey.png",
         "url": "https://github.com/AVu120/menu-survey"
       },
@@ -257,19 +257,19 @@
       },
       {
         "title": "Trivia Quiz",
-        "description": "A trivia quiz game using questions and answers from open trivia db.",
+        "description": "A trivia quiz game using questions and answers from open trivia db api.",
         "image": "personal/trivia-quiz.jpg",
         "url": "https://github.com/AVu120/trivia-quiz"
       },
       {
         "title": "Image Manipulator",
-        "description": "A tool that displays an image 4 times on a 2x2 grid and allows you to flip, rotate and apply filters on one or multiple images then compare them.",
+        "description": "Display an image 4 times on a 2x2 grid, then flip, rotate and apply filters to any of them.",
         "image": "personal/image-flipper.jpg",
         "url": "https://github.com/AVu120/image-flipper"
       },
       {
         "title": "Tree Match",
-        "description": "A service that tells you what kind of tree you should plant in your garden. It guides users through a questionnaire and matches them with a tree species.",
+        "description": "A service that tells you what kind of tree you should plant in your garden.",
         "image": "personal/tree-match.png",
         "url": "https://github.com/AVu120/tree-match"
       },
@@ -287,7 +287,7 @@
       },
       {
         "title": "Countdown Timer",
-        "description": "Set an event name and a future date and time it will occur to display a timer countdown down to that event at which an alarm/notification will occur.",
+        "description": "Set an event name, date, and time to display a timer that counts down to it.",
         "image": "personal/countdown-timer.jpg",
         "url": "https://github.com/AVu120/countdown-timer"
       },
