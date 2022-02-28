@@ -164,12 +164,28 @@
         "level": "100%"
       },
       {
-        "name": "TypeScript",
+        "name": "React Testing",
         "level": "100%"
       },
       {
-        "name": "React Testing",
+        "name": "Accessibility / WCAG",
         "level": "100%"
+      },
+      {
+        "name": "Web Sockets",
+        "level": "80%"
+      },
+      {
+        "name": "Cypress E2E Testing",
+        "level": "60%"
+      },
+      {
+        "name": "Storybook (UI Design Systems)",
+        "level": "100%"
+      },
+      {
+        "name": "Figma (Design/Wireframe Prototyping)",
+        "level": "60%"
       },
       {
         "name": "Node/Express",
@@ -178,10 +194,6 @@
       {
         "name": "AWS",
         "level": "80%"
-      },
-      {
-        "name": "Cypress E2E Testing",
-        "level": "60%"
       },
       {
         "name": "Building REST APIs",
@@ -200,16 +212,16 @@
         "level": "80%"
       },
       {
-        "name": "Storybook (UI Design Systems)",
-        "level": "80%"
-      },
-      {
-        "name": "Figma (Design/Wireframe Prototyping)",
-        "level": "60%"
-      },
-      {
         "name": "Angular",
         "level": "60%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "100%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "100%"
       },
       {
         "name": "Python",
