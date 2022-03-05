@@ -102,7 +102,12 @@
         "title": "Senior Front End Engineer",
         "years": "Sep 2021 - Now",
         "description": [
-          "Built new React UI in the primary B2B application.",
+          "Built new React UI with Redux in the primary B2B application.",
+          "Implemented migration from JavaScript to TypeScript on the frontend.",
+          "Implemented mass-adoption of unit/integration tests on the frontend with Jest and React Testing Library.",
+          "Trained/mentored junior engineers in React/front-end best practices (in areas like performance optimization and testing).",
+          "Implemented agile team processes (e.g. estimating tasks with story points and creating a team Definition of Done) to reduce process ambiguity and improve consistency of team output.",
+          "Influenced future product feature roadmap and technical architecture decisions.",
           "Made modifications to Go (Golang) APIs."
         ]
       },
