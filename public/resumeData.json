@@ -251,6 +251,12 @@
   "portfolio": {
     "personalProjects": [
       {
+        "title": "Studee",
+        "description": "Study planning app. Record your daily & weekly to-do lists, achievements and notes over time. Helps you keep track of your completed and pending tasks to effectively plan your study.",
+        "image": "personal/studee.png",
+        "url": "https://studee.vercel.app/"
+      },
+      {
         "title": "Dashboard Editor",
         "description": "Create and customize your own dashboard.",
         "image": "personal/dashboard-editor.png",
