@@ -2,9 +2,9 @@
   "main": {
     "name": "Anthony Hien Vu",
     "occupation": "Full Stack Web Developer",
-    "description": "Currently working as a Senior Front End Engineer at Checkbox.",
+    "description": "Currently working as a Senior Front End Engineer | Tech Lead at Checkbox.",
     "image": "profilepic.png",
-    "bio": "Full stack web developer with a strong preference for the frontend. I also have experience in QA and DevOps as well (I have 2 AWS associate certifications). My interests include frontend & backend system architecture, design, DevOps/cloud/serverless, mentoring, leadership, sustainability & AI/machine-learning. Outside of work I enjoy ice skating, playing cricket, hiking, running, reading, and attending meetups (usually tech-related). Where ever I work, I'm always striving to upskill everyone in my team and learn from them too. Mentoring others and working as a cohesive team is very important to me.",
+    "bio": "Full Stack Web Developer (with a strong preference for the frontend) and Tech Lead. I have also worked in DevOps (I have 2 AWS associate certifications & experience building CICD pipelines). I’ve also worked in QA (including writing automated end to end and API tests).",
     "contactmessage": "Get in touch.",
     "email": "avu120@gmail.com",
     "phone": "+614 5266 8725",
@@ -99,9 +99,10 @@
       {
         "company": "Checkbox",
         "location": "Sydney, NSW",
-        "title": "Senior Front End Engineer",
+        "title": "Senior Front End Engineer | Tech Lead",
         "years": "Sep 2021 - Now",
         "description": [
+          "Architected full-stack technical design for new features and user workflows.",
           "Built new React UI with Redux in the primary B2B application.",
           "Implemented end to end automation tests (in CypressJS).",
           "Implemented migration from JavaScript to TypeScript on the frontend.",
@@ -183,8 +184,8 @@
         "level": "80%"
       },
       {
-        "name": "Cypress E2E Testing",
-        "level": "60%"
+        "name": "Automated E2E Testing",
+        "level": "80%"
       },
       {
         "name": "Storybook (UI Design Systems)",
