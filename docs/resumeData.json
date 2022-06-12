@@ -2,7 +2,7 @@
   "main": {
     "name": "Anthony Hien Vu",
     "occupation": "Full Stack Web Developer",
-    "description": "Currently working as a Senior Front End Engineer | Tech Lead at Checkbox.",
+    "description": "Currently working as a Senior Full Stack Web Developer | Tech Lead at Checkbox.",
     "image": "profilepic.png",
     "bio": "Full Stack Web Developer (with a strong preference for the frontend) and Tech Lead. I have also worked in DevOps (I have 2 AWS associate certifications & experience building CICD pipelines). I’ve also worked in QA (including writing automated end to end and API tests).",
     "contactmessage": "Get in touch.",
@@ -99,7 +99,7 @@
       {
         "company": "Checkbox",
         "location": "Sydney, NSW",
-        "title": "Senior Front End Engineer | Tech Lead",
+        "title": "Senior Full Stack Web Developer | Tech Lead",
         "years": "Sep 2021 - Now",
         "description": [
           "Architected full-stack technical design for new features and user workflows.",
