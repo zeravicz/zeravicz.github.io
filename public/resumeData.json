@@ -180,11 +180,11 @@
         "level": "100%"
       },
       {
-        "name": "Web Sockets",
-        "level": "80%"
+        "name": "Automated E2E Testing",
+        "level": "100%"
       },
       {
-        "name": "Automated E2E Testing",
+        "name": "Web Sockets",
         "level": "80%"
       },
       {
