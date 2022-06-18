@@ -103,14 +103,16 @@
         "years": "Sep 2021 - Now",
         "description": [
           "Architected full-stack technical design for new features and user workflows.",
-          "Built new React UI with Redux in the primary B2B application.",
-          "Implemented end to end automation tests (in CypressJS).",
+          "Trained/mentored junior engineers in React/front-end best practices (in areas like performance optimization and testing).",
+          "Designed long-term testing strategy.",
+          "Created JIRA tickets for required work and delegated to team members.",
+          "Influenced future product feature road map.",
+          "Implemented agile team processes (e.g. estimating tasks with story points and creating a team Definition of Done) to reduce process ambiguity and improve consistency of team output.",
+          "Implemented automated end to end & API tests (in CypressJS).",
           "Implemented migration from JavaScript to TypeScript on the frontend.",
           "Implemented mass-adoption of unit/integration tests on the frontend with Jest and React Testing Library.",
-          "Trained/mentored junior engineers in React/front-end best practices (in areas like performance optimization and testing).",
-          "Implemented agile team processes (e.g. estimating tasks with story points and creating a team Definition of Done) to reduce process ambiguity and improve consistency of team output.",
-          "Influenced future product feature roadmap and technical architecture decisions.",
           "Added many new and old UI components to the Storybook.js design system.",
+          "Built new React UI with Redux in the primary B2B application.",
           "Built and modified Go (Golang) APIs."
         ]
       },
