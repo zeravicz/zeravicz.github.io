@@ -182,36 +182,24 @@
         "level": "100%"
       },
       {
-        "name": "Automated E2E Testing",
+        "name": "Automated E2E & API Testing (in CypressJS)",
         "level": "100%"
       },
       {
-        "name": "Web Sockets",
-        "level": "80%"
-      },
-      {
-        "name": "Storybook (UI Design Systems)",
+        "name": "UI Design Systems (e.g. StorybookJS)",
         "level": "100%"
-      },
-      {
-        "name": "Figma (Design/Wireframe Prototyping)",
-        "level": "60%"
       },
       {
         "name": "Node/Express",
         "level": "100%"
       },
       {
-        "name": "AWS",
-        "level": "80%"
-      },
-      {
         "name": "Building REST APIs",
         "level": "100%"
       },
       {
-        "name": "Building GraphQL APIs",
-        "level": "60%"
+        "name": "AWS",
+        "level": "80%"
       },
       {
         "name": "SQL Databases",
@@ -222,11 +210,23 @@
         "level": "80%"
       },
       {
+        "name": "Web Sockets",
+        "level": "80%"
+      },
+      {
+        "name": "Building GraphQL APIs",
+        "level": "60%"
+      },
+      {
         "name": "VueJS",
         "level": "60%"
       },
       {
         "name": "Angular",
+        "level": "60%"
+      },
+      {
+        "name": "Figma (Design/Wireframe Prototyping)",
         "level": "60%"
       },
       {
