@@ -108,7 +108,7 @@
           "Created JIRA tickets for required work and delegated to team members.",
           "Influenced future product feature road map.",
           "Implemented agile team processes (e.g. estimating tasks with story points and creating a team Definition of Done) to reduce process ambiguity and improve consistency of team output.",
-          "Implemented automated end to end & API tests (in CypressJS).",
+          "Implemented automated end to end & API tests (in CypressJS) & added them to CICD pipeline.",
           "Implemented migration from JavaScript to TypeScript on the frontend.",
           "Implemented mass-adoption of unit/integration tests on the frontend with Jest and React Testing Library.",
           "Added many new and old UI components to the Storybook.js design system.",
