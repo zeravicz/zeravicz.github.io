@@ -104,15 +104,16 @@
         "description": [
           "Architected full-stack technical design for new features and user workflows.",
           "Trained/mentored junior engineers in React/front-end best practices (in areas like performance optimization and testing).",
-          "Designed long-term testing strategy.",
-          "Created JIRA tickets for required work and delegated to team members.",
           "Influenced future product feature road map.",
           "Implemented agile team processes (e.g. estimating tasks with story points and creating a team Definition of Done) to reduce process ambiguity and improve consistency of team output.",
+          "Implemented Gitflow/version-control changes to improve productivity in continuous integration.",
           "Implemented automated end to end & API tests (in CypressJS) & added them to CICD pipeline.",
           "Implemented migration from JavaScript to TypeScript on the frontend.",
           "Implemented mass-adoption of unit/integration tests on the frontend with Jest and React Testing Library.",
-          "Added many new and old UI components to the Storybook.js design system.",
+          "Designed long-term testing strategy.",
+          "Created JIRA tickets for required work and delegated to team members.",
           "Built new React UI with Redux in the primary B2B application.",
+          "Added many new and old UI components to the Storybook.js design system.",
           "Built and modified Go (Golang) APIs."
         ]
       },
@@ -247,6 +248,10 @@
       },
       {
         "name": "Java",
+        "level": "60%"
+      },
+      {
+        "name": "PHP",
         "level": "60%"
       },
       {
