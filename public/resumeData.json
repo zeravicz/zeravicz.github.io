@@ -138,7 +138,7 @@
         "title": "Full Stack Web Developer",
         "years": "Aug 2018 - Feb 2021",
         "description": [
-          "Performed full stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN (MongoDB, Express, React, Node) stack with redux. The primary feature of this application is a catalogue of charts displaying data from various sources. I built new features into this application every day. Some examples include allowing the users to query databases from within the application, automatically schedule user-written scripts against databases, set up monitoring & alarms, and many more. The application uses a microservices architecture and is deployed on AWS.",
+          "Performed full stack development of a Telstra enterprise web application with thousands of internal users utilizing the MERN (MongoDB, Express, React, Node) stack with redux. The primary feature of this application is a catalogue of charts displaying data from various sources. This app could allow users to query databases from within the application, automatically schedule user-written scripts against databases, and set up monitoring & alarms. The application uses a microservices architecture and is deployed on AWS.",
           "Go to https://avu120.github.io/portfolio/#portfolio then click on the Telstra logo to see an overview of most of my work at Telstra.",
           "Troubleshooted operational issues in AWS core services such as CloudWatch, EC2, ECR and DocumentDB.",
           "Containerized many applications using Docker.",
