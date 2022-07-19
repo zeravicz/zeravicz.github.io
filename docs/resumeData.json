@@ -102,10 +102,11 @@
         "title": "Senior Full Stack Web Developer | Tech Lead",
         "years": "Sep 2021 - Now",
         "description": [
+          "Lead a small team of developers.",
           "Architected full-stack technical design for new features and user workflows.",
           "Trained/mentored junior engineers in React/front-end best practices (in areas like performance optimization and testing).",
-          "Influenced future product feature road map.",
-          "Implemented agile team processes (e.g. estimating tasks with story points and creating a team Definition of Done) to reduce process ambiguity and improve consistency of team output.",
+          "Evaluated technical feasibility of new product ideas to Influence product feature roadmap.",
+          "Implemented agile team processes to reduce process ambiguity and improve consistency of team output (e.g. defining story points and definition of done).",
           "Implemented Gitflow/version-control changes to improve productivity in continuous integration.",
           "Implemented automated end to end & API tests (in CypressJS) & added them to CICD pipeline.",
           "Implemented migration from JavaScript to TypeScript on the frontend.",
