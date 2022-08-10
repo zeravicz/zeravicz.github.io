@@ -99,10 +99,26 @@
       {
         "company": "Checkbox",
         "location": "Sydney, NSW",
-        "title": "Senior Full Stack Web Developer | Tech Lead",
-        "years": "Sep 2021 - Now",
+        "title": "Engineering Delivery Manager | Senior Full Stack Web Developer",
+        "years": "Aug 2022 - Now",
         "description": [
-          "Lead a small team of developers.",
+          "Written documentation to standardize production release process.",
+          "Managed QA work and production release process.",
+          "Relayed engineering team progress to product and business teams.",
+          "Identified team blockers to meeting OKRs and project goals and remove them.",
+          "Lead stand ups.",
+          "Lead retrospectives.",
+          "Lead fortnightly developer knowledge-share/learning sessions.",
+          "50% of my time is spent on Engineering Delivery Manager responsibilities (as outlined above), other 50% is still doing Senior Full Stack Web Developer work."
+        ]
+      },
+      {
+        "company": "Checkbox",
+        "location": "Sydney, NSW",
+        "title": "Senior Full Stack Web Developer",
+        "years": "Sep 2021 - Aug 2022",
+        "description": [
+          "Technically lead a small team of developers.",
           "Architected full-stack technical design for new features and user workflows.",
           "Trained/mentored junior engineers in React/front-end best practices (in areas like performance optimization and testing).",
           "Evaluated technical feasibility of new product ideas to Influence product feature roadmap.",
