@@ -7,6 +7,7 @@ import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Podminky from "./Components/Podminky";
 import Portfolio from "./Components/Portfolio";
+import Gallery from "./Components/Gallery";
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +22,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Resume />
+        <Resume slideToIndex={ (index) => this.gallery.slideToIndex(index) } />
+        <Gallery ref={ instance => { this.gallery = instance; }}/>
         <Portfolio />
         <Testimonials />
         <Podminky />

@@ -25,13 +25,18 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#portfolio">
-                Energetická úspornost
+              <a className="smoothscroll" href="#galerie">
+                Galerie
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#testimonials">
                 Lokalita
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#portfolio">
+                Energetická úspornost
               </a>
             </li>
             <li>
