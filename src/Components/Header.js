@@ -2,59 +2,46 @@ import React, { Component } from "react";
 
 class Header extends Component {
   render() {
-    if (this.props.data) {
-      var name = this.props.data.name;
-      var description = this.props.data.description;
-      var networks = this.props.data.social.map(function (network) {
-        return (
-          <li key={network.name}>
-            <a href={network.url} title={network.title}>
-              <i className={network.className}></i>
-            </a>
-          </li>
-        );
-      });
-    }
 
     return (
       <header id="home">
         <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
+          <a className="mobile-btn" href="#nav-wrap" title="Ukázat navigaci">
+            Ukázat navigaci
           </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
+          <a className="mobile-btn" href="#home" title="Skrýt navigaci">
+            Skrýt navigaci
           </a>
 
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#about">
-                About
+                Start
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Dispozice
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Energetická úspornost
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#testimonials">
-                Testimonials
+                Lokalita
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#podminky">
+                Podmínky pronájmu
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                Kontakt
               </a>
             </li>
           </ul>
@@ -62,15 +49,21 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>{description}</h3>
+            <h1 className="responsive-headline">Byt 2+1 78 m²</h1>
+            <h2 className="responsive-headline">k pronájmu</h2>
+            <h3></h3>
+            <p>
+                Majitel nabízí k pronájmu prostorný, nově zrekonstruovaný byt 2+1 v řadovém domě v centru Žeravic u Kyjova.
+            </p>
             <hr />
-            <ul className="social">{networks}</ul>
+            <ul className="social">
+                <li key="linkedin"></li>
+            </ul>
           </div>
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about" title="Go to about section">
+          <a className="smoothscroll" href="#resume" title="Go to about section">
             <i className="icon-down-circle"></i>
           </a>
         </p>

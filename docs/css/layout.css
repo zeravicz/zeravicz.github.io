@@ -518,7 +518,7 @@ ul#nav li.current a {
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 
-  background: url(../images/overlay-bg.png) repeat;
+  background: url(../images/byt/01-kuchyn.jpeg) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;
@@ -769,7 +769,6 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;

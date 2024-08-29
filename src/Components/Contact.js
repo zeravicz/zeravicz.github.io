@@ -76,12 +76,19 @@ const Contact = (props) => {
       <div className="row section-head">
         <div className="two columns header-col">
           <h1>
-            <span>Get In Touch.</span>
+            <span></span>
           </h1>
         </div>
 
         <div className="ten columns">
-          <h2 className="lead">{message}</h2>
+          <h2 className="lead">Kontakt</h2>
+
+          <p>
+          <br/>
+          Vaše dotazy rádi zodpovíme telefonicky nebo e-mailem.
+          </p>
+          <h3 className="lead">📞 <a href="tel:+420773928983">+420 773 928 983</a></h3>
+          <p>Telefonáty od realitních kanceláří přijímáme za 300,- Kč/min.</p>
         </div>
       </div>
 
@@ -91,7 +98,7 @@ const Contact = (props) => {
             <div>
               <div>
                 <label htmlFor="contactName">
-                  Name <span className="required">*</span>
+                  Jméno a příjmení <span className="required">*</span>
                 </label>
                 <input
                   type="text"
@@ -105,7 +112,7 @@ const Contact = (props) => {
 
               <div>
                 <label htmlFor="contactEmail">
-                  Email <span className="required">*</span>
+                  E-mail <span className="required">*</span>
                 </label>
                 <input
                   type="email"
@@ -118,7 +125,7 @@ const Contact = (props) => {
               </div>
 
               <div>
-                <label htmlFor="contactSubject">Subject</label>
+                <label htmlFor="contactSubject">Telefon</label>
                 <input
                   type="text"
                   defaultValue=""
@@ -131,7 +138,7 @@ const Contact = (props) => {
 
               <div>
                 <label htmlFor="contactMessage">
-                  Message <span className="required">*</span>
+                  Zpráva <span className="required">*</span>
                 </label>
                 <textarea
                   cols="50"
@@ -144,7 +151,7 @@ const Contact = (props) => {
 
               <div className="buttonContainer">
                 <button className="submit" onClick={() => onSubmit()}>
-                  Submit
+                  Odeslat
                 </button>
                 {emailSentStatus === "sending" && (
                   <img
@@ -173,34 +180,6 @@ const Contact = (props) => {
             </div>
           )}
         </div>
-
-        <aside className="four columns footer-widgets">
-          <div className="contactDetails">
-            <h4>Contact Details</h4>
-            <p className="address" style={{ lineHeight: "2.5rem" }}>
-              {name}
-              <br />
-              {/* {street} <br /> */}
-              {suburb}, {state} {zip}
-              <br />
-              {email}
-              <br />
-              <span>{phone}</span>
-            </p>
-          </div>
-
-          <div className="widget widget_tweets">
-            <h4 className="widget-title">Thank you for reading</h4>
-            <ul id="twitter">
-              <li>
-                <span style={{ lineHeight: "2.5rem" }}>
-                  I appreciate your interest and I look forward to hearing from
-                  you.
-                </span>
-              </li>
-            </ul>
-          </div>
-        </aside>
       </div>
     </section>
   );

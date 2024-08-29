@@ -14,6 +14,10 @@ jQuery(document).ready(function ($) {
       minFontSize: "40px",
       maxFontSize: "90px",
     });
+    $("h2.responsive-headline").fitText(1, {
+      minFontSize: "30px",
+      maxFontSize: "60px",
+    });
   }, 100);
 
   /*----------------------------------------------------*/

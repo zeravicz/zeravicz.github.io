@@ -431,7 +431,7 @@ a:visited {
   outline: 0;
   /* color: #11abb0; */
   /* color: #313131; */
-  color: #525252
+  color: #11abb0;
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -486,11 +486,11 @@ ul ul li,
 ul ol li,
 ol ol li,
 ol ul li {
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 li {
-  line-height: 18px;
-  margin-bottom: 12px;
+  line-height: 28px;
+  margin-bottom: 5px;
 }
 ul.large li {
 }

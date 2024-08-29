@@ -24,6 +24,9 @@
 
 body {
   background: #0f0f0f;
+  color: #000;
+  font: 18px/22px "opensans", sans-serif;
+  line-height: 25px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -35,7 +38,7 @@ header {
   height: 100%;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/byt/01-kuchyn.jpeg) no-repeat top center;
   /* background-size: cover !important; */
   /* -webkit-background-size: cover !important; */
   text-align: center;
@@ -71,6 +74,24 @@ header .banner-text h1 {
   margin: 0 auto 18px auto;
   padding-top: 18px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+header .banner-text h2 {
+  font: 50px/0.6em "opensans-bold", sans-serif;
+  color: #fff;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  padding-top: 18px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+header .banner-text p {
+  font: 18px/1.9em "opensans-bold", sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 18px;
+  width: 70%;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 header .banner-text h3 {
@@ -148,7 +169,7 @@ header .scrolldown a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  font: 12px "opensans-bold", sans-serif;
+  font: 16px "opensans-bold", sans-serif;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -294,7 +315,9 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font: 18px/22px "opensans-bold", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 #resume .header-col {
@@ -304,9 +327,17 @@ ul#nav li.current a {
   /* padding-right: 10%; */
   padding-right: 0;
 }
+#resume ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 30px;
+}
 
-.skill,
-.work {
+#resume ul ul {
+    list-style-type: square;
+}
+
+.skill {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
@@ -473,12 +504,23 @@ ul#nav li.current a {
   /* background: #fafcfc; */
 }
 #portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 48px;
-  color: #95a3a3;
+  line-height: 42px;
+}
+#portfolio h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+#portfolio ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 30px;
+}
+
+#portfolio ul ul {
+    list-style-type: square;
 }
 
 /* Portfolio Content */
@@ -499,6 +541,34 @@ ul#nav li.current a {
 .portfolio-item .item-wrap a {
   display: block;
   cursor: pointer;
+}
+
+
+#podminky {
+  background: #ebeeee;
+  /* background: linear-gradient(to top, #ebeeee 50%, #fafcfc 50%); */
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+#podminky h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 42px;
+}
+#podminky h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+#podminky ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 30px;
+}
+
+#podminky ul ul {
+    list-style-type: square;
 }
 
 /* overlay */
@@ -769,75 +839,37 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-  background-attachment: fixed;
-
-  position: relative;
-  min-height: 200px;
-  width: 100%;
-  overflow: hidden;
-}
-#testimonials .text-container {
-  padding-top: 96px;
-  padding-bottom: 66px;
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
 }
 #testimonials h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
+  letter-spacing: 1px;
+  line-height: 42px;
 }
 #testimonials h1 span {
-  display: none;
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
 }
+
+
+#testimonials ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 30px;
+}
+
+#testimonials ul ul {
+    list-style-type: square;
+}
+
 #testimonials .header-col {
   padding-top: 9px;
 }
-#testimonials .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f10d";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #fff;
-}
 
-/*	Blockquotes */
-#testimonials blockquote {
-  margin: 0 0px 30px 0px;
-  padding-left: 0;
-  position: relative;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before {
-  content: none;
-}
-#testimonials blockquote p {
-  font-family: "librebaskerville-italic", serif;
-  padding: 0;
-  font-size: 24px;
-  line-height: 48px;
-  color: #fff;
-}
-#testimonials blockquote cite {
-  display: block;
-  font-size: 12px;
-  font-style: normal;
-  line-height: 18px;
-  color: #fff;
-}
-#testimonials blockquote cite:before {
-  content: "\2014 \0020";
-}
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited {
-  color: #8b9798;
-  border: none;
-}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -955,7 +987,7 @@ call-to-action .button {
   background: #191919;
   padding-top: 96px;
   padding-bottom: 102px;
-  color: #636363;
+  color: #fff;
 }
 #contact .section-head {
   margin-bottom: 42px;
@@ -994,6 +1026,12 @@ call-to-action .button {
 }
 
 #contact h2.lead {
+  color: #ebeeee;
+  position: relative;
+  top: 10px;
+}
+
+#contact h3.lead {
   color: #ebeeee;
   position: relative;
   top: 10px;
