@@ -1,25 +1,16 @@
 import React, { useState } from "react";
 
 const Contact = (props) => {
-  if (props.data) {
-    var name = props.data.name;
-    var suburb = props.data.address.suburb;
-    var state = props.data.address.state;
-    var zip = props.data.address.zip;
-    var phone = props.data.phone;
-    var email = props.data.email;
-    var message = props.data.contactmessage;
-  }
 
   const [fromName, setFromName] = useState("");
   const [fromEmail, setFromEmail] = useState("");
-  const [formSubject, setFormSubject] = useState("");
+  const [formPhone, setFormPhone] = useState("");
   const [formMessage, setFormMessage] = useState("");
   const [emailSentStatus, setEmailSentStatus] = useState("notSent");
 
   const changeFromName = (event) => setFromName(event.target.value);
   const changeFromEmail = (event) => setFromEmail(event.target.value);
-  const changeFormSubject = (event) => setFormSubject(event.target.value);
+  const changeFormPhone = (event) => setFormPhone(event.target.value);
   const changeFormMessage = (event) => setFormMessage(event.target.value);
 
   const validateEmail = (email) => {
@@ -38,11 +29,11 @@ const Contact = (props) => {
     ) {
       setEmailSentStatus("sending");
       window.emailjs
-        .send("gmail", "template_8RW6Q4vx", {
+        .send("service_9oonagc", "template_j8y8ahf", {
           message: formMessage,
           from_name: fromName,
           email: fromEmail,
-          subject: formSubject || "No Subject",
+          phone: formPhone,
         })
         .then((res) => {
           setEmailSentStatus("sent");
@@ -52,12 +43,14 @@ const Contact = (props) => {
       alert(
         `${
           fromName.length === 0
-            ? "Please fill in the name field."
+            ? "Zadejte svoje jméno"
             : fromEmail.length === 0
-            ? "Please write your email address."
+            ? "Zadejte svoji e-mailovou adresu"
             : !validateEmail(fromEmail)
-            ? "Please enter a valid email address."
-            : "Please write a message before clicking submit."
+            ? "Zadejte platnou e-mailovou adresu"
+            : formPhone.length === 0
+            ? "Zadejte svoje telefonní číslo"
+            : "Napište zprávu"
         }`
       );
     }
@@ -66,7 +59,7 @@ const Contact = (props) => {
   const renderEmptyForm = () => {
     setFromName("");
     setFromEmail("");
-    setFormSubject("");
+    setFormPhone("");
     setFormMessage("");
     setEmailSentStatus("notSent");
   };
@@ -125,14 +118,14 @@ const Contact = (props) => {
               </div>
 
               <div>
-                <label htmlFor="contactSubject">Telefon</label>
+                <label htmlFor="contactPhone">Telefon</label>
                 <input
                   type="text"
                   defaultValue=""
                   size="35"
-                  id="contactSubject"
-                  name="contactSubject"
-                  onChange={changeFormSubject}
+                  id="contactPhone"
+                  name="contactPhone"
+                  onChange={changeFormPhone}
                 />
               </div>
 

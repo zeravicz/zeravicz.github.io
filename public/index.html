@@ -10,7 +10,7 @@
     <meta
       name="image"
       property="og:image"
-      content="https://raw.githubusercontent.com/AVu120/energie/master/public/images/energie/personal/energie-website.png"
+      content="%PUBLIC_URL%/images/preview.png"
     />
     <meta name="author" content="Anthony Hien Vu" />
     <meta property="og:description" content="Energie Website" />
@@ -24,12 +24,12 @@
 
     <script
       type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"
-    ></script>
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
     <script type="text/javascript">
-      (function () {
-        emailjs.init("user_l4Ab26kjizmxRu7L22O55");
-      })();
+        emailjs.init({
+          publicKey: 'yx82xBQEvKnk2FGGe',
+        });
     </script>
   </head>
 
