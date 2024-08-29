@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-class Testimonials extends Component {
+class Lokalita extends Component {
   render() {
 
     return (
-      <section id="testimonials">
+      <section id="lokalita">
       <div className="row work">
         <div className="three columns header-col">
           <h1>
@@ -37,4 +37,4 @@ class Testimonials extends Component {
   }
 }
 
-export default Testimonials;
+export default Lokalita;

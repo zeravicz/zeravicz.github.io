@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-class Resume extends Component {
+class Dispozice extends Component {
     render() {
         console.log(typeof this.props.slideToIndex)
         return (
-            <section id="resume">
+            <section id="dispozice">
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1>
@@ -16,7 +16,7 @@ class Resume extends Component {
                         <ul>
                             <li>Byt má samostatný vchod</li>
                             <li>Je orientován do slunného dvora i do ulice</li>
-                            <li>Jedná sa o jediný byt v tomto domě, od sousedních domů je na obou stranách oddelen průjezdem.</li>
+                            <li>Jedná sa o jediný byt v tomto domě, od sousedních domů je na obou stranách oddelen průjezdem</li>
                             <li>Možnost parkování je na ulici</li>
                         </ul>
                         <h3>Místnosti <span style={{ "font-family" : "opensans" }}> - viz <a onClick={() => this.props.slideToIndex(7)}>půdorys</a></span></h3>
@@ -49,4 +49,4 @@ class Resume extends Component {
     }
 }
 
-export default Resume;
+export default Dispozice;

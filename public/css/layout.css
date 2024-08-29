@@ -9,10 +9,10 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
-   e. Portfolio Section
+   d. Dispozice Section
+   e. Energie Section
    f. Call To Action Section
-   g. Testimonials Section
+   g. Lokalita Section
    h. Contact Section
    i. Footer
 
@@ -286,54 +286,54 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Dispozice Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#dispozice {
   background: #fff;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
 }
 
-#resume a,
-#resume a:visited {
+#dispozice a,
+#dispozice a:visited {
   color: #11abb0;
 }
-#resume a:hover,
-#resume a:focus {
+#dispozice a:hover,
+#dispozice a:focus {
   color: #313131;
 }
 
-#resume h1 {
+#dispozice h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#resume h1 span {
+#dispozice h1 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
-#resume h3 {
+#dispozice h3 {
   font: 18px/22px "opensans-bold", sans-serif;
   margin-top: 30px;
   margin-bottom: 25px;
 }
 
-#resume .header-col {
+#dispozice .header-col {
   padding-top: 9px;
 }
-#resume .main-col {
+#dispozice .main-col {
   /* padding-right: 10%; */
   padding-right: 0;
 }
-#resume ul {
+#dispozice ul {
     list-style-type: disc;
     list-style-position: outside;
     margin-left: 30px;
 }
 
-#resume ul ul {
+#dispozice ul ul {
     list-style-type: square;
 }
 
@@ -342,17 +342,17 @@ ul#nav li.current a {
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
-#resume .info {
+#dispozice .info {
   font: 16px/24px "librebaskerville-italic", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
-#resume .info span {
+#dispozice .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
-#resume .date {
+#dispozice .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
 }
@@ -490,44 +490,44 @@ ul#nav li.current a {
 }  */
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. Energie Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#energie {
   background: #ebeeee;
   /* background: linear-gradient(to top, #ebeeee 50%, #fafcfc 50%); */
   padding-top: 90px;
   padding-bottom: 60px;
 }
 
-#professional-portfolio {
+#professional-energie {
   /* background: #fafcfc; */
 }
-#portfolio h1 {
+#energie h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 42px;
 }
-#portfolio h1 span {
+#energie h1 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
-#portfolio ul {
+#energie ul {
     list-style-type: disc;
     list-style-position: outside;
     margin-left: 30px;
 }
 
-#portfolio ul ul {
+#energie ul ul {
     list-style-type: square;
 }
 
-/* Portfolio Content */
-#portfolio-wrapper .columns {
+/* Energie Content */
+#energie-wrapper .columns {
   margin-bottom: 36px;
 }
-.portfolio-item .item-wrap {
+.energie-item .item-wrap {
   background: #fff;
   overflow: hidden;
   position: relative;
@@ -538,7 +538,7 @@ ul#nav li.current a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+.energie-item .item-wrap a {
   display: block;
   cursor: pointer;
 }
@@ -572,7 +572,7 @@ ul#nav li.current a {
 }
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+.energie-item .item-wrap .overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -590,7 +590,7 @@ ul#nav li.current a {
 
   background: url(../images/overlay-bg.png) repeat;
 }
-.portfolio-item .item-wrap .link-icon {
+.energie-item .item-wrap .link-icon {
   display: block;
   color: #fff;
   height: 30px;
@@ -614,35 +614,35 @@ ul#nav li.current a {
   margin-left: -15px;
   margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+.energie-item .item-wrap img {
   vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta {
+.energie-item .energie-item-meta {
   padding: 18px;
 }
-.portfolio-item .portfolio-item-meta h5 {
+.energie-item .energie-item-meta h5 {
   font: 14px/21px "opensans-bold", sans-serif;
   color: #fff;
 }
-.portfolio-item .portfolio-item-meta p {
+.energie-item .energie-item-meta p {
   font: 12px/18px "opensans-light", sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
 }
 
-.portfolio-item .portfolio-item-meta i {
+.energie-item .energie-item-meta i {
   /* font: 14px/21px "opensans-bold", sans-serif; */
   color: #fff;
   margin-bottom: 0;
 }
 
 /* on hover */
-.portfolio-item:hover .overlay {
+.energie-item:hover .overlay {
   opacity: 1;
   -moz-opacity: 1;
   filter: alpha(opacity=100);
 }
-.portfolio-item:hover .link-icon {
+.energie-item:hover .link-icon {
   opacity: 1;
   -moz-opacity: 1;
   filter: alpha(opacity=100);
@@ -835,38 +835,38 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. Lokalita
 /* ------------------------------------------------------------------ */
 
-#testimonials {
+#lokalita {
     background: #fff;
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
 }
-#testimonials h1 {
+#lokalita h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 42px;
 }
-#testimonials h1 span {
+#lokalita h1 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
 
 
-#testimonials ul {
+#lokalita ul {
   list-style-type: disc;
   list-style-position: outside;
   margin-left: 30px;
 }
 
-#testimonials ul ul {
+#lokalita ul ul {
     list-style-type: square;
 }
 
-#testimonials .header-col {
+#lokalita .header-col {
   padding-top: 9px;
 }
 

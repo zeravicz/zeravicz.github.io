@@ -1,9 +1,9 @@
 import React from "react";
 
-const Portfolio = (props) => {
+const Energie = (props) => {
 
   return (
-    <section id="portfolio">
+    <section id="energie">
       <div className="row work">
         <div className="three columns header-col">
           <h1>
@@ -27,4 +27,4 @@ const Portfolio = (props) => {
   );
 };
 
-export default Portfolio;
+export default Energie;
