@@ -12,7 +12,8 @@
   /* header styles
    ------------------------------------------------------------------ */
   header .banner-text h1 {
-    font: 80px/1.1em "opensans-bold", sans-serif;
+    font: 80px/1.1em sans-serif;
+  font-weight: bold;
     letter-spacing: -1px;
     margin: 0 auto 12px auto;
   }
@@ -27,12 +28,9 @@
     padding-bottom: 12px;
   }
   header .banner-text h1 {
-    font: 78px/1.1em "opensans-bold", sans-serif;
+    font: 78px/1.1em sans-serif;
+  font-weight: bold;
     letter-spacing: -1px;
-  }
-  header .banner-text h3 {
-    font: 17px/1.9em "librebaskerville-regular", serif;
-    width: 80%;
   }
   header .banner-text hr {
     width: 65%;
@@ -40,7 +38,8 @@
   }
   /* nav-wrap */
   #nav-wrap {
-    font: 11px "opensans-bold", sans-serif;
+    font: 11px sans-serif;
+  font-weight: bold;
     letter-spacing: 1.5px;
   }
 
@@ -61,7 +60,8 @@
   /* Dispozice Section
    ------------------------------------------------------------------- */
   #dispozice h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px sans-serif;
+  font-weight: bold;
   }
   #dispozice .main-col {
     padding-right: 5%;
@@ -95,7 +95,8 @@
     line-height: 66px;
   }
   #contact .section-head p.lead {
-    font: 17px/33px opensans-light, sans-serif;
+    font: 17px/33px sans-serif;
+font-weight: lighter;
   }
 }
 
@@ -106,7 +107,8 @@
   /* mobile navigation
    -------------------------------------------------------------------- */
   #nav-wrap {
-    font: 12px "opensans-bold", sans-serif;
+    font: 12px sans-serif;
+  font-weight: bold;
     background: transparent !important;
     letter-spacing: 1.5px;
     width: auto;
@@ -199,17 +201,14 @@
     padding-top: 6px;
   }
   header .banner-text h1 {
-    font: 68px/1.1em "opensans-bold", sans-serif;
+    font: 68px/1.1em sans-serif;
+  font-weight: bold;
   }
 
   @media (max-width: 500px) {
     header .banner-text h1 {
       padding-top: 30px;
     }
-  }
-  header .banner-text h3 {
-    font: 16px/1.9em "librebaskerville-regular", serif;
-    width: 85%;
   }
   header .banner-text hr {
     width: 80%;
@@ -279,7 +278,8 @@
     text-align: center;
   }
   #call-to-action h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px sans-serif;
+  font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -352,7 +352,8 @@
     text-align: center;
   }
   #lokalita h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px sans-serif;
+  font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -386,7 +387,8 @@
     margin-bottom: 12px;
   }
   #contact .section-head h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
+    font: 16px/24px sans-serif;
+  font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -483,12 +485,9 @@
     padding-top: 24px;
   }
   header .banner-text h1 {
-    font: 40px/1.1em "opensans-bold", sans-serif;
+    font: 40px/1.1em sans-serif;
+  font-weight: bold;
     margin: 0 auto 24px auto;
-  }
-  header .banner-text h3 {
-    font: 14px/1.9em "librebaskerville-regular", sans-serif;
-    width: 90%;
   }
 
   /* header social links */

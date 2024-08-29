@@ -25,7 +25,7 @@
 body {
   background: #0f0f0f;
   color: #000;
-  font: 18px/22px "opensans", sans-serif;
+  font: 18px/22px sans-serif;
   line-height: 25px;
 }
 
@@ -68,7 +68,9 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 90px/1.1em sans-serif;
+  font-weight: bold;
+  font-weight: bold;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
@@ -77,7 +79,8 @@ header .banner-text h1 {
 }
 
 header .banner-text h2 {
-  font: 50px/0.6em "opensans-bold", sans-serif;
+  font: 50px/0.6em sans-serif;
+  font-weight: bold;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
@@ -86,7 +89,8 @@ header .banner-text h2 {
 }
 
 header .banner-text p {
-  font: 18px/1.9em "opensans-bold", sans-serif;
+  font: 18px/1.9em sans-serif;
+  font-weight: bold;
   color: #fff;
   margin: 0 auto;
   padding-top: 18px;
@@ -94,13 +98,6 @@ header .banner-text p {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-header .banner-text h3 {
-  font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #fff;
-  margin: 0 auto;
-  width: 70%;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
 header .banner-text h3 span,
 header .banner-text h3 a {
   color: #fff;
@@ -169,7 +166,8 @@ header .scrolldown a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  font: 16px "opensans-bold", sans-serif;
+  font: 16px sans-serif;
+  font-weight: bold;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -248,7 +246,8 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font: 22px/30px sans-serif;
+  font-weight: bold;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -306,7 +305,8 @@ ul#nav li.current a {
 }
 
 #dispozice h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -315,7 +315,8 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #dispozice h3 {
-  font: 18px/22px "opensans-bold", sans-serif;
+  font: 18px/22px sans-serif;
+  font-weight: bold;
   margin-top: 30px;
   margin-bottom: 25px;
 }
@@ -342,20 +343,6 @@ ul#nav li.current a {
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
-#dispozice .info {
-  font: 16px/24px "librebaskerville-italic", serif;
-  color: #6e7881;
-  margin-bottom: 18px;
-  margin-top: 9px;
-}
-#dispozice .info span {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-#dispozice .date {
-  font: 15px/24px "opensans-regular", sans-serif;
-  margin-top: 6px;
-}
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -379,7 +366,8 @@ ul#nav li.current a {
   border-radius: 3px;
 }
 .bars li em {
-  font: 15px "opensans-bold", sans-serif;
+  font: 15px sans-serif;
+  font-weight: bold;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -504,7 +492,8 @@ ul#nav li.current a {
   /* background: #fafcfc; */
 }
 #energie h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 42px;
@@ -552,7 +541,8 @@ ul#nav li.current a {
 }
 
 #podminky h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 42px;
@@ -571,82 +561,6 @@ ul#nav li.current a {
     list-style-type: square;
 }
 
-/* overlay */
-.energie-item .item-wrap .overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-
-  opacity: 0;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-
-  background: url(../images/overlay-bg.png) repeat;
-}
-.energie-item .item-wrap .link-icon {
-  display: block;
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: center;
-
-  opacity: 0;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -15px;
-  margin-top: -15px;
-}
-.energie-item .item-wrap img {
-  vertical-align: bottom;
-}
-.energie-item .energie-item-meta {
-  padding: 18px;
-}
-.energie-item .energie-item-meta h5 {
-  font: 14px/21px "opensans-bold", sans-serif;
-  color: #fff;
-}
-.energie-item .energie-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
-  color: #c6c7c7;
-  margin-bottom: 0;
-}
-
-.energie-item .energie-item-meta i {
-  /* font: 14px/21px "opensans-bold", sans-serif; */
-  color: #fff;
-  margin-bottom: 0;
-}
-
-/* on hover */
-.energie-item:hover .overlay {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-}
-.energie-item:hover .link-icon {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-}
 
 /* popup modal */
 .popup-modal {
@@ -659,17 +573,19 @@ ul#nav li.current a {
   padding: 12px 36px 18px 36px;
 }
 .popup-modal .description-box h4 {
-  font: 15px/24px "opensans-bold", sans-serif;
+  font: 15px/24px sans-serif;
+  font-weight: bold;
   margin-bottom: 12px;
   color: #111;
 }
 .popup-modal .description-box p {
-  font: 14px/24px "opensans-regular", sans-serif;
+  font: 14px/24px sans-serif;
   color: #a1a1a1;
   margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-  font: 11px/21px "opensans-light", sans-serif;
+  font: 11px/21px sans-serif;
+  font-weight: lighter;
   color: #a1a1a1;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -686,7 +602,8 @@ ul#nav li.current a {
 }
 .popup-modal .link-box a {
   color: #fff;
-  font: 11px/21px "opensans-bold", sans-serif;
+  font: 11px/21px sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
@@ -785,7 +702,8 @@ ul#nav li.current a {
   padding-bottom: 48px;
 }
 #call-to-action h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -807,7 +725,8 @@ ul#nav li.current a {
   margin-top: 12px;
 }
 #call-to-action h2 {
-  font: 28px/36px "opensans-bold", sans-serif;
+  font: 28px/36px sans-serif;
+  font-weight: bold;
   color: #ebeeee;
   margin-bottom: 6px;
 }
@@ -830,7 +749,7 @@ call-to-action .button {
   color: #0d0d0d;
 }
 #call-to-action p span {
-  font-family: "opensans-semibold", sans-serif;
+  font-family: sans-serif;
   color: #d8d8d8;
 }
 
@@ -845,7 +764,8 @@ call-to-action .button {
     overflow: hidden;
 }
 #lokalita h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 42px;
@@ -1003,7 +923,8 @@ call-to-action .button {
 }
 
 #contact h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #ebeeee;
@@ -1038,12 +959,14 @@ call-to-action .button {
 }
 
 #contact h4 {
-  font: 16px/24px "opensans-bold", sans-serif;
+  font: 16px/24px sans-serif;
+  font-weight: bold;
   color: #ebeeee;
   margin-bottom: 6px;
 }
 #contact p.lead {
-  font: 18px/36px "opensans-light", sans-serif;
+  font: 18px/36px sans-serif;
+  font-weight: lighter;
   padding-right: 3%;
 }
 #contact .header-col {
@@ -1055,7 +978,8 @@ call-to-action .button {
   margin-bottom: 30px;
 }
 #contact label {
-  font: 15px/24px "opensans-bold", sans-serif;
+  font: 15px/24px sans-serif;
+  font-weight: bold;
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
@@ -1159,7 +1083,7 @@ call-to-action .button {
   display: block;
 }
 #twitter li b a {
-  font: 13px/36px "opensans-regular", Sans-serif;
+  font: 13px/36px Sans-serif;
   color: #474747 !important;
   border: none;
 }

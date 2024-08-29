@@ -14,11 +14,11 @@ const Energie = (props) => {
         <div className="nine columns main-col">
             <div key="foo">
                 <ul>
-                  <li>V bytě je nové podlahové vytápění s tepelným čerpadlem, které zároveň slouží na ohřev vody.</li>
-                  <li>Byt má nová plastová okna s izolačním trojsklem.</li>
-                  <li>Dokončení zateplení je naplánováno před topnou sezonou 2024/25.</li>
-                  <li>Ve všech místnostech jsou nainstalována úsporná LED svítidla.</li>
-                  <li>Lze tudíž předpokládat, že náklady na vytápění a ohřev vody nebudou pro odpovědného nájemníka vysoké.</li>
+                  <li>V bytě je nové podlahové vytápění s tepelným čerpadlem, které zároveň slouží na ohřev vody</li>
+                  <li>Byt má nová plastová okna s izolačním trojsklem</li>
+                  <li>Dokončení zateplení je naplánováno před topnou sezonou 2024/25</li>
+                  <li>Ve všech místnostech jsou nainstalována úsporná LED svítidla</li>
+                  <li>Lze tudíž předpokládat, že náklady na vytápění a ohřev vody nebudou pro odpovědného nájemníka vysoké</li>
                 </ul>
             </div>
         </div>

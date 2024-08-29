@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 class Dispozice extends Component {
     render() {
-        console.log(typeof this.props.slideToIndex)
         return (
             <section id="dispozice">
                 <div className="row work">
@@ -19,7 +18,7 @@ class Dispozice extends Component {
                             <li>Jedná sa o jediný byt v tomto domě, od sousedních domů je na obou stranách oddelen průjezdem</li>
                             <li>Možnost parkování je na ulici</li>
                         </ul>
-                        <h3>Místnosti <span style={{ "font-family" : "opensans" }}> - viz <a onClick={() => this.props.slideToIndex(7)}>půdorys</a></span></h3>
+                        <h3>Místnosti <span style={{ fontWeight : "normal" }}> - viz <a onClick={() => this.props.slideToIndex(7)}>půdorys</a></span></h3>
                         <ul>
                             <li><a onClick={() => this.props.slideToIndex(0)}>Kuchyň</a> 14 m²
                                 <ul>
