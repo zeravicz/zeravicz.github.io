@@ -2,7 +2,7 @@
   "name": "portfolio",
   "description": "My portfolio website displaying my professional and recreational projects. Also includes brief introduction on me and my contact details.",
   "version": "0.1.0",
-  "homepage": "https://AVu120.github.io/zeravi.cz",
+  "homepage": ".",
   "keywords": [
     "react",
     "jquery",
