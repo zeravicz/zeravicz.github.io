@@ -17,10 +17,10 @@ const Podminky = (props) => {
                         <li>Termín nastěhování: ihned</li>
                         <li>Byt je pronajímán přímo majitelem, bez provize realitní kanceláři.</li>
                         <li>Nájemné: 12500,- Kč/měs.</li>
-                        <li>Zálohy na energie ve výši 2000,- Kč/měs.</li>
+                        <li>Zálohy na energie ve výši 2500,- Kč/měs.</li>
                         <li>Vratná kauce ve výši tří nájemných</li>
                         <li>Připojení k internetu je v ceně nájmu</li>
-                        <li>Pronajimatel vyžaduje pojištění odpovědnosti nájemce.</li>
+                        <li>Pronajimatel vyžaduje pojištění odpovědnosti nájemce</li>
                     </ul>
                 </div>
             </div>

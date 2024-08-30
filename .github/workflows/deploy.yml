@@ -57,7 +57,5 @@ jobs:
       - name: install deps and predeploy
         run: |
           echo "URL: ${{ steps.deployment.outputs.page_url }}"
-          echo "URL: ${{ env.url }}"
-
 
         
