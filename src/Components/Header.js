@@ -41,7 +41,7 @@ class Header extends Component {
             </li>
             <li>
               <a className="smoothscroll" href="#podminky">
-                Podmínky pronájmu
+                Cena a podmínky pronájmu
               </a>
             </li>
             <li>
