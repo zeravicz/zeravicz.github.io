@@ -16,7 +16,7 @@ const Podminky = (props) => {
                     <ul>
                         <li>Termín nastěhování: ihned</li>
                         <li>Byt je pronajímán přímo majitelem, bez provize realitní kanceláři.</li>
-                        <li>Nájemné: 9000,- Kč/měs.</li>
+                        <li>Nájemné: 8900,- Kč/měs.</li>
                         <li>Zálohy na energie ve výši 2500,- Kč/měs.</li>
                         <li>Vratná kauce ve výši dvou nájemných</li>
                         <li>Připojení k internetu je v ceně nájmu</li>
