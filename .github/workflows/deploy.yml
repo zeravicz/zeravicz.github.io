@@ -39,16 +39,10 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
-      - name: install deps and predeploy
-        run: |
-          npm install
-          npm ci
-          npm run predeploy
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "build/"
+          path: "public/"
 
       - name: Deploy to GitHub Pages
         id: deployment
